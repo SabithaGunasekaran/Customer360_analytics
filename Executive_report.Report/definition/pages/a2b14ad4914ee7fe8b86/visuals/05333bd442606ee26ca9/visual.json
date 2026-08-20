@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "05333bd442606ee26ca9",
+  "position": {
+    "x": 430.35846724351046,
+    "y": 9.4932014833127312,
+    "z": 2,
+    "height": 147.14462299134732,
+    "width": 210.43263288009888,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_account_snapshot"
+                    }
+                  },
+                  "Property": "Total Balance"
+                }
+              },
+              "queryRef": "fact_account_snapshot.Total Balance",
+              "nativeQueryRef": "Total Balance"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_account_snapshot"
+                  }
+                },
+                "Property": "Total Balance"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "342444b679f4b0607422",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "fact_account_snapshot"
+              }
+            },
+            "Property": "Total Balance"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

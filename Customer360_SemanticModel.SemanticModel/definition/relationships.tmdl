@@ -1,0 +1,50 @@
+relationship e594efcc-9be1-8724-7db1-c56ac9d1599b
+	isActive: false
+	fromColumn: fact_account_snapshot.account_key
+	toColumn: dim_account.account_key
+
+relationship 0855b02c-e3a4-d75c-ad53-218f25e31d4d
+	fromColumn: fact_account_snapshot.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship 5d01abdf-62ba-87ed-2b0e-82615b72d531
+	fromColumn: fact_account_snapshot.branch_key
+	toColumn: dim_branch.branch_key
+
+relationship 5f0b54c7-992c-3d97-0bf6-facf63b7df68
+	fromColumn: fact_account_snapshot.account_type_key
+	toColumn: dim_account_type.account_type_key
+
+relationship 9580045c-f621-be0f-b796-4b2394275149
+	fromColumn: fact_account_snapshot.snapshot_date_key
+	toColumn: dim_date.date_key
+
+relationship a72079ba-26e5-35ea-14b7-2fad4068e742
+	fromColumn: fact_marketing_interaction.campaign_key
+	toColumn: dim_campaign.campaign_key
+
+relationship f9047fe8-4af0-2348-8df0-34510f9f57cf
+	fromColumn: fact_marketing_interaction.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship 7f64ea4b-fc2d-d2fe-a645-9f1f09af4e36
+	fromColumn: fact_marketing_interaction.interaction_date_key
+	toColumn: dim_date.date_key
+
+relationship 52763298-4bdc-2870-cfa3-76c03f69a0af
+	fromColumn: fact_support_ticket.support_category_key
+	toColumn: dim_support_category.support_category_key
+
+relationship 67797c6b-73ed-1634-8acf-fb0addee1cb6
+	fromColumn: fact_support_ticket.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship 452a8306-b1ac-2610-a062-55242d6c95fc
+	fromColumn: fact_support_ticket.ticket_date_key
+	toColumn: dim_date.date_key
+
+relationship 6beae6b7-8cd4-d080-5425-f378f286f4c1
+	isActive: false
+	fromColumn: fact_support_ticket.resolution_date_key
+	toColumn: dim_date.date_key
+

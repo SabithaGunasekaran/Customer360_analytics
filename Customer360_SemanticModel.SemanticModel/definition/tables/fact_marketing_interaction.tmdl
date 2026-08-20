@@ -1,0 +1,123 @@
+table fact_marketing_interaction
+	lineageTag: a973f7d1-5650-4f28-a840-51f2afbe871d
+	sourceLineageTag: [dbo].[fact_marketing_interaction]
+
+	measure 'Total Interactions' =
+			
+			COUNTROWS(
+			    fact_marketing_interaction
+			)
+		formatString: 0
+		lineageTag: 913272b3-c22a-4e64-b6e1-0c774cb6d2e8
+
+		changedProperty = Name
+
+	measure 'Total Responses' =
+			
+			CALCULATE(
+			    [Total Interactions],
+			    fact_marketing_interaction[responded_flag] = TRUE()
+			)
+		formatString: 0
+		lineageTag: ccdf4437-de15-4d78-8bf1-c3360f9048a4
+
+		changedProperty = Name
+
+	measure 'Response Rate %' =
+			
+			DIVIDE(
+			    [Total Responses],
+			    [Total Interactions],
+			    0
+			)
+		lineageTag: c5aab3ba-7bad-40a9-8b4e-af0be6f9c280
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column marketing_interaction_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: bc9f8084-f8f9-4221-8cd6-138a2e5e7ddb
+		sourceLineageTag: marketing_interaction_key
+		summarizeBy: sum
+		sourceColumn: marketing_interaction_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column interaction_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 6a9f365d-52bb-4958-98b7-4cfabe1e5907
+		sourceLineageTag: interaction_id
+		summarizeBy: none
+		sourceColumn: interaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: bb9ac609-56e7-47c7-9ad8-63182748e806
+		sourceLineageTag: customer_key
+		summarizeBy: none
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 6f190d2b-c12b-42ed-bff0-a09d94f34fa8
+		sourceLineageTag: campaign_key
+		summarizeBy: none
+		sourceColumn: campaign_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column interaction_date_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6f82ccc5-d9e4-4550-a52e-f3c4d3b24e66
+		sourceLineageTag: interaction_date_key
+		summarizeBy: none
+		sourceColumn: interaction_date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column responded_flag
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: fd9a78a3-47df-498d-b935-6780280faeda
+		sourceLineageTag: responded_flag
+		summarizeBy: none
+		sourceColumn: responded_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column days_since_interaction
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: ecbb270e-8e0f-463f-90a4-bd1894ac6d4d
+		sourceLineageTag: days_since_interaction
+		summarizeBy: sum
+		sourceColumn: days_since_interaction
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_marketing_interaction = entity
+		mode: directLake
+		source
+			entityName: fact_marketing_interaction
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

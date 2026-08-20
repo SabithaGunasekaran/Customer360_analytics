@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "04_silver_support_tickets"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c1fb14c3-9ea0-9b2f-4611-8692eace51af"
+  }
+}

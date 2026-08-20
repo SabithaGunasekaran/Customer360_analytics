@@ -1,0 +1,236 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c84eee9feae9d568b58c",
+  "position": {
+    "x": 1284,
+    "y": 422.4,
+    "z": 6,
+    "height": 544.8,
+    "width": 597.6,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dim_customer"
+                        }
+                      },
+                      "Hierarchy": "country Hierarchy"
+                    }
+                  },
+                  "Level": "country"
+                }
+              },
+              "queryRef": "dim_customer.country Hierarchy.country",
+              "nativeQueryRef": "country Hierarchy country",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dim_customer"
+                        }
+                      },
+                      "Hierarchy": "country Hierarchy"
+                    }
+                  },
+                  "Level": "state"
+                }
+              },
+              "queryRef": "dim_customer.country Hierarchy.state",
+              "nativeQueryRef": "country Hierarchy state",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dim_customer"
+                        }
+                      },
+                      "Hierarchy": "country Hierarchy"
+                    }
+                  },
+                  "Level": "city"
+                }
+              },
+              "queryRef": "dim_customer.country Hierarchy.city",
+              "nativeQueryRef": "country Hierarchy city",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_customer"
+                    }
+                  },
+                  "Property": "Total Customers"
+                }
+              },
+              "queryRef": "dim_customer.Total Customers",
+              "nativeQueryRef": "Total Customers"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "dim_customer"
+                      }
+                    },
+                    "Hierarchy": "country Hierarchy"
+                  }
+                },
+                "Level": "country"
+              }
+            },
+            "direction": "Ascending"
+          },
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "dim_customer"
+                      }
+                    },
+                    "Hierarchy": "country Hierarchy"
+                  }
+                },
+                "Level": "state"
+              }
+            },
+            "direction": "Ascending"
+          },
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "dim_customer"
+                      }
+                    },
+                    "Hierarchy": "country Hierarchy"
+                  }
+                },
+                "Level": "city"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "df633fbfa5f2234f0ae4",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dim_customer"
+              }
+            },
+            "Property": "Total Customers"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "960e9a644e41a297ade8",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_customer"
+                  }
+                },
+                "Hierarchy": "country Hierarchy"
+              }
+            },
+            "Level": "country"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "e9d0494e6b85c9dce0a8",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_customer"
+                  }
+                },
+                "Hierarchy": "country Hierarchy"
+              }
+            },
+            "Level": "state"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "5b09f14110b02a15c651",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_customer"
+                  }
+                },
+                "Hierarchy": "country Hierarchy"
+              }
+            },
+            "Level": "city"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

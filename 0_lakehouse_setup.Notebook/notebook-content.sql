@@ -1,0 +1,393 @@
+-- Fabric notebook source
+
+-- METADATA ********************
+
+-- META {
+-- META   "kernel_info": {
+-- META     "name": "synapse_pyspark"
+-- META   },
+-- META   "dependencies": {}
+-- META }
+
+-- CELL ********************
+
+-- MAGIC %%sql
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- BRONZE CUSTOMERS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS bronze_customers
+-- MAGIC (
+-- MAGIC     customer_id              STRING,
+-- MAGIC     first_name               STRING,
+-- MAGIC     last_name                STRING,
+-- MAGIC     email                    STRING,
+-- MAGIC     phone                    STRING,
+-- MAGIC     gender                   STRING,
+-- MAGIC     date_of_birth            STRING,
+-- MAGIC     city                     STRING,
+-- MAGIC     state                    STRING,
+-- MAGIC     country                  STRING,
+-- MAGIC     customer_status          STRING,
+-- MAGIC     created_date             STRING,
+-- MAGIC     updated_date             STRING,
+-- MAGIC 
+-- MAGIC     -- Ingestion metadata
+-- MAGIC     _source_file             STRING,
+-- MAGIC     _source_system           STRING,
+-- MAGIC     _ingestion_timestamp     TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- BRONZE ACCOUNTS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS bronze_accounts
+-- MAGIC (
+-- MAGIC     account_id                 STRING,
+-- MAGIC     customer_id                STRING,
+-- MAGIC 
+-- MAGIC     account_type               STRING,
+-- MAGIC     account_category           STRING,
+-- MAGIC     product_family             STRING,
+-- MAGIC     deposit_credit_type        STRING,
+-- MAGIC     interest_bearing_flag      STRING,
+-- MAGIC     risk_category              STRING,
+-- MAGIC     currency_code              STRING,
+-- MAGIC     is_active_product          STRING,
+-- MAGIC 
+-- MAGIC     account_status             STRING,
+-- MAGIC     balance                    STRING,
+-- MAGIC     opened_date                STRING,
+-- MAGIC     closed_date                STRING,
+-- MAGIC 
+-- MAGIC     branch_code                STRING,
+-- MAGIC     branch_name                STRING,
+-- MAGIC     branch_city                STRING,
+-- MAGIC     branch_state               STRING,
+-- MAGIC     branch_country             STRING,
+-- MAGIC     branch_region              STRING,
+-- MAGIC     branch_type                STRING,
+-- MAGIC     is_active_branch           STRING,
+-- MAGIC 
+-- MAGIC     created_date               STRING,
+-- MAGIC     updated_date               STRING,
+-- MAGIC 
+-- MAGIC     -- Ingestion metadata
+-- MAGIC     _source_file               STRING,
+-- MAGIC     _source_system             STRING,
+-- MAGIC     _ingestion_timestamp       TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- BRONZE SUPPORT TICKETS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS bronze_support_tickets
+-- MAGIC (
+-- MAGIC     ticket_id               STRING,
+-- MAGIC     customer_id             STRING,
+-- MAGIC     ticket_date             STRING,
+-- MAGIC     category                STRING,
+-- MAGIC     priority                STRING,
+-- MAGIC     status                  STRING,
+-- MAGIC     description             STRING,
+-- MAGIC     resolution_date         STRING,
+-- MAGIC 
+-- MAGIC     created_date            STRING,
+-- MAGIC     updated_date            STRING,
+-- MAGIC 
+-- MAGIC     -- Ingestion metadata
+-- MAGIC     _source_file            STRING,
+-- MAGIC     _source_system          STRING,
+-- MAGIC     _ingestion_timestamp    TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- BRONZE MARKETING INTERACTIONS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS bronze_marketing_interactions
+-- MAGIC (
+-- MAGIC     interaction_id          STRING,
+-- MAGIC     customer_id             STRING,
+-- MAGIC     interaction_date        STRING,
+-- MAGIC     channel                 STRING,
+-- MAGIC     campaign                STRING,
+-- MAGIC     interaction_type        STRING,
+-- MAGIC     response                STRING,
+-- MAGIC 
+-- MAGIC     created_date            STRING,
+-- MAGIC     updated_date            STRING,
+-- MAGIC 
+-- MAGIC     -- Ingestion metadata
+-- MAGIC     _source_file            STRING,
+-- MAGIC     _source_system          STRING,
+-- MAGIC     _ingestion_timestamp    TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+
+-- METADATA ********************
+
+-- META {
+-- META   "language": "sparksql",
+-- META   "language_group": "synapse_pyspark"
+-- META }
+
+-- CELL ********************
+
+-- MAGIC %%sql
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER CUSTOMERS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_customers
+-- MAGIC (
+-- MAGIC     customer_id                  STRING,
+-- MAGIC     first_name                   STRING,
+-- MAGIC     last_name                    STRING,
+-- MAGIC     full_name                    STRING,
+-- MAGIC 
+-- MAGIC     email                        STRING,
+-- MAGIC     email_valid_flag             BOOLEAN,
+-- MAGIC     phone                        STRING,
+-- MAGIC 
+-- MAGIC     gender                       STRING,
+-- MAGIC     date_of_birth                DATE,
+-- MAGIC     age                          INT,
+-- MAGIC     age_group                    STRING,
+-- MAGIC 
+-- MAGIC     city                         STRING,
+-- MAGIC     state                        STRING,
+-- MAGIC     country                      STRING,
+-- MAGIC 
+-- MAGIC     customer_status              STRING,
+-- MAGIC     is_active_customer           BOOLEAN,
+-- MAGIC 
+-- MAGIC     created_date                 DATE,
+-- MAGIC     updated_date                 DATE,
+-- MAGIC 
+-- MAGIC     customer_tenure_years        DECIMAL(10,1),
+-- MAGIC 
+-- MAGIC     data_quality_status          STRING,
+-- MAGIC 
+-- MAGIC     -- Source lineage
+-- MAGIC     _source_file                 STRING,
+-- MAGIC     _source_system               STRING,
+-- MAGIC     _ingestion_timestamp         TIMESTAMP,
+-- MAGIC 
+-- MAGIC     -- Silver audit
+-- MAGIC     _silver_processed_timestamp  TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER CUSTOMERS INVALID
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_customers_invalid
+-- MAGIC (
+-- MAGIC     customer_id                  STRING,
+-- MAGIC     first_name                   STRING,
+-- MAGIC     last_name                    STRING,
+-- MAGIC     full_name                    STRING,
+-- MAGIC 
+-- MAGIC     email                        STRING,
+-- MAGIC     email_valid_flag             BOOLEAN,
+-- MAGIC     phone                        STRING,
+-- MAGIC 
+-- MAGIC     gender                       STRING,
+-- MAGIC     date_of_birth                DATE,
+-- MAGIC     age                          INT,
+-- MAGIC     age_group                    STRING,
+-- MAGIC 
+-- MAGIC     city                         STRING,
+-- MAGIC     state                        STRING,
+-- MAGIC     country                      STRING,
+-- MAGIC 
+-- MAGIC     customer_status              STRING,
+-- MAGIC     is_active_customer           BOOLEAN,
+-- MAGIC 
+-- MAGIC     created_date                 DATE,
+-- MAGIC     updated_date                 DATE,
+-- MAGIC 
+-- MAGIC     customer_tenure_years        DECIMAL(10,1),
+-- MAGIC 
+-- MAGIC     data_quality_status          STRING,
+-- MAGIC 
+-- MAGIC     _source_file                 STRING,
+-- MAGIC     _source_system               STRING,
+-- MAGIC     _ingestion_timestamp         TIMESTAMP,
+-- MAGIC     _silver_processed_timestamp  TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER ACCOUNTS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_accounts
+-- MAGIC (
+-- MAGIC     account_id                   STRING,
+-- MAGIC     customer_id                  STRING,
+-- MAGIC 
+-- MAGIC     account_type                 STRING,
+-- MAGIC     account_category             STRING,
+-- MAGIC     product_family               STRING,
+-- MAGIC     deposit_credit_type          STRING,
+-- MAGIC     interest_bearing_flag        BOOLEAN,
+-- MAGIC     risk_category                STRING,
+-- MAGIC     currency_code                STRING,
+-- MAGIC     is_active_product            BOOLEAN,
+-- MAGIC 
+-- MAGIC     account_status               STRING,
+-- MAGIC 
+-- MAGIC     balance                      DECIMAL(18,2),
+-- MAGIC     balance_band                 STRING,
+-- MAGIC 
+-- MAGIC     opened_date                  DATE,
+-- MAGIC     closed_date                  DATE,
+-- MAGIC     account_age_years            DECIMAL(10,1),
+-- MAGIC 
+-- MAGIC     is_active_account            BOOLEAN,
+-- MAGIC 
+-- MAGIC     branch_code                  STRING,
+-- MAGIC     branch_name                  STRING,
+-- MAGIC     branch_city                  STRING,
+-- MAGIC     branch_state                 STRING,
+-- MAGIC     branch_country               STRING,
+-- MAGIC     branch_region                STRING,
+-- MAGIC     branch_type                  STRING,
+-- MAGIC     is_active_branch             BOOLEAN,
+-- MAGIC 
+-- MAGIC     created_date                 DATE,
+-- MAGIC     updated_date                 DATE,
+-- MAGIC 
+-- MAGIC     data_quality_status          STRING,
+-- MAGIC 
+-- MAGIC     _source_file                 STRING,
+-- MAGIC     _source_system               STRING,
+-- MAGIC     _ingestion_timestamp         TIMESTAMP,
+-- MAGIC     _silver_processed_timestamp  TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER ACCOUNTS INVALID
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_accounts_invalid
+-- MAGIC LIKE silver_accounts
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER SUPPORT TICKETS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_support_tickets
+-- MAGIC (
+-- MAGIC     ticket_id                    STRING,
+-- MAGIC     customer_id                  STRING,
+-- MAGIC 
+-- MAGIC     ticket_date                  DATE,
+-- MAGIC     category                     STRING,
+-- MAGIC     priority                     STRING,
+-- MAGIC     status                       STRING,
+-- MAGIC     description                  STRING,
+-- MAGIC 
+-- MAGIC     resolution_date              DATE,
+-- MAGIC 
+-- MAGIC     is_open_ticket               BOOLEAN,
+-- MAGIC     resolution_days              INT,
+-- MAGIC     ticket_age_days              INT,
+-- MAGIC 
+-- MAGIC     sla_target_days              INT,
+-- MAGIC     sla_breached_flag            BOOLEAN,
+-- MAGIC     ticket_age_band              STRING,
+-- MAGIC 
+-- MAGIC     created_date                 DATE,
+-- MAGIC     updated_date                 DATE,
+-- MAGIC 
+-- MAGIC     data_quality_status          STRING,
+-- MAGIC 
+-- MAGIC     _source_file                 STRING,
+-- MAGIC     _source_system               STRING,
+-- MAGIC     _ingestion_timestamp         TIMESTAMP,
+-- MAGIC     _silver_processed_timestamp  TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER SUPPORT TICKETS INVALID
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_support_tickets_invalid
+-- MAGIC LIKE silver_support_tickets
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER MARKETING INTERACTIONS
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_marketing_interactions
+-- MAGIC (
+-- MAGIC     interaction_id               STRING,
+-- MAGIC     customer_id                  STRING,
+-- MAGIC 
+-- MAGIC     interaction_date             DATE,
+-- MAGIC     channel                      STRING,
+-- MAGIC     campaign                     STRING,
+-- MAGIC     interaction_type             STRING,
+-- MAGIC     response                     STRING,
+-- MAGIC 
+-- MAGIC     responded_flag               BOOLEAN,
+-- MAGIC     digital_channel_flag         BOOLEAN,
+-- MAGIC 
+-- MAGIC     interaction_year             INT,
+-- MAGIC     interaction_month            INT,
+-- MAGIC     interaction_month_name       STRING,
+-- MAGIC 
+-- MAGIC     days_since_interaction       INT,
+-- MAGIC     interaction_recency_band     STRING,
+-- MAGIC 
+-- MAGIC     created_date                 DATE,
+-- MAGIC     updated_date                 DATE,
+-- MAGIC 
+-- MAGIC     data_quality_status          STRING,
+-- MAGIC 
+-- MAGIC     _source_file                 STRING,
+-- MAGIC     _source_system               STRING,
+-- MAGIC     _ingestion_timestamp         TIMESTAMP,
+-- MAGIC     _silver_processed_timestamp  TIMESTAMP
+-- MAGIC )
+-- MAGIC USING DELTA;
+-- MAGIC 
+-- MAGIC 
+-- MAGIC -- ============================================================
+-- MAGIC -- SILVER MARKETING INTERACTIONS INVALID
+-- MAGIC -- ============================================================
+-- MAGIC 
+-- MAGIC CREATE TABLE IF NOT EXISTS silver_marketing_interactions_invalid
+-- MAGIC LIKE silver_marketing_interactions
+-- MAGIC USING DELTA;
+
+-- METADATA ********************
+
+-- META {
+-- META   "language": "sparksql",
+-- META   "language_group": "synapse_pyspark"
+-- META }

@@ -1,0 +1,108 @@
+table dim_branch
+	lineageTag: 22dcfaea-d724-42e3-8c15-333e2ed495b8
+	sourceLineageTag: [dbo].[dim_branch]
+
+	column branch_key
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: c5e9c71e-faff-4b78-96b0-2ab038e9fac5
+		sourceLineageTag: branch_key
+		summarizeBy: none
+		sourceColumn: branch_key
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column branch_code
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 55f674b4-b05b-4377-80d7-11928cda829f
+		sourceLineageTag: branch_code
+		summarizeBy: none
+		sourceColumn: branch_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column branch_name
+		dataType: string
+		sourceProviderType: varchar(150)
+		lineageTag: 542cf8fe-d1d1-46a1-9090-baac3d6f8c86
+		sourceLineageTag: branch_name
+		summarizeBy: none
+		sourceColumn: branch_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 8e72b90d-5e3f-4bb4-b31c-db77b352f204
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 46ff9af4-e9d3-49aa-9a6c-1c11c6eb4aad
+		sourceLineageTag: state
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 8a1df01c-9533-439d-90e7-d5a764e9c5d9
+		sourceLineageTag: country
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 043c3128-4a8c-4b79-a13b-aa663123b912
+		sourceLineageTag: region
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column branch_type
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: d74333f4-d6b1-45d4-99d6-f3102a238ef9
+		sourceLineageTag: branch_type
+		summarizeBy: none
+		sourceColumn: branch_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_active_branch
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 9adc50f9-8fc0-448c-a4c4-bec3759b77b4
+		sourceLineageTag: is_active_branch
+		summarizeBy: none
+		sourceColumn: is_active_branch
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_branch = entity
+		mode: directLake
+		source
+			entityName: dim_branch
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

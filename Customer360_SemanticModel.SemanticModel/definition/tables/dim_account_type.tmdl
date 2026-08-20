@@ -1,0 +1,109 @@
+table dim_account_type
+	lineageTag: 66f72985-9706-4779-9bc7-4d6821f9dea7
+	sourceLineageTag: [dbo].[dim_account_type]
+
+	column account_type_key
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 9f86c6aa-27d6-4a7f-adb3-5ee26ddfbac0
+		sourceLineageTag: account_type_key
+		summarizeBy: none
+		sourceColumn: account_type_key
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_type
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 10726ddd-389e-4c66-8c06-fd7cba26feef
+		sourceLineageTag: account_type
+		summarizeBy: none
+		sourceColumn: account_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_category
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: a9b88f3f-f935-4034-893f-7b04b353b779
+		sourceLineageTag: account_category
+		summarizeBy: none
+		sourceColumn: account_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_family
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 9b53bc3c-5a80-4a94-af2c-b1a0ee14858b
+		sourceLineageTag: product_family
+		summarizeBy: none
+		sourceColumn: product_family
+
+		annotation SummarizationSetBy = Automatic
+
+	column deposit_credit_type
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: 3d3a2a8c-470d-40ea-b25b-d5ce1a28d57e
+		sourceLineageTag: deposit_credit_type
+		summarizeBy: none
+		sourceColumn: deposit_credit_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column interest_bearing_flag
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 907e8ec5-dba1-4581-8eda-f4ebc8d2342f
+		sourceLineageTag: interest_bearing_flag
+		summarizeBy: none
+		sourceColumn: interest_bearing_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_category
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: c0d9c5a1-77e4-40d2-a81c-6283e4963fe9
+		sourceLineageTag: risk_category
+		summarizeBy: none
+		sourceColumn: risk_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column currency_code
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: dff5c898-4d57-4cc8-a9b4-07d779c45456
+		sourceLineageTag: currency_code
+		summarizeBy: none
+		sourceColumn: currency_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_active_product
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 444bf04f-38ef-48c8-a5cd-935d9ffe08aa
+		sourceLineageTag: is_active_product
+		summarizeBy: none
+		sourceColumn: is_active_product
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_account_type = entity
+		mode: directLake
+		source
+			entityName: dim_account_type
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

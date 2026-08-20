@@ -1,0 +1,55 @@
+table dim_support_category
+	lineageTag: c1275ace-12b7-4922-803e-b0e05b8adf12
+	sourceLineageTag: [dbo].[dim_support_category]
+
+	column support_category_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: bd26f499-474f-4b88-963a-114bb2a84e38
+		sourceLineageTag: support_category_key
+		summarizeBy: none
+		sourceColumn: support_category_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 5c976316-7370-46d5-ac43-ce4727cbc9c3
+		sourceLineageTag: category
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column priority
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 7ca047df-1058-4eb7-a09a-bb493a97a782
+		sourceLineageTag: priority
+		summarizeBy: none
+		sourceColumn: priority
+
+		annotation SummarizationSetBy = Automatic
+
+	column sla_target_days
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4cc3f29b-001f-4ada-9db9-af153c1b7dba
+		sourceLineageTag: sla_target_days
+		summarizeBy: none
+		sourceColumn: sla_target_days
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_support_category = entity
+		mode: directLake
+		source
+			entityName: dim_support_category
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

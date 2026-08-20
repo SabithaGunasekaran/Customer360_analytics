@@ -1,0 +1,186 @@
+table fact_support_ticket
+	lineageTag: 1f606d44-67de-4496-9ae6-723418ca700e
+	sourceLineageTag: [dbo].[fact_support_ticket]
+
+	measure 'Total Tickets' =
+			
+			DISTINCTCOUNT(
+			    fact_support_ticket[ticket_id]
+			)
+		formatString: 0
+		lineageTag: 4edf3fd7-9661-469d-b47e-7c4086f3b84f
+
+		changedProperty = Name
+
+	measure 'Open Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    fact_support_ticket[is_open_ticket] = TRUE()
+			)
+		formatString: 0
+		lineageTag: 2bb7c268-341f-4492-ab8d-f5bcc2f741f8
+
+		changedProperty = Name
+
+	measure 'Closed Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    fact_support_ticket[is_open_ticket] = FALSE()
+			)
+		formatString: 0
+		lineageTag: d5c24d7d-a5c7-495c-99b2-7208cfa01d98
+
+		changedProperty = Name
+
+	measure 'Open Ticket %' =
+			
+			DIVIDE(
+			    [Open Tickets],
+			    [Total Tickets],
+			    0
+			)
+		lineageTag: 22001a9b-537a-4a3f-91d6-88113eb18f2a
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'SLA Breaches' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    fact_support_ticket[sla_breached_flag] = TRUE()
+			)
+		formatString: 0
+		lineageTag: 1eecbd91-9db9-4edc-b899-ae37c8fe20b0
+
+		changedProperty = Name
+
+	measure 'SLA Compliant Tickets' =
+			
+			[Total Tickets] - [SLA Breaches]
+		formatString: 0
+		lineageTag: cd37f029-247b-41da-9ecf-ede5573b1069
+
+		changedProperty = Name
+
+	column support_ticket_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 521305ca-665c-4d81-bc49-d3479d27eb98
+		sourceLineageTag: support_ticket_key
+		summarizeBy: sum
+		sourceColumn: support_ticket_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column ticket_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 1516e4c1-9e64-4a47-8173-1a0943b2c2c4
+		sourceLineageTag: ticket_id
+		summarizeBy: none
+		sourceColumn: ticket_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 1f24bc1c-0637-4bba-9a9c-48884e6b9eac
+		sourceLineageTag: customer_key
+		summarizeBy: none
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column support_category_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: f8a3cd89-c460-4302-850c-2cd45730c185
+		sourceLineageTag: support_category_key
+		summarizeBy: none
+		sourceColumn: support_category_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column ticket_date_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6475d461-9f57-4d6d-9cae-999eb2bd1dd3
+		sourceLineageTag: ticket_date_key
+		summarizeBy: none
+		sourceColumn: ticket_date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column resolution_date_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 579e0410-4988-44c0-88cd-16a39af73fea
+		sourceLineageTag: resolution_date_key
+		summarizeBy: sum
+		sourceColumn: resolution_date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column resolution_days
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e2b3c5ac-7ebb-436b-a265-86a3559ae9d0
+		sourceLineageTag: resolution_days
+		summarizeBy: sum
+		sourceColumn: resolution_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column ticket_age_days
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: ba0bea64-2454-46af-af98-96077259d579
+		sourceLineageTag: ticket_age_days
+		summarizeBy: sum
+		sourceColumn: ticket_age_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column sla_breached_flag
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 5f4e9f03-6959-4ab4-b55a-bec92c95859d
+		sourceLineageTag: sla_breached_flag
+		summarizeBy: none
+		sourceColumn: sla_breached_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_open_ticket
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: e63aeced-3c3f-464c-ab4a-b1c602509986
+		sourceLineageTag: is_open_ticket
+		summarizeBy: none
+		sourceColumn: is_open_ticket
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_support_ticket = entity
+		mode: directLake
+		source
+			entityName: fact_support_ticket
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

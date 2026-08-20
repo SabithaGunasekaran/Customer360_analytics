@@ -1,0 +1,65 @@
+table dim_campaign
+	lineageTag: 65362cd7-9fdc-40b8-9e17-72e8c7c52ff9
+	sourceLineageTag: [dbo].[dim_campaign]
+
+	column campaign_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 2f44737f-c58b-4e8b-8c28-4f71e3d55eb4
+		sourceLineageTag: campaign_key
+		summarizeBy: none
+		sourceColumn: campaign_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign
+		dataType: string
+		sourceProviderType: varchar(200)
+		lineageTag: 46bfd42a-1ad0-498c-98bb-f9962aa76206
+		sourceLineageTag: campaign
+		summarizeBy: none
+		sourceColumn: campaign
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 9f9927b8-f853-4cd5-9cd1-9997d6f9eb72
+		sourceLineageTag: channel
+		summarizeBy: none
+		sourceColumn: channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column interaction_type
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 22cdd07b-8935-48c1-a9b0-2a4d3569180a
+		sourceLineageTag: interaction_type
+		summarizeBy: none
+		sourceColumn: interaction_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column digital_channel_flag
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 4024f916-9952-4d62-b91d-cb7b0bf28ee2
+		sourceLineageTag: digital_channel_flag
+		summarizeBy: none
+		sourceColumn: digital_channel_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_campaign = entity
+		mode: directLake
+		source
+			entityName: dim_campaign
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,24 @@
+relationship 58629540-5a64-2227-5786-1142823e248b
+	fromColumn: fact_account_snapshot.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship 0b388074-48a6-c327-785c-024052c518b8
+	fromColumn: fact_marketing_interaction.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship d988d3a9-acb3-9760-5246-3ab88d8a7472
+	fromColumn: fact_support_ticket.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship a56a2199-e228-0edc-1c44-17b51fffcd8e
+	fromColumn: fact_account_snapshot.account_key
+	toColumn: dim_account.account_key
+
+relationship aeba0bf1-0529-c1dd-2c72-17f41b02831d
+	fromColumn: fact_support_ticket.support_category_key
+	toColumn: dim_support_category.support_category_key
+
+relationship 4aa8986a-92de-c6ab-90a8-a14620facb12
+	fromColumn: fact_marketing_interaction.campaign_key
+	toColumn: dim_campaign.campaign_key
+

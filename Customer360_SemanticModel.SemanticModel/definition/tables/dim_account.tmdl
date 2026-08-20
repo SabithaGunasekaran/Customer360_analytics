@@ -1,0 +1,175 @@
+table dim_account
+	lineageTag: 73bf0d2c-d255-4639-894b-066a3ad124bb
+	sourceLineageTag: [dbo].[dim_account]
+
+	measure 'Total Accounts' =
+			
+			DISTINCTCOUNT(
+			    dim_account[account_id]
+			)
+		formatString: 0
+		lineageTag: d454f441-06b3-4474-b5f2-687a46efac31
+
+		changedProperty = Name
+
+	measure 'Active Accounts' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT(dim_account[account_id]),
+			    dim_account[is_active_account] = TRUE()
+			)
+		formatString: 0
+		lineageTag: d5719d9b-8843-4d12-8bb7-9bf0e23f187d
+
+		changedProperty = Name
+
+	measure 'Inactive Accounts' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT(dim_account[account_id]),
+			    dim_account[is_active_account] = FALSE()
+			)
+		formatString: 0
+		lineageTag: 2dda2a99-47d5-476f-beaf-5d98b2a86fdf
+
+		changedProperty = Name
+
+	measure 'Active Account %' =
+			
+			DIVIDE(
+			    [Active Accounts],
+			    [Total Accounts],
+			    0
+			)
+		lineageTag: 87e90130-cd32-4a6f-bcb2-6d8b28c83f4a
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Balance' =
+			
+			SUM(
+			    fact_account_snapshot[balance]
+			)
+		lineageTag: 84d893a3-d9d9-4345-9fd5-8c3bcba7211a
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column account_key
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 5cd689cd-6b91-420f-825c-c0eea47f5633
+		sourceLineageTag: account_key
+		summarizeBy: sum
+		sourceColumn: account_key
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: e0b71ad3-5c2e-4ad1-bc0b-0780126c9f4c
+		sourceLineageTag: account_id
+		summarizeBy: none
+		sourceColumn: account_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_status
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 46bd4ef9-5b41-43f4-97fa-103635450220
+		sourceLineageTag: account_status
+		summarizeBy: none
+		sourceColumn: account_status
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column opened_date
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 7d0c501f-67af-4f2f-b003-be08cdd9aa98
+		sourceLineageTag: opened_date
+		summarizeBy: none
+		sourceColumn: opened_date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column closed_date
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 002f149c-1151-4a09-808b-2bef7af2b4b1
+		sourceLineageTag: closed_date
+		summarizeBy: none
+		sourceColumn: closed_date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_age_years
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 1)
+		lineageTag: 940390d6-9704-4628-9f75-7ef03e06864c
+		sourceLineageTag: account_age_years
+		summarizeBy: sum
+		sourceColumn: account_age_years
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column balance_band
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 41fe98cd-30c4-4006-bd8b-28e70d8e8437
+		sourceLineageTag: balance_band
+		summarizeBy: none
+		sourceColumn: balance_band
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_active_account
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 1d0d2e67-b69d-4538-b6f0-11aed26eea8b
+		sourceLineageTag: is_active_account
+		summarizeBy: none
+		sourceColumn: is_active_account
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_account = entity
+		mode: directLake
+		source
+			entityName: dim_account
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
