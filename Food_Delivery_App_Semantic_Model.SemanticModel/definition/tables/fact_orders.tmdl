@@ -1,0 +1,263 @@
+table fact_orders
+	lineageTag: 5b6de1a6-3b9c-4bd7-b2aa-5ba9bc651dc0
+	sourceLineageTag: [dbo].[fact_orders]
+
+	measure 'Total Orders' =
+			
+			DISTINCTCOUNT(fact_orders[order_id])
+		formatString: 0
+		lineageTag: 6dae2680-0ed0-42ec-98d8-51fdc5e5198c
+
+		changedProperty = Name
+
+	measure 'Total Revenue' =
+			
+			SUM(fact_orders[order_amount])
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 2632995d-1756-41ea-9339-294ef76a6bf1
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Average Order Value' =
+			
+			DIVIDE(
+			    [Total Revenue],
+			    [Total Orders],
+			    0
+			)
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 1e0a5f73-a7e1-47de-83f3-992601d9bc40
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Total Items' =
+			
+			SUM(fact_orders[quantity])
+		formatString: 0
+		lineageTag: db6ac391-8c4d-4b7e-97d1-0ca2772ac44f
+
+		changedProperty = Name
+
+	measure 'Completed Orders' =
+			
+			CALCULATE(
+			    [Total Orders],
+			    fact_orders[order_status] = "Completed"
+			)
+		formatString: 0
+		lineageTag: 3495ee7e-e159-4694-865c-c125bbe3968f
+
+		changedProperty = Name
+
+	measure 'Cancelled Orders' =
+			
+			CALCULATE(
+			    [Total Orders],
+			    fact_orders[order_status] = "Cancelled"
+			)
+		formatString: 0
+		lineageTag: 0f07579d-3eaa-49b7-a4b3-8c55cfc1361c
+
+		changedProperty = Name
+
+	measure 'Cancellation Rate %' =
+			
+			DIVIDE(
+			    [Cancelled Orders],
+			    [Total Orders],
+			    0
+			)
+		lineageTag: c70c9384-8e15-4ec3-bc70-79b672a0f7fe
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Delivered Orders' =
+			
+			CALCULATE(
+			    [Total Orders],
+			    fact_orders[delivery_status] = "Delivered"
+			)
+		formatString: 0
+		lineageTag: 735d95e7-75f1-4113-9355-908490e97ae0
+
+		changedProperty = Name
+
+	measure 'Average Delivery Time' =
+			
+			AVERAGE(fact_orders[delivery_minutes])
+		lineageTag: 033da90c-15a9-48da-aa6f-b33d79ddc233
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Driver Rating' =
+			
+			AVERAGE(fact_orders[driver_rating])
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 20c41d7e-1c16-41f4-afb2-87fb2d0b8cd0
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	column order_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 63c0f2c8-8253-4bd3-9ef2-76c57fdc2ff8
+		sourceLineageTag: order_key
+		summarizeBy: sum
+		sourceColumn: order_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 5c48c0c7-db2a-4a16-a506-f2dec782e36c
+		sourceLineageTag: order_id
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 3c6160fc-0b3e-4ee5-bd7a-9103538118d5
+		sourceLineageTag: customer_key
+		summarizeBy: none
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column restaurant_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: cc921dfb-8433-4307-9cb9-7e12a6c10989
+		sourceLineageTag: restaurant_key
+		summarizeBy: none
+		sourceColumn: restaurant_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_date_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 61c06861-6f89-44ef-a224-a6987c49e495
+		sourceLineageTag: order_date_key
+		summarizeBy: none
+		sourceColumn: order_date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: a49defbb-b798-4f8f-9493-fe7f9bdc1ea7
+		sourceLineageTag: quantity
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 2)
+		lineageTag: abb22312-3bfd-4a4d-b546-3bdf76abecc9
+		sourceLineageTag: unit_price
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column order_amount
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(12, 2)
+		lineageTag: cde2d042-bc88-4453-ae2f-f414435a7139
+		sourceLineageTag: order_amount
+		summarizeBy: sum
+		sourceColumn: order_amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column delivery_minutes
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 94e31881-99c0-4665-9db6-cd8d23f288af
+		sourceLineageTag: delivery_minutes
+		summarizeBy: sum
+		sourceColumn: delivery_minutes
+
+		annotation SummarizationSetBy = Automatic
+
+	column driver_rating
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(3, 1)
+		lineageTag: 9e043483-c6de-4ee7-bebf-e1d7d0b3ff57
+		sourceLineageTag: driver_rating
+		summarizeBy: sum
+		sourceColumn: driver_rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column delivery_status
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 0705cb6d-8507-4c50-9d63-12cb90de1b13
+		sourceLineageTag: delivery_status
+		summarizeBy: none
+		sourceColumn: delivery_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_method
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 59901e9f-c130-41de-8540-d672d9f4d920
+		sourceLineageTag: payment_method
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_status
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: fc921e68-5875-4ab3-9051-d8160dc00d47
+		sourceLineageTag: order_status
+		summarizeBy: none
+		sourceColumn: order_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_orders = entity
+		mode: directLake
+		source
+			entityName: fact_orders
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

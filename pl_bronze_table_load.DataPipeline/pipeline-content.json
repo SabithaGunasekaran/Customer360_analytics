@@ -1,0 +1,909 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "additionalColumns": [
+              {
+                "name": "_source_file",
+                "value": "$$FILENAME"
+              },
+              {
+                "name": "_source_system",
+                "value": "CRM"
+              },
+              {
+                "name": "_ingestion_timestamp",
+                "value": {
+                  "value": "@formatDateTime(utcNow())",
+                  "type": "Expression"
+                }
+              }
+            ],
+            "storeSettings": {
+              "type": "LakehouseReadSettings",
+              "recursive": true,
+              "wildcardFolderPath": "source_files/customers",
+              "wildcardFileName": "*.csv",
+              "enablePartitionDiscovery": false
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "LakehouseLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "531cbc5e-cfbd-a108-477b-c0883bb7ae49",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Files"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "Append",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "bronze_customers"
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "531cbc5e-cfbd-a108-477b-c0883bb7ae49",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "customer_id",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "customer_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "customer_name",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "customer_name",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "email",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "email",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "phone",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "phone",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "city",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "city",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "province",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "province",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "postal_code",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "postal_code",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "signup_date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "signup_date",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "preferred_cuisine",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "preferred_cuisine",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "loyalty_member",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "loyalty_member",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "marketing_opt_in",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "marketing_opt_in",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_file",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_file",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_system",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_system",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_ingestion_timestamp",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_ingestion_timestamp",
+                  "physicalType": "timestamp"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "cpy_customers_data",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "additionalColumns": [
+              {
+                "name": "_source_file",
+                "value": "$$FILENAME"
+              },
+              {
+                "name": "_source_system",
+                "value": "orders_system"
+              },
+              {
+                "name": "_ingestion_timestamp",
+                "value": {
+                  "value": "@formatDateTime(utcNow())",
+                  "type": "Expression"
+                }
+              }
+            ],
+            "storeSettings": {
+              "type": "LakehouseReadSettings",
+              "recursive": true,
+              "wildcardFolderPath": "source_files/orders",
+              "wildcardFileName": "*.csv",
+              "enablePartitionDiscovery": false
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "LakehouseLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Files"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "Append",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "bronze_orders"
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Tables"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "order_id",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "order_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "customer_id",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "customer_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "restaurant_id",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "restaurant_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "order_date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "order_date",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "quantity",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "quantity",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "unit_price",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "unit_price",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "order_status",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "order_status",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "payment_method",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "payment_method",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_file",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_file",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_system",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_system",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_ingestion_timestamp",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_ingestion_timestamp",
+                  "physicalType": "timestamp"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "cpy_orders_data",
+        "state": "Inactive",
+        "onInactiveMarkAs": "Succeeded",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "JsonSource",
+            "formatSettings": {
+              "type": "JsonReadSettings"
+            },
+            "additionalColumns": [
+              {
+                "name": "_source_file",
+                "value": "$$FILENAME"
+              },
+              {
+                "name": "_source_system",
+                "value": "delivery_system"
+              },
+              {
+                "name": "_ingestion_timestamp",
+                "value": {
+                  "value": "@formatDateTime(utcNow())",
+                  "type": "Expression"
+                }
+              }
+            ],
+            "storeSettings": {
+              "type": "LakehouseReadSettings",
+              "recursive": true,
+              "wildcardFolderPath": "source_files/deliveries",
+              "wildcardFileName": "*.json",
+              "enablePartitionDiscovery": false
+            },
+            "datasetSettings": {
+              "type": "Json",
+              "typeProperties": {
+                "location": {
+                  "type": "LakehouseLocation"
+                }
+              },
+              "schema": {},
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Files"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "Append",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "bronze_deliveries"
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Tables"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "delivery_id",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "delivery_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "order_id",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "order_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "delivery_status",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "delivery_status",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "delivery_start_time",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "delivery_start_time",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "delivery_end_time",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "delivery_end_time",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "driver_rating",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "driver_rating",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_file",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_file",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_system",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_system",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_ingestion_timestamp",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_ingestion_timestamp",
+                  "physicalType": "timestamp"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            },
+            "columnFlattenSettings": {
+              "treatArrayAsString": false,
+              "treatStructAsString": false,
+              "flattenColumnDelimiter": "."
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "cpy_deliveries_data",
+        "state": "Inactive",
+        "onInactiveMarkAs": "Succeeded",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "JsonSource",
+            "formatSettings": {
+              "type": "JsonReadSettings"
+            },
+            "additionalColumns": [
+              {
+                "name": "_source_file",
+                "value": "$$FILENAME"
+              },
+              {
+                "name": "_source_system",
+                "value": "delivery_system"
+              },
+              {
+                "name": "_ingestion_timestamp",
+                "value": {
+                  "value": "@formatDateTime(utcNow())",
+                  "type": "Expression"
+                }
+              }
+            ],
+            "storeSettings": {
+              "type": "LakehouseReadSettings",
+              "recursive": true,
+              "wildcardFolderPath": "source_files/restaurants",
+              "wildcardFileName": "*.json",
+              "enablePartitionDiscovery": false
+            },
+            "datasetSettings": {
+              "type": "Json",
+              "typeProperties": {
+                "location": {
+                  "type": "LakehouseLocation"
+                }
+              },
+              "schema": {},
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Files"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "Append",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "bronze_restaurants"
+              },
+              "schema": [],
+              "connectionSettings": {
+                "name": "Food_Delivery_Lakehouse",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "3bb7ae49-c088-477b-a108-cfbd531cbc5e",
+                    "workspaceId": "49bfd15f-7448-470a-979e-3c6e71dd8c22",
+                    "rootFolder": "Tables"
+                  },
+                  "externalReferences": {
+                    "connection": "5c89ed13-33d7-4170-a1a1-7e4cd3189673"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "restaurant_id",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "restaurant_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "restaurant_name",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "restaurant_name",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "cuisine_type",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "cuisine_type",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "city",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "city",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "restaurant_rating",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "restaurant_rating",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_file",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_file",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_source_system",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_source_system",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "_ingestion_timestamp",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "_ingestion_timestamp",
+                  "physicalType": "timestamp"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            },
+            "columnFlattenSettings": {
+              "treatArrayAsString": false,
+              "treatStructAsString": false,
+              "flattenColumnDelimiter": "."
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "cpy_restaurants_data",
+        "state": "Inactive",
+        "onInactiveMarkAs": "Succeeded",
+        "dependsOn": []
+      }
+    ]
+  }
+}

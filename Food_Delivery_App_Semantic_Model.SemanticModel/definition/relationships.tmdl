@@ -1,0 +1,12 @@
+relationship 86947beb-7b5e-7b0a-8b51-d4f3f2824477
+	fromColumn: fact_orders.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship fe1084f0-b9ec-703b-d5a4-9a612a09751f
+	fromColumn: fact_orders.restaurant_key
+	toColumn: dim_restaurant.restaurant_key
+
+relationship 6788456b-c447-67a9-279e-b6b9f4f628d1
+	fromColumn: fact_orders.order_date_key
+	toColumn: dim_date.date_key
+

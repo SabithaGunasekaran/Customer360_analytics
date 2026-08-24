@@ -1,0 +1,77 @@
+table dim_restaurant
+	lineageTag: 392e931c-f320-4bea-b7e2-f0a6065de797
+	sourceLineageTag: [dbo].[dim_restaurant]
+
+	column restaurant_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: c559b392-79a6-4806-a3d1-d8f20f8d62e8
+		sourceLineageTag: restaurant_key
+		summarizeBy: none
+		sourceColumn: restaurant_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column restaurant_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 4ad8bcf2-4fe5-494c-a0d2-72b03682b9df
+		sourceLineageTag: restaurant_id
+		summarizeBy: none
+		sourceColumn: restaurant_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column restaurant_name
+		dataType: string
+		sourceProviderType: varchar(200)
+		lineageTag: a9964afe-60c2-4336-979f-6fe9dcb82894
+		sourceLineageTag: restaurant_name
+		summarizeBy: none
+		sourceColumn: restaurant_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column cuisine_type
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 6cab72e2-5dec-440c-8577-4156c4656a1d
+		sourceLineageTag: cuisine_type
+		summarizeBy: none
+		sourceColumn: cuisine_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: eccdbb95-8f2d-41d4-a0fe-77dc10470654
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column restaurant_rating
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(3, 1)
+		lineageTag: 17187d39-5f99-443e-81e1-22001c5afe92
+		sourceLineageTag: restaurant_rating
+		summarizeBy: none
+		sourceColumn: restaurant_rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	partition dim_restaurant = entity
+		mode: directLake
+		source
+			entityName: dim_restaurant
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

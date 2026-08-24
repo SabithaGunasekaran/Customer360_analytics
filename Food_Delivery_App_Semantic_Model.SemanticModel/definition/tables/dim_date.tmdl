@@ -1,0 +1,99 @@
+table dim_date
+	lineageTag: ca09aae4-bc02-4a38-b27e-d9f0e6e9da39
+	sourceLineageTag: [dbo].[dim_date]
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 07d3b5e0-d68e-4abc-a73f-8a3c1136933f
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_value
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 507cf459-a1e5-46d0-b373-24f7caa942a5
+		sourceLineageTag: date_value
+		summarizeBy: none
+		sourceColumn: date_value
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e262c61e-5d4e-4911-856c-2a0f42ffb497
+		sourceLineageTag: year
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter_number
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: ef5759eb-88ea-4108-a1ef-385a9596dd28
+		sourceLineageTag: quarter_number
+		summarizeBy: none
+		sourceColumn: quarter_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_number
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 72a54299-4a61-4a68-a6dc-9c79ae8a5afc
+		sourceLineageTag: month_number
+		summarizeBy: none
+		sourceColumn: month_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_name
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: e88d04c9-a472-4246-9b62-9e8c92eff4d0
+		sourceLineageTag: month_name
+		summarizeBy: none
+		sourceColumn: month_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column day_of_month
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 58adb651-56c2-4cef-9042-2547dace499c
+		sourceLineageTag: day_of_month
+		summarizeBy: none
+		sourceColumn: day_of_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column day_name
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: 18a533bc-ff18-4095-80c2-7ae27f6d9721
+		sourceLineageTag: day_name
+		summarizeBy: none
+		sourceColumn: day_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_date = entity
+		mode: directLake
+		source
+			entityName: dim_date
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

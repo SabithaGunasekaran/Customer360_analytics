@@ -1,0 +1,180 @@
+table dim_customer
+	lineageTag: 92b16fa9-be39-4dc9-a991-2db7728cf74b
+	sourceLineageTag: [dbo].[dim_customer]
+
+	measure 'Total Customers' =
+			
+			DISTINCTCOUNT(dim_customer[customer_id])
+		formatString: 0
+		lineageTag: 8378530d-8482-4b37-b50f-c4041e7b104d
+
+		changedProperty = Name
+
+	measure 'Loyalty Customers' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT(dim_customer[customer_id]),
+			    dim_customer[loyalty_member] = TRUE()
+			)
+		formatString: 0
+		lineageTag: 37a700d6-acde-4fd1-bd4a-2f1dab37bb8e
+
+		changedProperty = Name
+
+	measure 'Loyalty Customer %' =
+			
+			DIVIDE(
+			    [Loyalty Customers],
+			    [Total Customers],
+			    0
+			)
+		lineageTag: 82b48a67-dffa-49be-966d-a660c1294964
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 1d109ae1-a8ec-42ec-bba4-e6a3c4e1a13e
+		sourceLineageTag: customer_key
+		summarizeBy: none
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_id
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 9ba164a1-f205-4195-8dce-90fcfea4343e
+		sourceLineageTag: customer_id
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_name
+		dataType: string
+		sourceProviderType: varchar(150)
+		lineageTag: c3991857-32c6-449d-b03d-0615030c9b08
+		sourceLineageTag: customer_name
+		summarizeBy: none
+		sourceColumn: customer_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		sourceProviderType: varchar(200)
+		lineageTag: b07993f6-3a2a-49b0-89bf-74f7a4e317af
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone
+		dataType: string
+		sourceProviderType: varchar(30)
+		lineageTag: 665b44d3-4c34-4875-bc9d-a66e94d17387
+		sourceLineageTag: phone
+		summarizeBy: none
+		sourceColumn: phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 7446acfd-e349-4133-a935-34caa8523761
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column province
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 1be1ec99-de3c-4818-bfe0-4fc9b0daba53
+		sourceLineageTag: province
+		summarizeBy: none
+		sourceColumn: province
+
+		annotation SummarizationSetBy = Automatic
+
+	column postal_code
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: eaeb6412-2c3e-44b4-8609-2239789de48f
+		sourceLineageTag: postal_code
+		summarizeBy: none
+		sourceColumn: postal_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column signup_date
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: dcf6873a-1070-42b1-917f-70a8bd6d26f7
+		sourceLineageTag: signup_date
+		summarizeBy: none
+		sourceColumn: signup_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column signup_year
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4913958e-6c35-47be-8ed0-9c67419d0528
+		sourceLineageTag: signup_year
+		summarizeBy: none
+		sourceColumn: signup_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column preferred_cuisine
+		dataType: string
+		sourceProviderType: varchar(100)
+		lineageTag: 9aa1515f-b3b2-4c58-9d97-76ef4879f551
+		sourceLineageTag: preferred_cuisine
+		summarizeBy: none
+		sourceColumn: preferred_cuisine
+
+		annotation SummarizationSetBy = Automatic
+
+	column loyalty_member
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 2fa51764-0013-41d2-b21a-8c4232673985
+		sourceLineageTag: loyalty_member
+		summarizeBy: none
+		sourceColumn: loyalty_member
+
+		annotation SummarizationSetBy = Automatic
+
+	column marketing_opt_in
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 46758117-45bc-4a9f-b70c-a1ee4fc7d86b
+		sourceLineageTag: marketing_opt_in
+		summarizeBy: none
+		sourceColumn: marketing_opt_in
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_customer = entity
+		mode: directLake
+		source
+			entityName: dim_customer
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
