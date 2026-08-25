@@ -1,0 +1,1201 @@
+customer_id,customer_name,email,phone,city,province,postal_code,signup_date,preferred_cuisine,loyalty_member,marketing_opt_in
+C00001,Lucas Martin,Lucas.Martin1@example.com,(259) 510-9585,Toronto,ON,M5V2T6,2025-01-14,Mexican,N,TRUE
+C00002,Noah Hall,Noah.Hall2@example.com,(869) 521-1114,Halifax,NS,B3H1A1,2023-05-18,Mediterranean,TRUE,FALSE
+C00003,Ava Brown,Ava.Brown3@example.com,(708) 670-7866,Vancouver,BC,V6B1A1,2026-05-03,Japanese,YES,1
+C00004,Lucas Allen,Lucas.Allen4@example.com,(263) 272-4685,Calgary,AB,T2P1J9,2024-12-09,Italian,YES,YES
+C00005,Sarah Anderson,Sarah.Anderson5@example.com,(439) 556-6310,Toronto,ON,M5V2T6,2023-02-26,Mexican,FALSE,FALSE
+C00006,Ethan Allen,Ethan.Allen6@example.com,(758) 873-6729,Ottawa,ON,K1P1J1,2023-01-17,Indian,Y,0
+C00007,Mia Anderson,Mia.Anderson7@example.com,(898) 697-8741,Vancouver,BC,V6B1A1,2025-10-01,Thai,FALSE,NO
+C00008,Michael Wilson,Michael.Wilson8@example.com,(864) 779-7074,Halifax,NS,B3H1A1,2025-01-18,Indian,YES,FALSE
+C00009,Emma Lee,Emma.Lee9@example.com,(570) 842-5385,Ottawa,ON,K1P1J1,2023-12-04,Italian,TRUE,NO
+C00010,Noah Lee,Noah.Lee10@example.com,(432) 445-4415,Toronto,ON,M5V2T6,2026-07-19,American,0,0
+C00011,Ava Johnson,Ava.Johnson11@example.com,(410) 349-6154,Toronto,ON,M5V2T6,2022-11-03,Thai,N,YES
+C00012,Michael Lee,Michael.Lee12@example.com,(402) 684-4145,Vancouver,BC,V6B1A1,2025-06-10,Japanese,1,TRUE
+C00013,Olivia Lee,Olivia.Lee13@example.com,(536) 244-9248,Halifax,NS,B3H1A1,2023-05-03,Mediterranean,N,NO
+C00014,Emma Smith,Emma.Smith14@example.com,(749) 807-9382,Ottawa,ON,K1P1J1,2024-06-11,Mediterranean,Y,1
+C00015,Mia Lee,Mia.Lee15@example.com,(358) 617-9485,Toronto,ON,M5V2T6,2023-10-06,Thai,Y,0
+C00016,Michael Wilson,Michael.Wilson16@example.com,(279) 766-7520,Toronto,ON,M5V2T6,2024-12-09,Mediterranean,NO,1
+C00017,Ava Anderson,Ava.Anderson17@example.com,(730) 915-8594,Calgary,AB,T2P1J9,2025-10-01,Chinese,NO,0
+C00018,Mia Smith,Mia.Smith18@example.com,(492) 924-4337,Calgary,AB,T2P1J9,2026-02-22,Indian,FALSE,YES
+C00019,Ava Wilson,Ava.Wilson19@example.com,(478) 696-2244,Montreal,QC,H2X1Y4,2024-03-19,Japanese,0,1
+C00020,John Lee,John.Lee20@example.com,(207) 890-5224,Calgary,AB,T2P1J9,2024-10-09,Japanese,TRUE,FALSE
+C00021,John Smith,John.Smith21@example.com,(606) 286-9747,Montreal,QC,H2X1Y4,2026-01-27,Thai,YES,N
+C00022,Noah Anderson,Noah.Anderson22@example.com,(594) 794-7684,Halifax,NS,B3H1A1,2026-01-04,Italian,Y,Y
+C00023,Olivia Anderson,Olivia.Anderson23@example.com,(344) 292-3517,Vancouver,BC,V6B1A1,2023-02-11,Chinese,YES,YES
+C00024,Noah Clark,Noah.Clark24@example.com,(848) 532-2763,Calgary,AB,T2P1J9,2025-04-04,Mediterranean,0,YES
+C00025,Lucas Lee,Lucas.Lee25@example.com,(393) 911-2879,Toronto,ON,M5V2T6,2025-11-21,American,YES,YES
+C00026,Liam Anderson,Liam.Anderson26@example.com,(232) 951-1028,Ottawa,ON,K1P1J1,2023-07-09,Japanese,TRUE,TRUE
+C00027,Olivia Taylor,Olivia.Taylor27@example.com,(796) 644-1985,Halifax,NS,B3H1A1,2024-02-14,American,1,1
+C00028,Lucas Smith,Lucas.Smith28@example.com,(521) 547-5425,Toronto,ON,M5V2T6,2023-10-17,Japanese,TRUE,N
+C00029,Emma Martin,Emma.Martin29@example.com,(628) 283-7181,Ottawa,ON,K1P1J1,2025-05-07,Japanese,TRUE,N
+C00030,Sarah Hall,Sarah.Hall30@example.com,(261) 221-1301,Calgary,AB,T2P1J9,2026-07-03,Thai,0,Y
+C00031,Sophia Martin,Sophia.Martin31@example.com,(922) 711-8667,Vancouver,BC,V6B 1A1,2025-02-18,Mexican,N,FALSE
+C00032,Noah Thomas,Noah.Thomas32@example.com,(664) 929-3087,Ottawa,ON,K1P1J1,2023-04-08,American,N,YES
+C00033,Ava Taylor,Ava.Taylor33@example.com,(372) 642-4655,Vancouver,BC,V6B1A1,2023-10-07,Mediterranean,N,1
+C00034,Ava Johnson,Ava.Johnson34@example.com,(522) 405-3481,Halifax,NS,B3H1A1,2024-05-13,Italian,Y,NO
+C00035,Ava Martin,Ava.Martin35@example.com,(767) 551-1312,Ottawa,ON,K1P1J1,2024-04-16,Italian,1,Y
+C00036,Michael Johnson,Michael.Johnson36@example.com,(840) 260-1990,Vancouver,BC,V6B1A1,2024-12-22,American,TRUE,FALSE
+C00037,Sophia Martin,  SOPHIA.MARTIN37@EXAMPLE.COM  ,(978) 208-1509,Vancouver,BC,V6B1A1,2023-03-13,Mediterranean,NO,Y
+C00038,Emma Wilson,Emma.Wilson38@example.com,(486) 877-1771,Ottawa,ON,K1P1J1,2025-01-26,Italian,1,1
+C00039,Michael Hall,Michael.Hall39@example.com,(967) 316-5528,Toronto,ON,M5V2T6,2025-12-27,American,TRUE,YES
+C00040,Liam Thomas,Liam.Thomas40@example.com,(585) 651-4887,Halifax,NS,B3H1A1,2024-03-19,Chinese,NO,N
+C00041,  olivia THOMAS  ,Olivia.Thomas41@example.com,(214) 671-1198,Montreal,QC,H2X1Y4,2024-11-27,American,0,N
+C00042,John Lee,John.Lee42@example.com,(934) 351-3952,Vancouver,BC,V6B1A1,2026-04-13,Chinese,NO,FALSE
+C00043,Sophia Hall,Sophia.Hall43@example.com,(216) 999-7153,Halifax,NS,b3h 1a1,2026-01-06,Japanese,TRUE,NO
+C00044,Lucas Johnson,Lucas.Johnson44@example.com,(983) 972-8894,Vancouver,BC,V6B1A1,2025-05-11,Thai,TRUE,TRUE
+C00045,Lucas Wilson,Lucas.Wilson45@example.com,(985) 987-4507,Montreal,QC,H2X1Y4,2022-12-01,Mexican,YES,Y
+C00046,Noah Hall,Noah.Hall46@example.com,(238) 483-4171,Vancouver,BC,V6B1A1,2025-02-13,Indian,N,TRUE
+C00047,John Lee,John.Lee47@example.com,(663) 529-7231,Montreal,qc,H2X1Y4,2026-02-27,Chinese,NO,YES
+C00048,Liam Taylor,Liam.Taylor48@example.com,(679) 768-5177,Calgary,AB,T2P1J9,2024-12-19,Chinese,FALSE,Y
+C00049,Noah Johnson,Noah.Johnson49@example.com,(883) 462-9145,Toronto,ON,M5V2T6,2026-05-31,Italian,NO,1
+C00050,Sophia Wilson,Sophia.Wilson50@example.com,(903) 860-6094,Toronto,ON,M5V2T6,2023-04-22,Chinese,Y,TRUE
+C00051,Liam Wilson,Liam.Wilson51@example.com,(342) 220-3442,Ottawa,ON,K1P1J1,2024-09-25,Chinese,TRUE,Y
+C00052,Sarah Hall,Sarah.Hall52@example.com,(824) 510-9642,Vancouver,BC,V6B1A1,2026-02-15,Chinese,FALSE,N
+C00053,Ava Hall,Ava.Hall53@example.com,(939) 543-4714,MONTREAL,QC,H2X1Y4,2024-10-04,Japanese,TRUE,YES
+C00054,Emma Hall,Emma.Hall54@example.com,(355) 529-4971,Montreal,QC,H2X1Y4,2023-05-16,Japanese,YES,TRUE
+C00055,John Thomas,John.Thomas55@example.com,(878) 374-3018,Montreal,QC,H2X1Y4,2025-02-08,Mexican,NO,YES
+C00056,Lucas Johnson,Lucas.Johnson56@example.com,(419) 983-1912,Montreal,QC,H2X1Y4,2023-05-01,Indian,YES,N
+C00057,Olivia Lee,Olivia.Lee57@example.com,(608) 649-3645,Vancouver,BC,V6B1A1,2022-11-13,Chinese,NO,YES
+C00058,John Hall,John.Hall58@example.com,(626) 609-4547,Vancouver,BC,V6B1A1,2023-03-08,Chinese,YES,FALSE
+C00059,Ethan Clark,Ethan.Clark59@example.com,(664) 207-3891,Vancouver,BC,V6B1A1,2025-11-14,JAPANESE,TRUE,NO
+C00060,Noah Allen,Noah.Allen60@example.com,(518) 705-4013,Ottawa,ON,K1P1J1,2022-10-26,Chinese,0,Y
+C00061,John Martin,John.Martin61@example.com,(374) 415-7941,Toronto,ON,M5V2T6,2024-04-29,Indian,N,FALSE
+C00062,Sophia Thomas,Sophia.Thomas62@example.com,(234) 841-5790,Toronto,ON,M5V 2T6,2025-02-21,American,TRUE,FALSE
+C00063,Michael Hall,Michael.Hall63@example.com,(466) 477-4218,Calgary,AB,T2P1J9,2022-10-25,Thai,0,N
+C00064,Emma Thomas,Emma.Thomas64@example.com,(318) 714-8872,Toronto,ON,M5V2T6,2023-04-10,Indian,YES,Y
+C00065,Sophia Smith,Sophia.Smith65@example.com,(958) 221-6778,Toronto,ON,M5V2T6,2024-08-30,Mexican,1,1
+C00066,Sarah Thomas,Sarah.Thomas66@example.com,(892) 226-5606,Ottawa,ON,K1P1J1,2023-08-28,Mediterranean,TRUE,TRUE
+C00067,Ethan Thomas,Ethan.Thomas67@example.com,(215) 616-4033,Calgary,AB,T2P1J9,2024-07-19,American,1,TRUE
+C00068,Michael Clark,Michael.Clark68@example.com,(894) 936-9226,Calgary,AB,T2P1J9,2026-05-19,Indian,YES,NO
+C00069,John Wilson,John.Wilson69@example.com,(223) 835-8513,Vancouver,BC,V6B1A1,2023-03-30,Mediterranean,TRUE,NO
+C00070,Noah Smith,Noah.Smith70@example.com,(991) 861-4966,Montreal,QC,H2X1Y4,2025-06-06,Japanese,TRUE,FALSE
+C00071,Olivia Allen,Olivia.Allen71@example.com,(972) 239-5578,Calgary,AB,T2P1J9,2026-06-19,American,FALSE,1
+C00072,Michael Hall,Michael.Hall72@example.com,(414) 736-4697,Vancouver,BC,V6B1A1,2023-02-23,American,TRUE,TRUE
+C00073,Michael Lee,Michael.Lee73@example.com,(344) 783-2374,Ottawa,ON,K1P1J1,2024-06-12,Italian,1,Y
+C00074,Emma Smith,  EMMA.SMITH74@EXAMPLE.COM  ,(883) 390-2547,Calgary,AB,T2P1J9,2022-12-04,Mediterranean,1,NO
+C00075,Emma Lee,Emma.Lee75@example.com,(210) 351-4339,Calgary,AB,T2P1J9,2026-01-06,Chinese,1,Y
+C00076,Michael Taylor,Michael.Taylor76@example.com,(547) 542-4001,Vancouver,BC,V6B1A1,2023-02-14,Mediterranean,FALSE,Y
+C00077,Emma Lee,Emma.Lee77@example.com,(348) 412-8934,Calgary,AB,T2P1J9,2024-10-26,Indian,FALSE,TRUE
+C00078,Ethan Taylor,Ethan.Taylor78@example.com,(232) 215-3287,Halifax,NS,B3H1A1,2023-04-22,Thai,NO,0
+C00079,Sarah Brown,Sarah.Brown79@example.com,(942) 307-7768,Montreal,QC,H2X1Y4,2024-07-07,Thai,TRUE,NO
+C00080,Mia Allen,Mia.Allen80@example.com,(541) 432-4947,Montreal,QC,H2X1Y4,2023-09-12,Japanese,FALSE,YES
+C00081,Lucas Thomas,Lucas.Thomas81@example.com,(425) 739-7090,Calgary,AB,T2P1J9,2026-07-13,Italian,Y,TRUE
+C00082,  liam CLARK  ,Liam.Clark82@example.com,(766) 685-5093,Vancouver,BC,V6B1A1,2023-12-02,Italian,N,FALSE
+C00083,Sophia Thomas,Sophia.Thomas83@example.com,(449) 679-9677,Halifax,NS,B3H1A1,2024-03-19,Thai,NO,1
+C00084,Sophia Wilson,Sophia.Wilson84@example.com,(339) 407-6596,Halifax,NS,B3H1A1,2023-07-29,Mediterranean,1,Y
+C00085,Emma Thomas,Emma.Thomas85@example.com,(228) 368-4717,Halifax,NS,B3H1A1,2023-10-08,Thai,Y,FALSE
+C00086,Ethan Smith,Ethan.Smith86@example.com,(341) 778-6303,Ottawa,ON,k1p 1j1,2024-02-21,Chinese,FALSE,0
+C00087,Sarah Hall,Sarah.Hall87@example.com,(926) 688-8221,Ottawa,ON,K1P1J1,2025-03-09,Italian,N,NO
+C00088,Sarah Anderson,Sarah.Anderson88@example.com,(280) 253-3116,Vancouver,BC,V6B1A1,2024-03-25,Italian,1,TRUE
+C00089,Sarah Taylor,Sarah.Taylor89@example.com,(346) 426-1926,Montreal,QC,H2X1Y4,2026-01-15,Indian,N,FALSE
+C00090,Lucas Anderson,Lucas.Anderson90@example.com,(910) 711-3427,Toronto,ON,M5V2T6,2026-04-28,American,TRUE,NO
+C00091,Ethan Hall,Ethan.Hall91@example.com,(743) 642-8970,Calgary,AB,T2P1J9,2023-02-13,Japanese,YES,NO
+C00092,Noah Brown,Noah.Brown92@example.com,(297) 664-6389,Vancouver,BC,V6B1A1,2022-12-24,Indian,NO,N
+C00093,Liam Martin,Liam.Martin93@example.com,(714) 810-1775,Vancouver,BC,V6B 1A1,2025-02-18,Mediterranean,FALSE,Y
+C00094,Michael Lee,Michael.Lee94@example.com,(581) 948-5615,Calgary,ab,T2P1J9,2025-04-20,Italian,N,N
+C00095,Sophia Hall,Sophia.Hall95@example.com,(483) 294-1744,Halifax,NS,B3H1A1,2022-12-12,Italian,Y,NO
+C00096,Michael Hall,Michael.Hall96@example.com,(729) 328-4200,Montreal,QC,H2X1Y4,2023-03-02,Indian,NO,YES
+ C00097 ,Mia Thomas,Mia.Thomas97@example.com,(451) 333-1908,Montreal,QC,H2X1Y4,2024-07-14,Thai,YES,0
+C00098,Ava Hall,Ava.Hall98@example.com,(819) 661-4003,Calgary,AB,T2P1J9,2024-09-12,Thai,NO,FALSE
+C00099,Sophia Lee,Sophia.Lee99@example.com,(393) 297-5165,Calgary,AB,T2P1J9,2024-09-04,Italian,1,Y
+C00100,Michael Johnson,Michael.Johnson100@example.com,(852) 543-2960,Vancouver,BC,V6B1A1,2025-09-30,Mediterranean,FALSE,NO
+C00101,Michael Allen,Michael.Allen101@example.com,(919) 328-6556,Montreal,QC,H2X1Y4,2025-03-12,Mediterranean,YES,YES
+C00102,John Brown,John.Brown102@example.com,(234) 788-1727,Ottawa,ON,K1P1J1,2024-12-31,Chinese,0,NO
+C00103,Liam Wilson,Liam.Wilson103@example.com,(462) 411-2787,Ottawa,ON,K1P1J1,2025-11-18,Thai,1,N
+C00104,Ethan Brown,Ethan.Brown104@example.com,(893) 362-4136,Montreal,QC,H2X1Y4,2025-07-17,Mediterranean,NO,1
+C00105,Emma Allen,Emma.Allen105@example.com,(596) 691-6766,Toronto,ON,M5V2T6,2025-01-03,Thai,FALSE,0
+C00106,Michael Anderson,Michael.Anderson106@example.com,(405) 886-9976,VANCOUVER,BC,V6B1A1,2026-04-22,Italian,FALSE,0
+C00107,Liam Johnson,Liam.Johnson107@example.com,(277) 868-5473,Ottawa,ON,K1P1J1,2024-04-21,Chinese,TRUE,0
+C00108,Ava Johnson,Ava.Johnson108@example.com,(685) 631-9762,Vancouver,BC,V6B1A1,2025-04-13,Italian,TRUE,N
+C00109,Sarah Anderson,Sarah.Anderson109@example.com,(719) 520-5317,Vancouver,BC,V6B1A1,2023-11-19,Italian,Y,0
+C00110,Noah Johnson,Noah.Johnson110@example.com,(371) 830-5368,Vancouver,BC,V6B1A1,2022-11-13,Indian,0,Y
+C00111,Mia Lee,  MIA.LEE111@EXAMPLE.COM  ,(759) 980-1831,Calgary,AB,T2P1J9,2023-01-20,Italian,1,0
+C00112,Olivia Lee,Olivia.Lee112@example.com,(788) 846-8900,Calgary,AB,T2P1J9,2024-11-15,Chinese,NO,0
+C00113,Noah Clark,Noah.Clark113@example.com,(490) 469-4969,Calgary,AB,T2P1J9,2023-05-12,Mexican,NO,TRUE
+C00114,Noah Johnson,Noah.Johnson114@example.com,(828) 984-7717,Calgary,AB,T2P1J9,2024-05-03,Indian,NO,YES
+C00115,Mia Brown,Mia.Brown115@example.com,(636) 518-7972,Ottawa,ON,K1P1J1,2026-01-06,Thai,YES,Y
+C00116,Noah Allen,Noah.Allen116@example.com,(369) 314-4790,Halifax,NS,B3H1A1,2022-12-12,American,FALSE,N
+C00117,Liam Anderson,Liam.Anderson117@example.com,(735) 356-5349,Toronto,ON,M5V2T6,2025-05-09,Japanese,YES,N
+C00118,Michael Thomas,Michael.Thomas118@example.com,(348) 237-5572,Toronto,ON,M5V2T6,2023-02-19,JAPANESE,FALSE,TRUE
+C00119,John Taylor,John.Taylor119@example.com,(825) 551-3245,Calgary,AB,T2P1J9,2022-11-06,American,FALSE,Y
+C00120,Emma Martin,Emma.Martin120@example.com,(389) 761-9077,Halifax,NS,B3H1A1,2023-10-01,Chinese,1,N
+C00121,Ethan Johnson,Ethan.Johnson121@example.com,(822) 432-7120,Vancouver,BC,V6B1A1,2024-02-27,Mexican,N,1
+C00122,Liam Wilson,Liam.Wilson122@example.com,(771) 444-9601,Vancouver,BC,V6B1A1,2025-04-16,Indian,N,TRUE
+C00123,  michael LEE  ,Michael.Lee123@example.com,(708) 386-4964,Montreal,QC,H2X1Y4,2025-03-13,American,TRUE,N
+C00124,Liam Lee,Liam.Lee124@example.com,(632) 632-2701,Toronto,ON,M5V 2T6,2025-12-02,Italian,NO,YES
+C00125,Sarah Hall,Sarah.Hall125@example.com,(817) 275-7366,Ottawa,ON,K1P1J1,2024-08-10,American,NO,YES
+C00126,John Smith,John.Smith126@example.com,(259) 929-2091,Calgary,AB,T2P1J9,2024-04-15,Italian,FALSE,1
+C00127,Olivia Allen,Olivia.Allen127@example.com,(676) 374-7914,Montreal,QC,H2X1Y4,2024-05-14,Italian,FALSE,1
+C00128,Olivia Smith,Olivia.Smith128@example.com,(942) 259-7215,Montreal,QC,H2X1Y4,2025-10-15,Mexican,TRUE,Y
+C00129,Emma Taylor,Emma.Taylor129@example.com,(423) 644-3464,Ottawa,ON,k1p 1j1,2022-12-23,Indian,FALSE,FALSE
+C00130,Sophia Hall,Sophia.Hall130@example.com,(296) 231-4414,Montreal,QC,H2X1Y4,2025-12-27,Mexican,Y,N
+C00131,Emma Anderson,Emma.Anderson131@example.com,(963) 577-1238,Ottawa,ON,K1P1J1,2024-09-12,Indian,TRUE,TRUE
+C00132,Noah Allen,Noah.Allen132@example.com,(616) 976-9296,Calgary,AB,T2P1J9,2025-09-11,Japanese,TRUE,1
+C00133,John Smith,John.Smith133@example.com,(746) 736-7641,Calgary,AB,T2P1J9,2024-08-22,Japanese,N,0
+C00134,Ethan Brown,Ethan.Brown134@example.com,(653) 413-1575,Halifax,NS,B3H1A1,2026-02-09,Indian,1,Y
+C00135,Sophia Thomas,Sophia.Thomas135@example.com,(259) 223-1035,Toronto,ON,M5V2T6,2023-09-15,Thai,0,Y
+C00136,Lucas Johnson,Lucas.Johnson136@example.com,(276) 671-4064,Toronto,ON,M5V2T6,2026-02-19,American,FALSE,N
+C00137,Olivia Allen,Olivia.Allen137@example.com,(749) 890-8473,Vancouver,BC,V6B1A1,2024-04-21,Japanese,0,1
+C00138,Liam Allen,Liam.Allen138@example.com,(900) 866-3634,Vancouver,BC,V6B1A1,2023-08-25,Mediterranean,NO,TRUE
+C00139,Emma Anderson,Emma.Anderson139@example.com,(848) 931-7473,Halifax,NS,B3H1A1,2025-02-02,Indian,N,YES
+C00140,Sarah Hall,Sarah.Hall140@example.com,(530) 393-2470,Vancouver,BC,V6B1A1,2025-05-30,Mexican,FALSE,YES
+C00141,Ava Allen,Ava.Allen141@example.com,(776) 867-2705,Calgary,ab,T2P1J9,2023-06-24,Thai,N,FALSE
+C00142,Emma Wilson,Emma.Wilson142@example.com,(909) 754-3487,Montreal,QC,H2X1Y4,2024-08-03,Chinese,TRUE,N
+C00143,John Brown,John.Brown143@example.com,(984) 966-5589,Calgary,AB,T2P1J9,2025-12-05,Thai,TRUE,0
+C00144,Michael Hall,Michael.Hall144@example.com,(468) 403-5828,Halifax,NS,B3H1A1,2026-04-13,Thai,FALSE,Y
+C00145,Lucas Anderson,Lucas.Anderson145@example.com,(542) 855-4400,Ottawa,ON,K1P1J1,2026-02-16,Italian,TRUE,Y
+C00146,John Clark,John.Clark146@example.com,(874) 710-6320,Ottawa,ON,K1P1J1,2024-05-25,American,FALSE,0
+C00147,Mia Allen,Mia.Allen147@example.com,(290) 685-4582,Toronto,ON,M5V2T6,2026-03-24,Italian,0,NO
+C00148,Sophia Martin,  SOPHIA.MARTIN148@EXAMPLE.COM  ,(254) 212-3815,Toronto,ON,M5V2T6,2026-05-20,Italian,0,YES
+C00149,Noah Lee,Noah.Lee149@example.com,(255) 799-5584,Toronto,ON,M5V2T6,2025-04-07,Japanese,1,TRUE
+C00150,Emma Hall,Emma.Hall150@example.com,(249) 667-6499,Calgary,AB,T2P1J9,2023-04-20,Japanese,NO,FALSE
+C00151,Olivia Taylor,Olivia.Taylor151@example.com,(222) 478-9751,Montreal,QC,H2X1Y4,2026-06-16,Indian,0,Y
+C00152,Sophia Thomas,Sophia.Thomas152@example.com,(585) 302-9909,Vancouver,BC,V6B1A1,2025-07-29,Japanese,TRUE,1
+C00153,Michael Lee,Michael.Lee153@example.com,(856) 306-6427,Ottawa,ON,K1P1J1,2023-03-27,Japanese,1,FALSE
+C00154,Michael Taylor,Michael.Taylor154@example.com,(754) 707-7492,Vancouver,BC,V6B1A1,2025-04-24,Italian,YES,0
+C00155,Noah Allen,Noah.Allen155@example.com,(988) 248-5404,Vancouver,BC,V6B 1A1,2024-06-13,Mediterranean,TRUE,YES
+C00156,Lucas Taylor,Lucas.Taylor156@example.com,(255) 825-5492,Vancouver,BC,V6B1A1,2023-02-02,Italian,1,1
+C00157,Ava Martin,Ava.Martin157@example.com,(384) 690-7772,Calgary,AB,T2P1J9,2023-11-04,Japanese,N,FALSE
+C00158,Emma Taylor,Emma.Taylor158@example.com,(341) 998-5192,Toronto,ON,M5V2T6,2025-03-02,Mediterranean,0,YES
+C00159,Michael Anderson,Michael.Anderson159@example.com,(519) 870-3644,CALGARY,AB,T2P1J9,2023-04-21,Mexican,TRUE,NO
+C00160,Emma Smith,Emma.Smith160@example.com,(714) 352-6402,Vancouver,BC,V6B1A1,2025-06-06,Japanese,NO,FALSE
+C00161,Liam Allen,Liam.Allen161@example.com,(219) 494-8136,Toronto,ON,M5V2T6,2025-06-27,Italian,1,TRUE
+C00162,Sophia Brown,Sophia.Brown162@example.com,(258) 715-1183,Calgary,AB,T2P1J9,2026-05-22,Italian,FALSE,TRUE
+C00163,John Lee,John.Lee163@example.com,(679) 817-1438,Vancouver,BC,V6B1A1,2025-12-17,Chinese,TRUE,1
+C00164,  olivia THOMAS  ,Olivia.Thomas164@example.com,(887) 282-4222,Halifax,NS,B3H1A1,2023-01-30,Indian,TRUE,N
+C00165,Ava Thomas,Ava.Thomas165@example.com,(772) 882-4687,Vancouver,BC,V6B1A1,2025-04-24,Indian,YES,TRUE
+C00166,Michael Martin,Michael.Martin166@example.com,(490) 664-3821,Calgary,AB,T2P1J9,2024-11-04,Japanese,FALSE,TRUE
+C00167,Ethan Wilson,Ethan.Wilson167@example.com,(787) 397-7404,Toronto,ON,M5V2T6,2024-01-07,Mediterranean,N,0
+C00168,Emma Wilson,Emma.Wilson168@example.com,(368) 820-6730,Vancouver,BC,V6B1A1,2023-10-07,American,Y,NO
+C00169,Liam Martin,Liam.Martin169@example.com,(373) 699-1412,Halifax,NS,B3H1A1,2026-06-05,Mexican,NO,YES
+C00170,Sophia Johnson,Sophia.Johnson170@example.com,(825) 560-8315,Halifax,NS,B3H1A1,2024-03-08,Japanese,TRUE,YES
+C00171,Ava Taylor,Ava.Taylor171@example.com,(360) 953-1484,Calgary,AB,T2P1J9,2024-12-16,Thai,Y,YES
+C00172,Sophia Anderson,Sophia.Anderson172@example.com,(943) 826-1096,Toronto,ON,m5v 2t6,2026-07-13,Mediterranean,Y,1
+C00173,Sophia Lee,Sophia.Lee173@example.com,(660) 670-5278,Ottawa,ON,K1P1J1,2026-02-23,Chinese,NO,YES
+C00174,Ava Anderson,Ava.Anderson174@example.com,(331) 469-7824,Halifax,NS,B3H1A1,2026-02-04,Indian,1,FALSE
+C00175,Ethan Lee,Ethan.Lee175@example.com,(964) 649-2124,Calgary,AB,T2P1J9,2023-05-27,Mediterranean,1,N
+C00176,Mia Brown,Mia.Brown176@example.com,(319) 411-5218,Montreal,QC,H2X1Y4,2025-03-16,Japanese,N,1
+C00177,Ava Anderson,Ava.Anderson177@example.com,(946) 690-6643,Halifax,NS,B3H1A1,2023-03-15,MEDITERRANEAN,FALSE,1
+C00178,Ava Anderson,Ava.Anderson178@example.com,(993) 617-5351,Halifax,NS,B3H1A1,2023-06-12,Mexican,NO,Y
+C00179,Olivia Clark,Olivia.Clark179@example.com,(271) 270-5616,Ottawa,ON,K1P1J1,2023-11-16,Japanese,TRUE,FALSE
+C00180,Michael Clark,Michael.Clark180@example.com,(709) 788-5375,Montreal,QC,H2X1Y4,2022-12-28,Thai,NO,Y
+C00181,Michael Smith,Michael.Smith181@example.com,(705) 980-2004,Toronto,ON,M5V2T6,2022-12-06,Thai,YES,1
+C00182,Lucas Martin,Lucas.Martin182@example.com,(232) 704-8137,Ottawa,ON,K1P1J1,2022-10-24,Chinese,0,Y
+C00183,Ava Smith,Ava.Smith183@example.com,(291) 481-6941,Toronto,ON,M5V2T6,2024-11-03,Indian,FALSE,NO
+C00184,Lucas Thomas,Lucas.Thomas184@example.com,(569) 980-8282,Toronto,ON,M5V2T6,2024-03-07,Italian,Y,FALSE
+C00185,Michael Hall,  MICHAEL.HALL185@EXAMPLE.COM  ,(209) 964-7553,Calgary,AB,T2P1J9,2023-02-02,Chinese,Y,N
+C00186,Mia Allen,Mia.Allen186@example.com,(608) 319-4076,Ottawa,ON,K1P 1J1,2022-12-26,American,Y,YES
+C00187,Ava Martin,Ava.Martin187@example.com,(346) 566-3017,Calgary,AB,T2P1J9,2024-11-18,American,1,TRUE
+C00188,Sarah Martin,Sarah.Martin188@example.com,(893) 596-3468,Vancouver,bc,V6B1A1,2025-10-16,Mediterranean,Y,N
+C00189,Sophia Allen,Sophia.Allen189@example.com,(989) 325-3826,Ottawa,ON,K1P1J1,2023-07-22,Japanese,Y,NO
+C00190,Sophia Hall,Sophia.Hall190@example.com,(346) 406-2918,Calgary,AB,T2P1J9,2025-08-06,Mediterranean,NO,1
+C00191,Emma Brown,Emma.Brown191@example.com,(640) 761-6266,Halifax,NS,B3H1A1,2025-11-16,Italian,0,FALSE
+C00192,Lucas Smith,Lucas.Smith192@example.com,(957) 244-1538,Vancouver,BC,V6B1A1,2024-10-07,Chinese,0,1
+C00193,Mia Martin,Mia.Martin193@example.com,(995) 674-5614,Toronto,ON,M5V2T6,2026-05-06,Chinese,0,YES
+ C00194 ,Emma Hall,Emma.Hall194@example.com,(349) 825-3928,Toronto,ON,M5V2T6,2025-11-21,Thai,N,0
+C00195,Sophia Johnson,Sophia.Johnson195@example.com,(219) 956-3156,Toronto,ON,M5V2T6,2023-04-09,American,Y,NO
+C00196,Olivia Allen,Olivia.Allen196@example.com,(803) 608-1124,Montreal,QC,H2X1Y4,2023-01-24,Thai,YES,N
+C00197,Olivia Clark,Olivia.Clark197@example.com,(625) 383-3935,Toronto,ON,M5V2T6,2023-12-08,Thai,NO,Y
+C00198,Emma Martin,Emma.Martin198@example.com,(756) 634-2793,Calgary,AB,T2P1J9,2025-03-28,Italian,TRUE,YES
+C00199,Olivia Smith,Olivia.Smith199@example.com,(746) 581-4173,Ottawa,ON,K1P1J1,2025-06-12,Mexican,0,N
+C00200,Lucas Wilson,Lucas.Wilson200@example.com,(963) 986-3122,Montreal,QC,H2X1Y4,2023-02-20,Chinese,N,0
+C00201,Michael Martin,Michael.Martin201@example.com,(420) 800-8962,Ottawa,ON,K1P1J1,2023-03-05,Italian,0,YES
+C00202,Sarah Lee,Sarah.Lee202@example.com,(303) 977-1786,Toronto,ON,M5V2T6,2025-11-22,Thai,NO,TRUE
+C00203,Emma Lee,Emma.Lee203@example.com,(794) 797-9042,Halifax,NS,B3H1A1,2023-05-21,Thai,FALSE,TRUE
+C00204,Ava Thomas,Ava.Thomas204@example.com,(202) 632-5977,Calgary,AB,T2P1J9,2026-05-03,Mediterranean,FALSE,1
+C00205,  mia SMITH  ,Mia.Smith205@example.com,(604) 299-1335,Montreal,QC,H2X1Y4,2025-07-11,Italian,NO,YES
+C00206,Ava Thomas,Ava.Thomas206@example.com,(981) 564-1162,Vancouver,BC,V6B1A1,2023-11-29,Mexican,NO,FALSE
+C00207,Lucas Hall,Lucas.Hall207@example.com,(603) 532-1260,Ottawa,ON,K1P1J1,2024-12-31,Thai,Y,Y
+C00208,Sophia Allen,Sophia.Allen208@example.com,(517) 384-7848,Toronto,ON,M5V2T6,2024-09-10,American,NO,YES
+C00209,Noah Anderson,Noah.Anderson209@example.com,(318) 461-9416,Halifax,NS,B3H1A1,2025-05-16,Thai,Y,FALSE
+C00210,Emma Martin,Emma.Martin210@example.com,(351) 716-7370,Montreal,QC,H2X1Y4,2026-06-06,Mexican,NO,FALSE
+C00211,Mia Allen,Mia.Allen211@example.com,(697) 246-8578,Toronto,ON,M5V2T6,2023-03-05,Indian,1,N
+C00212,Olivia Taylor,Olivia.Taylor212@example.com,(669) 523-1039,HALIFAX,NS,B3H1A1,2024-11-01,Mediterranean,Y,FALSE
+C00213,Liam Hall,Liam.Hall213@example.com,(759) 940-9181,Vancouver,BC,V6B1A1,2024-12-22,Japanese,Y,N
+C00214,Noah Lee,Noah.Lee214@example.com,(557) 747-6380,Vancouver,BC,V6B1A1,2025-05-10,Indian,0,Y
+C00215,Mia Allen,Mia.Allen215@example.com,(253) 617-1314,Calgary,AB,t2p 1j9,2024-01-26,Japanese,0,YES
+C00216,Olivia Martin,Olivia.Martin216@example.com,(985) 676-3332,Calgary,AB,T2P1J9,2026-05-27,Thai,1,FALSE
+C00217,Sarah Lee,Sarah.Lee217@example.com,(729) 774-7166,Halifax,NS,B3H 1A1,2025-09-22,Mediterranean,NO,TRUE
+C00218,Michael Anderson,Michael.Anderson218@example.com,(461) 412-2631,Calgary,AB,T2P1J9,2026-02-22,Mexican,NO,TRUE
+C00219,Sarah Anderson,Sarah.Anderson219@example.com,(767) 312-6902,Toronto,ON,M5V2T6,2024-04-18,Chinese,NO,YES
+C00220,Ethan Anderson,Ethan.Anderson220@example.com,(924) 291-8232,Montreal,QC,H2X1Y4,2025-10-05,Japanese,N,0
+C00221,Olivia Thomas,Olivia.Thomas221@example.com,(955) 226-5721,Halifax,NS,B3H1A1,2026-04-02,Thai,NO,FALSE
+C00222,Sarah Allen,  SARAH.ALLEN222@EXAMPLE.COM  ,(830) 418-2962,Montreal,QC,H2X1Y4,2026-03-11,Mexican,0,0
+C00223,Lucas Taylor,Lucas.Taylor223@example.com,(691) 741-2385,Vancouver,BC,V6B1A1,2024-02-03,Mexican,0,1
+C00224,Ethan Smith,Ethan.Smith224@example.com,(330) 910-7727,Montreal,QC,H2X1Y4,2023-08-19,Mediterranean,0,YES
+C00225,Olivia Taylor,Olivia.Taylor225@example.com,(521) 779-9556,Vancouver,BC,V6B1A1,2023-05-21,Mediterranean,1,FALSE
+C00226,Liam Anderson,Liam.Anderson226@example.com,(223) 218-4845,Vancouver,BC,V6B1A1,2024-05-03,Indian,N,NO
+C00227,Emma Martin,Emma.Martin227@example.com,(725) 353-2057,Calgary,AB,T2P1J9,2023-10-17,Chinese,N,0
+C00228,Ava Anderson,Ava.Anderson228@example.com,(873) 436-7932,Vancouver,BC,V6B1A1,2024-04-16,Chinese,TRUE,1
+C00229,Michael Brown,Michael.Brown229@example.com,(517) 369-2908,Ottawa,ON,K1P1J1,2026-04-12,Italian,1,FALSE
+C00230,Ava Johnson,Ava.Johnson230@example.com,(864) 392-7683,Montreal,QC,H2X1Y4,2025-12-09,Indian,1,N
+C00231,Ava Brown,Ava.Brown231@example.com,(426) 327-7759,Halifax,NS,B3H1A1,2024-06-17,Thai,FALSE,NO
+C00232,Michael Anderson,Michael.Anderson232@example.com,(454) 887-1348,Calgary,AB,T2P1J9,2023-10-04,Thai,1,0
+C00233,John Johnson,John.Johnson233@example.com,(870) 266-2541,Halifax,NS,B3H1A1,2022-11-22,Chinese,NO,FALSE
+C00234,John Taylor,John.Taylor234@example.com,(202) 381-1822,Calgary,AB,T2P1J9,2025-01-14,Mediterranean,1,N
+C00235,Emma Allen,Emma.Allen235@example.com,(995) 304-2834,Toronto,on,M5V2T6,2024-05-24,Mexican,FALSE,NO
+C00236,Liam Taylor,Liam.Taylor236@example.com,(410) 761-8847,Halifax,NS,B3H1A1,2026-07-23,JAPANESE,FALSE,1
+C00237,Liam Taylor,Liam.Taylor237@example.com,(841) 805-4676,Vancouver,BC,V6B1A1,2022-11-26,Chinese,FALSE,0
+C00238,Sarah Johnson,Sarah.Johnson238@example.com,(728) 975-5386,Ottawa,ON,K1P1J1,2023-05-04,Indian,1,1
+C00239,Noah Johnson,Noah.Johnson239@example.com,(978) 871-9805,Calgary,AB,T2P1J9,2025-12-30,American,N,N
+C00240,Sophia Smith,Sophia.Smith240@example.com,(375) 220-7038,Ottawa,ON,K1P1J1,2023-04-09,Thai,TRUE,0
+C00241,Olivia Martin,Olivia.Martin241@example.com,(231) 984-1170,Montreal,QC,H2X1Y4,2024-04-16,Mediterranean,NO,YES
+C00242,Olivia Martin,Olivia.Martin242@example.com,(898) 532-5385,Halifax,NS,B3H1A1,2023-05-30,Thai,FALSE,0
+C00243,Emma Taylor,Emma.Taylor243@example.com,(841) 897-3445,Montreal,QC,H2X1Y4,2024-04-04,Mediterranean,1,NO
+C00244,Sarah Martin,Sarah.Martin244@example.com,(993) 813-5570,Vancouver,BC,V6B1A1,2023-08-14,Chinese,TRUE,1
+C00245,Michael Wilson,Michael.Wilson245@example.com,(797) 818-7581,Vancouver,BC,V6B1A1,2023-03-23,Mediterranean,TRUE,N
+C00246,  emma ALLEN  ,Emma.Allen246@example.com,(651) 630-1529,Calgary,AB,T2P1J9,2025-11-23,Japanese,TRUE,TRUE
+C00247,Noah Clark,Noah.Clark247@example.com,(249) 362-7031,Montreal,QC,H2X1Y4,2023-10-17,Mediterranean,YES,FALSE
+C00248,Ava Wilson,Ava.Wilson248@example.com,(694) 953-9948,Vancouver,BC,V6B 1A1,2023-05-25,Mediterranean,FALSE,FALSE
+C00249,Liam Thomas,Liam.Thomas249@example.com,(499) 380-1843,Ottawa,ON,K1P1J1,2024-03-25,Thai,FALSE,0
+C00250,Olivia Thomas,Olivia.Thomas250@example.com,(939) 215-6764,Halifax,NS,B3H1A1,2024-12-30,Mediterranean,TRUE,N
+C00251,John Martin,John.Martin251@example.com,(981) 358-4730,Toronto,ON,M5V2T6,2022-11-25,Italian,0,N
+C00252,Ethan Martin,Ethan.Martin252@example.com,(847) 689-9394,Vancouver,BC,V6B1A1,2025-10-30,American,Y,0
+C00253,Ethan Anderson,Ethan.Anderson253@example.com,(955) 526-3030,Ottawa,ON,K1P1J1,2023-11-12,Indian,Y,TRUE
+C00254,Sophia Allen,Sophia.Allen254@example.com,(742) 756-2839,Vancouver,BC,V6B1A1,2024-11-02,Italian,1,TRUE
+C00255,Lucas Johnson,Lucas.Johnson255@example.com,(978) 316-7070,Ottawa,ON,K1P1J1,2024-12-25,American,0,Y
+C00256,Ethan Wilson,Ethan.Wilson256@example.com,(905) 685-1018,Toronto,ON,M5V2T6,2025-03-29,Japanese,FALSE,NO
+C00257,Sophia Johnson,Sophia.Johnson257@example.com,(355) 847-8043,Calgary,AB,T2P1J9,2024-08-25,Indian,YES,1
+C00258,Lucas Brown,Lucas.Brown258@example.com,(422) 933-7971,Vancouver,BC,v6b 1a1,2025-05-20,Mexican,Y,1
+C00259,Emma Allen,  EMMA.ALLEN259@EXAMPLE.COM  ,(633) 519-8820,Vancouver,BC,V6B1A1,2023-01-08,Thai,1,Y
+C00260,Ethan Wilson,Ethan.Wilson260@example.com,(208) 800-3191,Halifax,NS,B3H1A1,2025-03-05,American,TRUE,TRUE
+C00261,Michael Brown,Michael.Brown261@example.com,(996) 335-6305,Toronto,ON,M5V2T6,2025-03-17,Mediterranean,1,Y
+C00262,Noah Anderson,Noah.Anderson262@example.com,(876) 415-6762,Montreal,QC,H2X1Y4,2024-07-08,Japanese,N,N
+C00263,Liam Johnson,Liam.Johnson263@example.com,(837) 575-7455,Calgary,AB,T2P1J9,2026-04-20,Mexican,FALSE,Y
+C00264,Olivia Smith,Olivia.Smith264@example.com,(215) 324-3136,Vancouver,BC,V6B1A1,2023-07-09,Thai,0,N
+C00265,Liam Clark,Liam.Clark265@example.com,(898) 449-9446,TORONTO,ON,M5V2T6,2025-10-06,Mediterranean,Y,FALSE
+C00266,Liam Hall,Liam.Hall266@example.com,(518) 946-7051,Halifax,NS,B3H1A1,2026-04-11,Mexican,YES,NO
+C00267,Ava Taylor,Ava.Taylor267@example.com,(603) 862-5453,Montreal,QC,H2X1Y4,2025-06-13,Indian,0,0
+C00268,Olivia Clark,Olivia.Clark268@example.com,(723) 281-1096,Ottawa,ON,K1P1J1,2024-07-28,Japanese,Y,FALSE
+C00269,Sarah Brown,Sarah.Brown269@example.com,(604) 417-8031,Vancouver,BC,V6B1A1,2022-12-24,American,Y,NO
+C00270,John Johnson,John.Johnson270@example.com,(563) 802-9760,Montreal,QC,H2X1Y4,2023-02-15,Chinese,1,1
+C00271,Mia Thomas,Mia.Thomas271@example.com,(944) 898-8372,Vancouver,BC,V6B1A1,2025-03-06,Indian,1,1
+C00272,Noah Allen,Noah.Allen272@example.com,(217) 266-8785,Montreal,QC,H2X1Y4,2022-11-14,Mexican,TRUE,TRUE
+C00273,Lucas Martin,Lucas.Martin273@example.com,(748) 727-9534,Ottawa,ON,K1P1J1,2025-08-09,Mexican,YES,FALSE
+C00274,Lucas Martin,Lucas.Martin274@example.com,(594) 641-9647,Toronto,ON,M5V2T6,2023-06-05,American,N,0
+C00275,John Allen,John.Allen275@example.com,(583) 934-7171,Halifax,NS,B3H1A1,2025-03-06,Chinese,0,TRUE
+C00276,Emma Thomas,Emma.Thomas276@example.com,(408) 978-5773,Calgary,AB,T2P1J9,2025-08-04,Thai,N,1
+C00277,Sophia Allen,Sophia.Allen277@example.com,(415) 503-2167,Vancouver,BC,V6B1A1,2026-05-29,Chinese,0,YES
+C00278,Ava Lee,Ava.Lee278@example.com,(487) 207-1566,Montreal,QC,H2X1Y4,2023-04-25,Mediterranean,TRUE,FALSE
+C00279,Lucas Allen,Lucas.Allen279@example.com,(717) 721-2819,Halifax,NS,B3H 1A1,2022-11-04,Chinese,Y,NO
+C00280,Noah Thomas,Noah.Thomas280@example.com,(990) 691-3574,Calgary,AB,T2P1J9,2023-07-25,Mexican,FALSE,1
+C00281,Sarah Wilson,Sarah.Wilson281@example.com,(572) 744-1551,Toronto,ON,M5V2T6,2025-04-27,Italian,YES,YES
+C00282,Olivia Anderson,Olivia.Anderson282@example.com,(485) 832-7503,Calgary,ab,T2P1J9,2023-06-29,Mediterranean,FALSE,1
+C00283,John Clark,John.Clark283@example.com,(602) 361-3820,Calgary,AB,T2P1J9,2025-02-13,Mediterranean,FALSE,Y
+C00284,Sarah Anderson,Sarah.Anderson284@example.com,(765) 401-8157,Calgary,AB,T2P1J9,2023-08-13,Japanese,1,Y
+C00285,John Wilson,John.Wilson285@example.com,(274) 798-2617,Halifax,NS,B3H1A1,2024-05-02,Indian,YES,0
+C00286,Mia Johnson,Mia.Johnson286@example.com,(667) 542-5855,Vancouver,BC,V6B1A1,2026-04-18,Thai,TRUE,TRUE
+C00287,  john THOMAS  ,John.Thomas287@example.com,(882) 784-2327,Halifax,NS,B3H1A1,2025-03-16,American,FALSE,TRUE
+C00288,Sophia Thomas,Sophia.Thomas288@example.com,(527) 924-6143,Calgary,AB,T2P1J9,2024-09-26,Italian,N,0
+C00289,Olivia Hall,Olivia.Hall289@example.com,(359) 596-9560,Toronto,ON,M5V2T6,2022-12-23,Mediterranean,FALSE,1
+C00290,Emma Anderson,Emma.Anderson290@example.com,(249) 574-9132,Toronto,ON,M5V2T6,2024-07-08,Italian,YES,N
+ C00291 ,Noah Hall,Noah.Hall291@example.com,(844) 342-2608,Ottawa,ON,K1P1J1,2025-10-29,Mediterranean,NO,NO
+C00292,Ava Hall,Ava.Hall292@example.com,(895) 526-4243,Montreal,QC,H2X1Y4,2026-06-15,Mexican,N,N
+C00293,Ethan Lee,Ethan.Lee293@example.com,(448) 994-5799,Ottawa,ON,K1P1J1,2024-01-08,Chinese,TRUE,FALSE
+C00294,Ethan Lee,Ethan.Lee294@example.com,(411) 405-5889,Toronto,ON,M5V2T6,2024-07-10,Chinese,0,YES
+C00295,Sarah Smith,Sarah.Smith295@example.com,(788) 733-6363,Toronto,ON,M5V2T6,2025-01-21,INDIAN,0,TRUE
+C00296,Ethan Thomas,  ETHAN.THOMAS296@EXAMPLE.COM  ,(591) 781-5079,Vancouver,BC,V6B1A1,2025-02-18,Chinese,FALSE,N
+C00297,Liam Martin,Liam.Martin297@example.com,(381) 868-4168,Toronto,ON,M5V2T6,2024-04-26,Thai,1,FALSE
+C00298,Mia Martin,Mia.Martin298@example.com,(631) 226-8345,Calgary,AB,T2P1J9,2022-11-08,Mexican,0,0
+C00299,Ava Clark,Ava.Clark299@example.com,(985) 574-6333,Ottawa,ON,K1P1J1,2023-02-01,Italian,0,0
+C00300,Noah Taylor,Noah.Taylor300@example.com,(579) 929-5940,Halifax,NS,B3H1A1,2025-01-03,Mexican,0,N
+C00301,Noah Hall,Noah.Hall301@example.com,(613) 714-7530,Ottawa,ON,k1p 1j1,2023-11-12,Italian,N,YES
+C00302,Mia Brown,Mia.Brown302@example.com,(767) 878-3459,Halifax,NS,B3H1A1,2023-10-26,Mediterranean,NO,NO
+C00303,Michael Anderson,Michael.Anderson303@example.com,(750) 715-3750,Halifax,NS,B3H1A1,2023-04-12,Indian,NO,0
+C00304,Michael Wilson,Michael.Wilson304@example.com,(702) 496-3947,Halifax,NS,B3H1A1,2023-07-10,Mexican,0,Y
+C00305,Ethan Taylor,Ethan.Taylor305@example.com,(533) 652-6110,Calgary,AB,T2P1J9,2023-06-01,Japanese,1,Y
+C00306,John Taylor,John.Taylor306@example.com,(952) 628-2504,Ottawa,ON,K1P1J1,2022-12-20,Mediterranean,1,TRUE
+C00307,Mia Clark,Mia.Clark307@example.com,(414) 493-5392,Halifax,NS,B3H1A1,2024-03-23,Chinese,Y,NO
+C00308,Olivia Taylor,Olivia.Taylor308@example.com,(287) 419-2366,Montreal,QC,H2X1Y4,2026-03-13,Mexican,YES,TRUE
+C00309,Sarah Lee,Sarah.Lee309@example.com,(938) 641-4104,Ottawa,ON,K1P1J1,2026-02-15,Thai,YES,NO
+C00310,Mia Martin,Mia.Martin310@example.com,(676) 214-2694,Montreal,QC,H2X 1Y4,2026-03-23,Mediterranean,TRUE,TRUE
+C00311,Lucas Clark,Lucas.Clark311@example.com,(206) 749-9928,Calgary,AB,T2P1J9,2026-06-24,American,NO,1
+C00312,Ethan Thomas,Ethan.Thomas312@example.com,(911) 837-6730,Ottawa,ON,K1P1J1,2025-08-10,Italian,N,YES
+C00313,Olivia Martin,Olivia.Martin313@example.com,(226) 641-2450,Montreal,QC,H2X1Y4,2025-09-20,Japanese,FALSE,NO
+C00314,Noah Wilson,Noah.Wilson314@example.com,(942) 511-1028,Halifax,NS,B3H1A1,2024-04-15,Italian,FALSE,YES
+C00315,Emma Smith,Emma.Smith315@example.com,(259) 623-3352,Ottawa,ON,K1P1J1,2024-11-01,Indian,YES,NO
+C00316,Liam Taylor,Liam.Taylor316@example.com,(718) 686-9548,Halifax,NS,B3H1A1,2024-12-25,Indian,Y,1
+C00317,Olivia Hall,Olivia.Hall317@example.com,(776) 703-7857,Toronto,ON,M5V2T6,2025-12-22,Mexican,0,NO
+C00318,Lucas Taylor,Lucas.Taylor318@example.com,(392) 301-4848,HALIFAX,NS,B3H1A1,2023-12-27,American,YES,TRUE
+C00319,Michael Wilson,Michael.Wilson319@example.com,(856) 487-8741,Calgary,AB,T2P1J9,2026-04-15,American,NO,YES
+C00320,Sarah Lee,Sarah.Lee320@example.com,(577) 506-6210,Montreal,QC,H2X1Y4,2024-04-24,Italian,YES,NO
+C00321,Liam Brown,Liam.Brown321@example.com,(459) 642-6469,Calgary,AB,T2P1J9,2026-06-17,Thai,NO,N
+C00322,Emma Johnson,Emma.Johnson322@example.com,(607) 536-9006,Ottawa,ON,K1P1J1,2026-01-01,Japanese,Y,FALSE
+C00323,Sophia Brown,Sophia.Brown323@example.com,(448) 715-8877,Halifax,NS,B3H1A1,2025-12-02,Mediterranean,0,YES
+C00324,Noah Smith,Noah.Smith324@example.com,(858) 399-5204,Toronto,ON,M5V2T6,2024-01-17,Thai,FALSE,0
+C00325,John Thomas,John.Thomas325@example.com,(756) 465-2162,Toronto,ON,M5V2T6,2024-12-25,Indian,YES,N
+C00326,Mia Smith,Mia.Smith326@example.com,(435) 698-8857,Toronto,ON,M5V2T6,2024-04-03,Thai,NO,TRUE
+C00327,Michael Smith,Michael.Smith327@example.com,(969) 556-6673,Ottawa,ON,K1P1J1,2023-09-17,American,0,YES
+C00328,  lucas SMITH  ,Lucas.Smith328@example.com,(794) 249-7332,Montreal,QC,H2X1Y4,2023-05-12,Japanese,FALSE,0
+C00329,John Anderson,John.Anderson329@example.com,(549) 743-5897,Calgary,ab,T2P1J9,2023-11-18,American,0,1
+C00330,Mia Brown,Mia.Brown330@example.com,(530) 459-5811,Vancouver,BC,V6B1A1,2023-01-27,Indian,NO,NO
+C00331,Noah Anderson,Noah.Anderson331@example.com,(905) 373-4601,Vancouver,BC,V6B1A1,2024-02-13,Thai,1,YES
+C00332,Emma Anderson,Emma.Anderson332@example.com,(358) 970-7188,Toronto,ON,M5V2T6,2025-11-14,Japanese,Y,TRUE
+C00333,Liam Wilson,  LIAM.WILSON333@EXAMPLE.COM  ,(720) 545-1976,Toronto,ON,M5V2T6,2024-12-25,Mediterranean,NO,1
+C00334,Liam Wilson,Liam.Wilson334@example.com,(652) 499-8609,Toronto,ON,M5V2T6,2025-07-18,Chinese,1,NO
+C00335,Liam Wilson,Liam.Wilson335@example.com,(595) 772-1320,Halifax,NS,B3H1A1,2025-09-07,Italian,TRUE,FALSE
+C00336,Noah Lee,Noah.Lee336@example.com,(520) 415-9231,Ottawa,ON,K1P1J1,2025-08-03,Italian,N,TRUE
+C00337,Emma Smith,Emma.Smith337@example.com,(559) 868-8855,Vancouver,BC,V6B1A1,2023-12-20,Mexican,1,Y
+C00338,Olivia Thomas,Olivia.Thomas338@example.com,(213) 343-4970,Montreal,QC,H2X1Y4,2023-11-07,Mexican,N,1
+C00339,Michael Brown,Michael.Brown339@example.com,(688) 578-8422,Vancouver,BC,V6B1A1,2024-06-19,Mediterranean,Y,NO
+C00340,Sophia Brown,Sophia.Brown340@example.com,(860) 864-3978,Halifax,NS,B3H1A1,2024-09-05,Italian,N,Y
+C00341,Liam Anderson,Liam.Anderson341@example.com,(744) 892-2170,Calgary,AB,T2P 1J9,2023-01-01,Indian,FALSE,FALSE
+C00342,Olivia Anderson,Olivia.Anderson342@example.com,(794) 831-2576,Toronto,ON,M5V2T6,2025-11-13,Thai,TRUE,1
+C00343,Mia Martin,Mia.Martin343@example.com,(209) 394-6323,Ottawa,ON,K1P1J1,2024-09-22,American,NO,Y
+C00344,Ava Taylor,Ava.Taylor344@example.com,(599) 691-7987,Vancouver,BC,v6b 1a1,2023-04-29,Mediterranean,FALSE,FALSE
+C00345,Sophia Taylor,Sophia.Taylor345@example.com,(468) 423-5051,Ottawa,ON,K1P1J1,2024-03-06,Chinese,1,NO
+C00346,Michael Wilson,Michael.Wilson346@example.com,(270) 874-2898,Vancouver,BC,V6B1A1,2023-06-24,American,YES,1
+C00347,Mia Wilson,Mia.Wilson347@example.com,(581) 245-9827,Vancouver,BC,V6B1A1,2025-07-13,Mediterranean,FALSE,YES
+C00348,Ethan Anderson,Ethan.Anderson348@example.com,(965) 385-5810,Calgary,AB,T2P1J9,2024-08-16,Italian,0,1
+C00349,Sophia Wilson,Sophia.Wilson349@example.com,(843) 648-6166,Toronto,ON,M5V2T6,2023-05-28,Chinese,YES,FALSE
+C00350,Olivia Hall,Olivia.Hall350@example.com,(576) 755-7451,Calgary,AB,T2P1J9,2026-05-29,Mediterranean,1,N
+C00351,Emma Wilson,Emma.Wilson351@example.com,(241) 577-3942,Calgary,AB,T2P1J9,2026-05-24,Thai,N,Y
+C00352,Mia Wilson,Mia.Wilson352@example.com,(629) 885-5245,Vancouver,BC,V6B1A1,2025-02-19,Japanese,YES,TRUE
+C00353,Lucas Allen,Lucas.Allen353@example.com,(300) 274-2485,Halifax,NS,B3H1A1,2025-12-25,Mediterranean,YES,0
+C00354,Sophia Thomas,Sophia.Thomas354@example.com,(839) 223-4971,Vancouver,BC,V6B1A1,2023-01-01,AMERICAN,TRUE,TRUE
+C00355,Noah Lee,Noah.Lee355@example.com,(946) 801-5326,Montreal,QC,H2X1Y4,2024-01-06,Italian,0,TRUE
+C00356,Lucas Allen,Lucas.Allen356@example.com,(314) 385-3369,Toronto,ON,M5V2T6,2024-03-01,American,TRUE,1
+C00357,Sophia Brown,Sophia.Brown357@example.com,(572) 492-6776,Halifax,NS,B3H1A1,2024-06-29,Mexican,YES,FALSE
+C00358,Liam Clark,Liam.Clark358@example.com,(348) 891-9172,Vancouver,BC,V6B1A1,2024-01-28,American,YES,0
+C00359,Michael Clark,Michael.Clark359@example.com,(610) 325-9122,Calgary,AB,T2P1J9,2025-11-11,Thai,NO,Y
+C00360,Sarah Clark,Sarah.Clark360@example.com,(793) 347-4730,Halifax,NS,B3H1A1,2025-01-05,Indian,TRUE,Y
+C00361,Emma Brown,Emma.Brown361@example.com,(670) 775-8871,Montreal,QC,H2X1Y4,2022-12-01,Mediterranean,Y,Y
+C00362,John Johnson,John.Johnson362@example.com,(418) 831-1716,Halifax,NS,B3H1A1,2024-08-05,Indian,FALSE,NO
+C00363,Sarah Wilson,Sarah.Wilson363@example.com,(271) 394-8785,Toronto,ON,M5V2T6,2025-10-04,Mediterranean,0,YES
+C00364,Lucas Wilson,Lucas.Wilson364@example.com,(690) 502-8900,Calgary,AB,T2P1J9,2025-06-21,Mediterranean,TRUE,FALSE
+C00365,Ethan Smith,Ethan.Smith365@example.com,(715) 448-7087,Halifax,NS,B3H1A1,2023-06-13,Thai,TRUE,1
+C00366,Liam Thomas,Liam.Thomas366@example.com,(484) 291-2723,Halifax,NS,B3H1A1,2026-01-16,Mexican,N,N
+C00367,Olivia Wilson,Olivia.Wilson367@example.com,(755) 864-8774,Calgary,AB,T2P1J9,2024-12-22,Indian,N,1
+C00368,Ava Smith,Ava.Smith368@example.com,(826) 953-1519,Vancouver,BC,V6B1A1,2025-04-20,Italian,NO,0
+C00369,  john JOHNSON  ,John.Johnson369@example.com,(985) 865-6289,Vancouver,BC,V6B1A1,2024-10-04,Mexican,Y,FALSE
+C00370,Sarah Taylor,  SARAH.TAYLOR370@EXAMPLE.COM  ,(850) 355-7575,Toronto,ON,M5V2T6,2025-02-23,Indian,NO,Y
+C00371,Lucas Johnson,Lucas.Johnson371@example.com,(565) 842-3131,CALGARY,AB,T2P1J9,2025-07-02,Mexican,YES,0
+C00372,Sarah Brown,Sarah.Brown372@example.com,(260) 748-7831,Halifax,NS,B3H 1A1,2025-03-13,Mediterranean,0,1
+C00373,Michael Taylor,Michael.Taylor373@example.com,(903) 303-5402,Montreal,QC,H2X1Y4,2024-02-28,Thai,Y,NO
+C00374,Liam Smith,Liam.Smith374@example.com,(836) 924-7820,Toronto,ON,M5V2T6,2025-02-20,Japanese,0,Y
+C00375,John Anderson,John.Anderson375@example.com,(607) 893-9902,Vancouver,BC,V6B1A1,2023-12-18,Italian,NO,N
+C00376,John Brown,John.Brown376@example.com,(202) 370-8473,Halifax,ns,B3H1A1,2024-06-23,Mexican,YES,YES
+C00377,John Thomas,John.Thomas377@example.com,(537) 786-5437,Halifax,NS,B3H1A1,2026-04-30,Thai,NO,N
+C00378,Michael Martin,Michael.Martin378@example.com,(463) 496-3722,Vancouver,BC,V6B1A1,2024-12-10,Japanese,YES,TRUE
+C00379,Ethan Anderson,Ethan.Anderson379@example.com,(309) 318-5848,Vancouver,BC,V6B1A1,2025-03-22,Thai,1,FALSE
+C00380,Mia Wilson,Mia.Wilson380@example.com,(752) 979-2602,Calgary,AB,T2P1J9,2022-12-31,Mexican,1,FALSE
+C00381,Ava Lee,Ava.Lee381@example.com,(632) 745-5164,Toronto,ON,M5V2T6,2026-02-23,Indian,YES,YES
+C00382,Ethan Allen,Ethan.Allen382@example.com,(695) 365-9311,Vancouver,BC,V6B1A1,2023-02-09,Mediterranean,TRUE,1
+C00383,Olivia Clark,Olivia.Clark383@example.com,(394) 585-4363,Toronto,ON,M5V2T6,2024-02-20,Mexican,TRUE,TRUE
+C00384,Mia Wilson,Mia.Wilson384@example.com,(549) 939-9604,Calgary,AB,T2P1J9,2024-10-05,Mexican,0,YES
+C00385,Mia Thomas,Mia.Thomas385@example.com,(840) 648-8176,Halifax,NS,B3H1A1,2024-04-14,Thai,NO,NO
+C00386,Lucas Wilson,Lucas.Wilson386@example.com,(699) 308-4999,Montreal,QC,H2X1Y4,2024-12-25,Japanese,0,YES
+C00387,Lucas Brown,Lucas.Brown387@example.com,(501) 637-3887,Montreal,QC,h2x 1y4,2023-06-11,Japanese,0,N
+ C00388 ,Michael Wilson,Michael.Wilson388@example.com,(419) 366-3275,Montreal,QC,H2X1Y4,2026-03-09,Thai,N,TRUE
+C00389,Sarah Wilson,Sarah.Wilson389@example.com,(673) 232-3735,Halifax,NS,B3H1A1,2024-06-20,Japanese,YES,YES
+C00390,John Johnson,John.Johnson390@example.com,(375) 561-8039,Calgary,AB,T2P1J9,2024-01-30,Mediterranean,0,NO
+C00391,Mia Anderson,Mia.Anderson391@example.com,(266) 969-4643,Vancouver,BC,V6B1A1,2023-12-08,Chinese,YES,0
+C00392,Mia Wilson,Mia.Wilson392@example.com,(297) 945-8879,Montreal,QC,H2X1Y4,2025-11-26,Mexican,Y,FALSE
+C00393,Michael Taylor,Michael.Taylor393@example.com,(925) 781-4621,Ottawa,ON,K1P1J1,2023-03-30,Mexican,TRUE,Y
+C00394,Liam Lee,Liam.Lee394@example.com,(580) 405-8704,Vancouver,BC,V6B1A1,2024-12-21,Chinese,0,N
+C00395,Olivia Clark,Olivia.Clark395@example.com,(381) 334-4204,Halifax,NS,B3H1A1,2023-02-25,Italian,N,N
+C00396,Emma Clark,Emma.Clark396@example.com,(598) 871-8497,Vancouver,BC,V6B1A1,2023-09-05,Japanese,N,FALSE
+C00397,Ethan Wilson,Ethan.Wilson397@example.com,(258) 755-3314,Toronto,ON,M5V2T6,2025-02-20,Indian,FALSE,NO
+C00398,Mia Martin,Mia.Martin398@example.com,(947) 531-8066,Ottawa,ON,K1P1J1,2023-04-18,Thai,NO,YES
+C00399,Ava Clark,Ava.Clark399@example.com,(253) 493-1506,Toronto,ON,M5V2T6,2025-12-27,Japanese,YES,FALSE
+C00400,Sophia Hall,Sophia.Hall400@example.com,(825) 983-6405,Ottawa,ON,K1P1J1,2025-07-19,Italian,0,0
+C00401,Liam Clark,Liam.Clark401@example.com,(446) 216-7423,Toronto,ON,M5V2T6,2025-04-15,Chinese,YES,0
+C00402,Mia Smith,Mia.Smith402@example.com,(971) 518-7984,Vancouver,BC,V6B1A1,2025-01-20,Mediterranean,0,FALSE
+C00403,Mia Martin,Mia.Martin403@example.com,(373) 515-6557,Montreal,QC,H2X 1Y4,2026-03-08,Mexican,NO,NO
+C00404,Emma Martin,Emma.Martin404@example.com,(503) 785-7629,Toronto,ON,M5V2T6,2022-12-25,Japanese,0,1
+C00405,Mia Thomas,Mia.Thomas405@example.com,(457) 233-2804,Calgary,AB,T2P1J9,2022-12-07,Mexican,1,TRUE
+C00406,Sarah Thomas,Sarah.Thomas406@example.com,(925) 929-8671,Halifax,NS,B3H1A1,2025-02-02,Japanese,FALSE,NO
+C00407,Ethan Johnson,  ETHAN.JOHNSON407@EXAMPLE.COM  ,(387) 300-7237,Ottawa,ON,K1P1J1,2025-04-30,Thai,1,TRUE
+C00408,Emma Anderson,Emma.Anderson408@example.com,(621) 580-2033,Vancouver,BC,V6B1A1,2026-04-12,Chinese,1,0
+C00409,Sarah Hall,Sarah.Hall409@example.com,(293) 826-5846,Ottawa,ON,K1P1J1,2026-04-02,Mexican,Y,0
+C00410,  ethan THOMAS  ,Ethan.Thomas410@example.com,(687) 860-1853,Calgary,AB,T2P1J9,2022-11-04,Mexican,NO,YES
+C00411,Liam Smith,Liam.Smith411@example.com,(311) 299-1716,Calgary,AB,T2P1J9,2025-08-19,Mediterranean,N,0
+C00412,Ethan Allen,Ethan.Allen412@example.com,(927) 796-8057,Montreal,QC,H2X1Y4,2024-01-04,Mediterranean,1,0
+C00413,Mia Allen,Mia.Allen413@example.com,(802) 827-5867,Calgary,AB,T2P1J9,2024-07-01,CHINESE,N,TRUE
+C00414,Lucas Thomas,Lucas.Thomas414@example.com,(976) 705-1640,Toronto,ON,M5V2T6,2025-07-11,Japanese,N,NO
+C00415,Sarah Wilson,Sarah.Wilson415@example.com,(466) 437-3444,Halifax,NS,B3H1A1,2024-02-20,Mediterranean,FALSE,1
+C00416,John Smith,John.Smith416@example.com,(294) 345-2522,Calgary,AB,T2P1J9,2024-01-21,Italian,FALSE,N
+C00417,Olivia Allen,Olivia.Allen417@example.com,(680) 208-7937,Ottawa,ON,K1P1J1,2026-01-21,Thai,0,NO
+C00418,Noah Lee,Noah.Lee418@example.com,(543) 318-9117,Toronto,ON,M5V2T6,2023-06-10,Indian,FALSE,TRUE
+C00419,Sarah Martin,Sarah.Martin419@example.com,(502) 492-7813,Toronto,ON,M5V2T6,2023-03-02,Chinese,FALSE,1
+C00420,Ethan Clark,Ethan.Clark420@example.com,(214) 380-2077,Halifax,NS,B3H1A1,2026-02-06,Mediterranean,0,YES
+C00421,John Smith,John.Smith421@example.com,(863) 566-1188,Montreal,QC,H2X1Y4,2024-07-06,Indian,TRUE,NO
+C00422,Sarah Hall,Sarah.Hall422@example.com,(812) 335-4094,Ottawa,ON,K1P1J1,2023-05-18,Japanese,FALSE,Y
+C00423,Sarah Taylor,Sarah.Taylor423@example.com,(441) 706-5822,Halifax,ns,B3H1A1,2024-08-20,Italian,Y,TRUE
+C00424,John Johnson,John.Johnson424@example.com,(484) 854-6786,TORONTO,ON,M5V2T6,2022-10-26,Indian,Y,TRUE
+C00425,Noah Martin,Noah.Martin425@example.com,(313) 354-4938,Ottawa,ON,K1P1J1,2024-11-05,Japanese,N,N
+C00426,Liam Allen,Liam.Allen426@example.com,(403) 318-1352,Ottawa,ON,K1P1J1,2025-11-08,Mediterranean,TRUE,N
+C00427,Sophia Thomas,Sophia.Thomas427@example.com,(653) 257-7178,Toronto,ON,M5V2T6,2024-11-28,Thai,TRUE,0
+C00428,Olivia Hall,Olivia.Hall428@example.com,(453) 534-3582,Toronto,ON,M5V2T6,2024-04-28,Mexican,NO,N
+C00429,Lucas Clark,Lucas.Clark429@example.com,(699) 379-8962,Halifax,NS,B3H1A1,2024-07-28,Indian,FALSE,0
+C00430,Noah Taylor,Noah.Taylor430@example.com,(632) 390-7427,Halifax,NS,b3h 1a1,2026-06-24,Thai,N,Y
+C00431,Emma Thomas,Emma.Thomas431@example.com,(333) 266-1724,Halifax,NS,B3H1A1,2025-09-11,Thai,N,YES
+C00432,Sophia Taylor,Sophia.Taylor432@example.com,(641) 733-7450,Ottawa,ON,K1P1J1,2025-02-05,Mexican,1,1
+C00433,Ava Clark,Ava.Clark433@example.com,(331) 423-4035,Montreal,QC,H2X1Y4,2023-11-29,Mexican,0,YES
+C00434,John Johnson,John.Johnson434@example.com,(887) 363-6186,Ottawa,ON,K1P 1J1,2025-01-17,Italian,TRUE,0
+C00435,John Martin,John.Martin435@example.com,(577) 626-4910,Toronto,ON,M5V2T6,2025-01-09,Mexican,FALSE,Y
+C00436,John Allen,John.Allen436@example.com,(213) 720-4185,Ottawa,ON,K1P1J1,2026-05-04,Chinese,Y,TRUE
+C00437,Sarah Thomas,Sarah.Thomas437@example.com,(230) 548-3914,Calgary,AB,T2P1J9,2022-11-04,Indian,Y,Y
+C00438,Sophia Smith,Sophia.Smith438@example.com,(680) 265-5562,Calgary,AB,T2P1J9,2023-05-18,Thai,YES,0
+C00439,Michael Wilson,Michael.Wilson439@example.com,(422) 519-5685,Calgary,AB,T2P1J9,2025-07-31,American,1,Y
+C00440,Ava Johnson,Ava.Johnson440@example.com,(716) 900-6843,Calgary,AB,T2P1J9,2024-06-18,Japanese,Y,NO
+C00441,Sophia Brown,Sophia.Brown441@example.com,(626) 353-1092,Montreal,QC,H2X1Y4,2023-10-21,American,TRUE,NO
+C00442,John Hall,John.Hall442@example.com,(336) 523-5893,Montreal,QC,H2X1Y4,2024-09-13,Indian,N,YES
+C00443,Mia Wilson,Mia.Wilson443@example.com,(533) 277-1361,Calgary,AB,T2P1J9,2024-07-02,Japanese,Y,0
+C00444,Noah Martin,  NOAH.MARTIN444@EXAMPLE.COM  ,(208) 649-7054,Halifax,NS,B3H1A1,2023-09-27,Mediterranean,0,FALSE
+C00445,Emma Anderson,Emma.Anderson445@example.com,(674) 886-5037,Vancouver,BC,V6B1A1,2023-02-11,Italian,Y,TRUE
+C00446,Ava Smith,Ava.Smith446@example.com,(608) 343-8637,Vancouver,BC,V6B1A1,2026-01-27,Italian,YES,0
+C00447,Emma Brown,Emma.Brown447@example.com,(202) 871-7227,Halifax,NS,B3H1A1,2025-08-01,Japanese,TRUE,N
+C00448,Ava Allen,Ava.Allen448@example.com,(448) 994-1676,Ottawa,ON,K1P1J1,2024-07-31,American,1,YES
+C00449,Michael Taylor,Michael.Taylor449@example.com,(369) 798-8592,Montreal,QC,H2X1Y4,2022-12-06,Indian,0,NO
+C00450,Mia Taylor,Mia.Taylor450@example.com,(878) 640-2665,Calgary,AB,T2P1J9,2024-10-16,Italian,YES,Y
+C00451,  michael LEE  ,Michael.Lee451@example.com,(769) 751-1390,Vancouver,BC,V6B1A1,2025-06-22,Japanese,N,0
+C00452,Michael Taylor,Michael.Taylor452@example.com,(400) 905-7271,Halifax,NS,B3H1A1,2024-09-17,Italian,N,Y
+C00453,Emma Johnson,Emma.Johnson453@example.com,(500) 413-2277,Halifax,NS,B3H1A1,2025-03-23,Indian,1,1
+C00454,Mia Smith,Mia.Smith454@example.com,(355) 351-9372,Calgary,AB,T2P1J9,2025-07-15,Thai,YES,0
+C00455,Lucas Hall,Lucas.Hall455@example.com,(749) 211-8185,Ottawa,ON,K1P1J1,2022-11-08,Italian,TRUE,TRUE
+C00456,Emma Wilson,Emma.Wilson456@example.com,(495) 292-2580,Halifax,NS,B3H1A1,2024-04-18,Mediterranean,Y,Y
+C00457,John Wilson,John.Wilson457@example.com,(788) 489-6772,Toronto,ON,M5V2T6,2025-04-03,Mexican,Y,YES
+C00458,Sarah Brown,Sarah.Brown458@example.com,(767) 608-4265,Toronto,ON,M5V2T6,2023-10-02,Indian,FALSE,1
+C00459,Liam Brown,Liam.Brown459@example.com,(798) 467-3214,Toronto,ON,M5V2T6,2024-02-14,Chinese,N,TRUE
+C00460,Emma Lee,Emma.Lee460@example.com,(554) 595-5013,Halifax,NS,B3H1A1,2025-04-04,Mexican,N,NO
+C00461,Emma Taylor,Emma.Taylor461@example.com,(581) 588-8119,Ottawa,ON,K1P1J1,2023-04-21,Indian,YES,NO
+C00462,Sophia Brown,Sophia.Brown462@example.com,(987) 372-2512,Vancouver,BC,V6B1A1,2025-12-14,Thai,N,YES
+C00463,Ethan Clark,Ethan.Clark463@example.com,(361) 747-2848,Ottawa,ON,K1P1J1,2026-01-12,Mediterranean,Y,YES
+C00464,Sophia Smith,Sophia.Smith464@example.com,(797) 716-6775,Ottawa,ON,K1P1J1,2024-03-24,Japanese,Y,0
+C00465,Sarah Thomas,Sarah.Thomas465@example.com,(615) 692-7015,Montreal,QC,H2X 1Y4,2023-06-17,Chinese,Y,FALSE
+C00466,Liam Martin,Liam.Martin466@example.com,(408) 337-1783,Halifax,NS,B3H1A1,2024-06-17,Japanese,1,1
+C00467,Sarah Clark,Sarah.Clark467@example.com,(332) 891-9303,Ottawa,ON,K1P1J1,2025-12-30,Thai,TRUE,Y
+C00468,Liam Brown,Liam.Brown468@example.com,(284) 992-4554,Vancouver,BC,V6B1A1,2025-06-03,American,TRUE,Y
+C00469,John Allen,John.Allen469@example.com,(602) 957-2583,Calgary,AB,T2P1J9,2023-11-03,Chinese,0,0
+C00470,John Lee,John.Lee470@example.com,(769) 627-4798,Montreal,qc,H2X1Y4,2025-06-27,Mediterranean,FALSE,1
+C00471,John Allen,John.Allen471@example.com,(674) 599-7846,Halifax,NS,B3H1A1,2025-07-23,Indian,0,0
+C00472,Noah Brown,Noah.Brown472@example.com,(315) 417-8036,Vancouver,BC,V6B1A1,2025-08-07,ITALIAN,YES,NO
+C00473,Noah Johnson,Noah.Johnson473@example.com,(388) 445-4574,Halifax,NS,b3h 1a1,2026-06-04,American,NO,1
+C00474,Ava Martin,Ava.Martin474@example.com,(465) 689-4606,Calgary,AB,T2P1J9,2025-11-17,Chinese,YES,FALSE
+C00475,John Clark,John.Clark475@example.com,(964) 616-1225,Halifax,NS,B3H1A1,2025-08-05,American,1,TRUE
+C00476,Ethan Johnson,Ethan.Johnson476@example.com,(884) 332-6633,Ottawa,ON,K1P1J1,2026-04-12,Japanese,TRUE,N
+C00477,Noah Wilson,Noah.Wilson477@example.com,(382) 399-9869,VANCOUVER,BC,V6B1A1,2025-11-15,Thai,TRUE,N
+C00478,Noah Johnson,Noah.Johnson478@example.com,(403) 346-9904,Vancouver,BC,V6B1A1,2026-01-07,Chinese,Y,Y
+C00479,Lucas Lee,Lucas.Lee479@example.com,(512) 305-8709,Calgary,AB,T2P1J9,2023-03-14,American,YES,YES
+C00480,Michael Thomas,Michael.Thomas480@example.com,(338) 646-9131,Toronto,ON,M5V2T6,2025-02-21,Italian,N,TRUE
+C00481,Liam Smith,  LIAM.SMITH481@EXAMPLE.COM  ,(456) 522-1989,Halifax,NS,B3H1A1,2023-12-03,Indian,Y,TRUE
+C00482,Ava Hall,Ava.Hall482@example.com,(323) 986-1547,Toronto,ON,M5V2T6,2023-12-30,Italian,N,NO
+C00483,Liam Smith,Liam.Smith483@example.com,(353) 689-3954,Halifax,NS,B3H1A1,2026-03-03,Chinese,0,1
+C00484,Mia Martin,Mia.Martin484@example.com,(259) 338-3909,Calgary,AB,T2P1J9,2023-05-19,Thai,1,FALSE
+ C00485 ,Ethan Thomas,Ethan.Thomas485@example.com,(389) 624-2846,Vancouver,BC,V6B1A1,2023-05-22,Italian,0,NO
+C00486,Ava Wilson,Ava.Wilson486@example.com,(880) 785-7622,Halifax,NS,B3H1A1,2025-07-29,American,1,FALSE
+C00487,Olivia Brown,Olivia.Brown487@example.com,(252) 264-7997,Toronto,ON,M5V2T6,2026-05-17,Japanese,TRUE,TRUE
+C00488,Noah Anderson,Noah.Anderson488@example.com,(378) 243-1100,Ottawa,ON,K1P1J1,2023-04-11,Mediterranean,YES,NO
+C00489,Olivia Wilson,Olivia.Wilson489@example.com,(350) 451-6837,Ottawa,ON,K1P1J1,2026-07-02,Mediterranean,Y,NO
+C00490,Noah Anderson,Noah.Anderson490@example.com,(541) 426-2726,Montreal,QC,H2X1Y4,2023-09-02,Mexican,0,YES
+C00491,Lucas Hall,Lucas.Hall491@example.com,(787) 381-7169,Toronto,ON,M5V2T6,2023-12-19,Japanese,FALSE,0
+C00492,  lucas THOMAS  ,Lucas.Thomas492@example.com,(952) 223-8154,Montreal,QC,H2X1Y4,2024-10-28,Chinese,FALSE,TRUE
+C00493,Lucas Thomas,Lucas.Thomas493@example.com,(284) 840-8792,Halifax,NS,B3H1A1,2022-12-09,Mediterranean,YES,FALSE
+C00494,Ava Hall,Ava.Hall494@example.com,(391) 461-8970,Halifax,NS,B3H1A1,2023-05-16,Japanese,N,0
+C00495,Liam Brown,Liam.Brown495@example.com,(872) 397-8536,Vancouver,BC,V6B1A1,2026-04-03,American,TRUE,NO
+C00496,Noah Johnson,Noah.Johnson496@example.com,(496) 353-4124,Vancouver,BC,V6B 1A1,2024-04-19,Indian,N,YES
+C00497,Ethan Lee,Ethan.Lee497@example.com,(856) 713-3906,Toronto,ON,M5V2T6,2025-04-08,American,1,Y
+C00498,Liam Lee,Liam.Lee498@example.com,(796) 304-4987,Calgary,AB,T2P1J9,2024-04-27,Thai,FALSE,1
+C00499,Sophia Thomas,Sophia.Thomas499@example.com,(655) 667-2287,Montreal,QC,H2X1Y4,2024-01-28,Thai,N,TRUE
+C00500,Michael Allen,Michael.Allen500@example.com,(239) 842-1218,Ottawa,ON,K1P1J1,2023-04-19,Japanese,Y,Y
+C00501,John Taylor,John.Taylor501@example.com,(277) 547-1464,Vancouver,BC,V6B1A1,2024-04-09,Italian,TRUE,FALSE
+C00502,Lucas Allen,Lucas.Allen502@example.com,(274) 724-9487,Calgary,AB,T2P1J9,2025-01-07,Mediterranean,FALSE,1
+C00503,Michael Allen,Michael.Allen503@example.com,(323) 930-5999,Montreal,QC,H2X1Y4,2023-09-27,American,FALSE,1
+C00504,Noah Martin,Noah.Martin504@example.com,(214) 598-8249,Toronto,ON,M5V2T6,2025-09-22,Italian,N,Y
+C00505,Olivia Lee,Olivia.Lee505@example.com,(802) 819-2123,Ottawa,ON,K1P1J1,2025-01-30,Italian,Y,Y
+C00506,Ava Martin,Ava.Martin506@example.com,(309) 604-6946,Toronto,ON,M5V2T6,2025-07-30,Thai,NO,N
+C00507,Michael Wilson,Michael.Wilson507@example.com,(411) 390-4113,Halifax,NS,B3H1A1,2025-12-10,Indian,TRUE,N
+C00508,Mia Taylor,Mia.Taylor508@example.com,(601) 593-2339,Montreal,QC,H2X1Y4,2023-11-25,Indian,FALSE,0
+C00509,John Anderson,John.Anderson509@example.com,(634) 386-6691,Montreal,QC,H2X1Y4,2024-01-08,American,0,0
+C00510,Sarah Thomas,Sarah.Thomas510@example.com,(425) 580-8710,Calgary,AB,T2P1J9,2025-01-12,Indian,Y,FALSE
+C00511,Lucas Allen,Lucas.Allen511@example.com,(769) 924-2470,Ottawa,ON,K1P1J1,2025-10-21,Chinese,FALSE,1
+C00512,Ava Brown,Ava.Brown512@example.com,(696) 378-4874,Ottawa,ON,K1P1J1,2023-04-25,Indian,N,1
+C00513,Sophia Anderson,Sophia.Anderson513@example.com,(365) 294-9619,Halifax,NS,B3H1A1,2024-06-16,Mediterranean,0,YES
+C00514,Sophia Thomas,Sophia.Thomas514@example.com,(700) 290-1601,Vancouver,BC,V6B1A1,2025-01-26,Indian,0,0
+C00515,Emma Brown,Emma.Brown515@example.com,(296) 823-4819,Halifax,NS,B3H1A1,2025-12-27,Indian,0,FALSE
+C00516,Sophia Allen,Sophia.Allen516@example.com,(433) 464-4909,Vancouver,BC,v6b 1a1,2023-11-15,Mediterranean,FALSE,Y
+C00517,Sarah Brown,Sarah.Brown517@example.com,(629) 434-3303,Toronto,on,M5V2T6,2026-06-04,Mediterranean,TRUE,N
+C00518,Emma Thomas,  EMMA.THOMAS518@EXAMPLE.COM  ,(581) 453-8325,Halifax,NS,B3H1A1,2024-03-30,Indian,TRUE,N
+C00519,Sophia Anderson,Sophia.Anderson519@example.com,(353) 207-2185,Toronto,ON,M5V2T6,2023-04-07,Japanese,Y,1
+C00520,Liam Taylor,Liam.Taylor520@example.com,(453) 733-7043,Calgary,AB,T2P1J9,2023-11-23,Japanese,Y,TRUE
+C00521,Noah Brown,Noah.Brown521@example.com,(303) 294-1618,Montreal,QC,H2X1Y4,2023-05-21,Mediterranean,1,1
+C00522,Lucas Wilson,Lucas.Wilson522@example.com,(669) 684-2503,Toronto,ON,M5V2T6,2024-06-29,American,NO,N
+C00523,Liam Martin,Liam.Martin523@example.com,(537) 214-8004,Calgary,AB,T2P1J9,2025-08-08,Indian,Y,FALSE
+C00524,Noah Martin,Noah.Martin524@example.com,(681) 354-1014,Toronto,ON,M5V2T6,2023-04-17,Mexican,0,Y
+C00525,Mia Wilson,Mia.Wilson525@example.com,(720) 351-9030,Toronto,ON,M5V2T6,2025-01-10,Mexican,FALSE,N
+C00526,Liam Anderson,Liam.Anderson526@example.com,(279) 840-9761,Toronto,ON,M5V2T6,2023-08-06,American,YES,N
+C00527,Michael Allen,Michael.Allen527@example.com,(758) 534-7659,Toronto,ON,M5V 2T6,2023-07-18,Mediterranean,FALSE,0
+C00528,Emma Taylor,Emma.Taylor528@example.com,(574) 637-9579,Montreal,QC,H2X1Y4,2025-12-30,Mexican,Y,0
+C00529,Lucas Allen,Lucas.Allen529@example.com,(326) 872-1466,Calgary,AB,T2P1J9,2024-05-21,Indian,1,1
+C00530,Ava Lee,Ava.Lee530@example.com,(881) 576-1456,MONTREAL,QC,H2X1Y4,2025-09-20,Mediterranean,0,N
+C00531,John Smith,John.Smith531@example.com,(785) 738-5863,Ottawa,ON,K1P1J1,2024-01-27,AMERICAN,N,FALSE
+C00532,Ethan Clark,Ethan.Clark532@example.com,(599) 504-9313,Ottawa,ON,K1P1J1,2024-12-17,American,1,NO
+C00533,  sarah JOHNSON  ,Sarah.Johnson533@example.com,(709) 513-2851,Calgary,AB,T2P1J9,2025-04-14,Mexican,YES,FALSE
+C00534,Emma Hall,Emma.Hall534@example.com,(874) 789-1313,Ottawa,ON,K1P1J1,2025-03-11,Chinese,N,N
+C00535,Lucas Allen,Lucas.Allen535@example.com,(264) 790-5153,Ottawa,ON,K1P1J1,2025-07-30,Chinese,TRUE,Y
+C00536,Ethan Clark,Ethan.Clark536@example.com,(488) 707-2874,Calgary,AB,T2P1J9,2024-05-05,Thai,NO,0
+C00537,Olivia Thomas,Olivia.Thomas537@example.com,(546) 719-4394,Vancouver,BC,V6B1A1,2025-05-29,Indian,FALSE,Y
+C00538,Sarah Anderson,Sarah.Anderson538@example.com,(620) 352-7675,Ottawa,ON,K1P1J1,2023-04-06,Mexican,0,N
+C00539,Ava Thomas,Ava.Thomas539@example.com,(843) 322-6882,Vancouver,BC,V6B1A1,2024-10-10,Indian,0,NO
+C00540,Michael Lee,Michael.Lee540@example.com,(783) 586-3807,Ottawa,ON,K1P1J1,2025-10-21,American,NO,1
+C00541,John Brown,John.Brown541@example.com,(794) 920-7926,Calgary,AB,T2P1J9,2022-11-12,Chinese,0,YES
+C00542,Sophia Taylor,Sophia.Taylor542@example.com,(235) 769-3102,Vancouver,BC,V6B1A1,2024-02-23,Italian,YES,Y
+C00543,John Taylor,John.Taylor543@example.com,(620) 963-4344,Ottawa,ON,K1P1J1,2025-03-15,Mexican,1,NO
+C00544,Sophia Smith,Sophia.Smith544@example.com,(667) 843-4870,Ottawa,ON,K1P1J1,2023-03-07,Mexican,1,FALSE
+C00545,Michael Lee,Michael.Lee545@example.com,(806) 887-2748,Ottawa,ON,K1P1J1,2026-02-04,Japanese,FALSE,0
+C00546,Sophia Allen,Sophia.Allen546@example.com,(587) 517-9702,Toronto,ON,M5V2T6,2023-03-23,American,N,N
+C00547,John Martin,John.Martin547@example.com,(701) 850-4853,Ottawa,ON,K1P1J1,2025-01-10,Chinese,1,0
+C00548,Emma Lee,Emma.Lee548@example.com,(912) 358-3971,Toronto,ON,M5V2T6,2025-03-03,Mexican,0,N
+C00549,Sarah Brown,Sarah.Brown549@example.com,(714) 465-2248,Toronto,ON,M5V2T6,2025-11-12,American,FALSE,1
+C00550,Michael Martin,Michael.Martin550@example.com,(976) 257-1856,Calgary,AB,T2P1J9,2026-06-22,Mediterranean,FALSE,YES
+C00551,Noah Thomas,Noah.Thomas551@example.com,(646) 990-4557,Ottawa,ON,K1P1J1,2026-05-24,Mexican,N,FALSE
+C00552,Olivia Allen,Olivia.Allen552@example.com,(556) 240-1109,Halifax,NS,B3H1A1,2024-11-03,American,Y,TRUE
+C00553,Mia Thomas,Mia.Thomas553@example.com,(599) 480-3770,Montreal,QC,H2X1Y4,2024-07-19,Thai,TRUE,0
+C00554,Sarah Martin,Sarah.Martin554@example.com,(666) 565-5013,Calgary,AB,T2P1J9,2024-06-17,Italian,FALSE,1
+C00555,Ava Wilson,  AVA.WILSON555@EXAMPLE.COM  ,(995) 519-1608,Toronto,ON,M5V2T6,2024-06-27,Indian,1,0
+C00556,Olivia Johnson,Olivia.Johnson556@example.com,(264) 703-3106,Halifax,NS,B3H1A1,2023-08-06,Chinese,FALSE,NO
+C00557,Liam Wilson,Liam.Wilson557@example.com,(743) 582-8558,Ottawa,ON,K1P1J1,2025-03-10,Indian,1,YES
+C00558,Michael Hall,Michael.Hall558@example.com,(462) 861-9439,Montreal,QC,H2X 1Y4,2023-01-15,Indian,NO,NO
+C00559,Sophia Allen,Sophia.Allen559@example.com,(628) 863-3198,Montreal,QC,h2x 1y4,2023-09-16,Thai,N,NO
+C00560,Emma Anderson,Emma.Anderson560@example.com,(397) 471-8568,Toronto,ON,M5V2T6,2026-01-27,Mexican,NO,NO
+C00561,Noah Brown,Noah.Brown561@example.com,(788) 739-1973,Montreal,QC,H2X1Y4,2025-02-02,Thai,NO,TRUE
+C00562,Ava Lee,Ava.Lee562@example.com,(432) 766-6746,Vancouver,BC,V6B1A1,2024-10-29,Mediterranean,1,1
+C00563,Liam Johnson,Liam.Johnson563@example.com,(665) 254-3134,Calgary,AB,T2P1J9,2023-11-26,Indian,NO,1
+C00564,Lucas Martin,Lucas.Martin564@example.com,(525) 399-3547,Toronto,on,M5V2T6,2024-12-16,Mediterranean,YES,1
+C00565,Sophia Martin,Sophia.Martin565@example.com,(956) 442-1279,Calgary,AB,T2P1J9,2026-07-01,Italian,1,NO
+C00566,Ethan Allen,Ethan.Allen566@example.com,(326) 486-7629,Montreal,QC,H2X1Y4,2022-12-26,Mediterranean,NO,YES
+C00567,Noah Wilson,Noah.Wilson567@example.com,(353) 839-2461,Ottawa,ON,K1P1J1,2025-10-07,Thai,TRUE,NO
+C00568,Emma Lee,Emma.Lee568@example.com,(523) 950-8490,Calgary,AB,T2P1J9,2022-12-21,Mediterranean,FALSE,1
+C00569,Ethan Taylor,Ethan.Taylor569@example.com,(460) 580-6687,Halifax,NS,B3H1A1,2023-02-28,Mexican,NO,N
+C00570,Lucas Smith,Lucas.Smith570@example.com,(478) 752-9800,Ottawa,ON,K1P1J1,2026-05-29,Indian,TRUE,1
+C00571,Ava Clark,Ava.Clark571@example.com,(341) 988-5750,Calgary,AB,T2P1J9,2024-10-28,Mediterranean,1,Y
+C00572,Michael Smith,Michael.Smith572@example.com,(522) 204-5649,Halifax,NS,B3H1A1,2024-10-31,Mediterranean,NO,1
+C00573,Emma Clark,Emma.Clark573@example.com,(641) 496-9051,Montreal,QC,H2X1Y4,2025-02-26,Mexican,N,1
+C00574,  emma WILSON  ,Emma.Wilson574@example.com,(336) 507-3274,Toronto,ON,M5V2T6,2025-09-21,Japanese,1,FALSE
+C00575,Michael Brown,Michael.Brown575@example.com,(735) 358-4838,Toronto,ON,M5V2T6,2023-08-04,Chinese,0,Y
+C00576,Emma Anderson,Emma.Anderson576@example.com,(414) 635-8736,Montreal,QC,H2X1Y4,2024-10-11,Mediterranean,N,YES
+C00577,Sarah Johnson,Sarah.Johnson577@example.com,(998) 935-5713,Ottawa,ON,K1P1J1,2026-07-10,Chinese,N,1
+C00578,Sophia Allen,Sophia.Allen578@example.com,(442) 436-8908,Montreal,QC,H2X1Y4,2023-05-12,American,1,0
+C00579,Sarah Taylor,Sarah.Taylor579@example.com,(884) 706-9182,Ottawa,ON,K1P1J1,2026-01-16,Indian,1,FALSE
+C00580,Ava Martin,Ava.Martin580@example.com,(260) 312-7958,Ottawa,ON,K1P1J1,2022-12-09,Chinese,Y,N
+C00581,Sophia Clark,Sophia.Clark581@example.com,(592) 806-8000,Vancouver,BC,V6B1A1,2026-02-23,Italian,0,Y
+ C00582 ,John Wilson,John.Wilson582@example.com,(334) 257-7199,Halifax,NS,B3H1A1,2023-06-16,Thai,TRUE,Y
+C00583,Emma Martin,Emma.Martin583@example.com,(541) 999-7882,MONTREAL,QC,H2X1Y4,2024-04-28,Chinese,1,N
+C00584,Olivia Clark,Olivia.Clark584@example.com,(439) 807-8665,Calgary,AB,T2P1J9,2026-07-05,Mexican,NO,Y
+C00585,Noah Hall,Noah.Hall585@example.com,(822) 670-9858,Halifax,NS,B3H1A1,2023-02-03,Mediterranean,0,YES
+C00586,Noah Taylor,Noah.Taylor586@example.com,(271) 684-7642,Vancouver,BC,V6B1A1,2022-12-21,American,Y,1
+C00587,Ethan Anderson,Ethan.Anderson587@example.com,(457) 408-3897,Halifax,NS,B3H1A1,2023-11-12,Indian,Y,0
+C00588,John Hall,John.Hall588@example.com,(744) 484-1073,Toronto,ON,M5V2T6,2025-06-28,Mexican,FALSE,FALSE
+C00589,Ethan Smith,Ethan.Smith589@example.com,(406) 771-4727,Halifax,NS,B3H 1A1,2026-05-18,Chinese,TRUE,1
+C00590,Sarah Lee,Sarah.Lee590@example.com,(847) 954-7265,Ottawa,ON,K1P1J1,2026-04-03,INDIAN,TRUE,FALSE
+C00591,Olivia Lee,Olivia.Lee591@example.com,(584) 907-4479,Calgary,AB,T2P1J9,2024-01-08,Mexican,TRUE,FALSE
+C00592,Liam Wilson,  LIAM.WILSON592@EXAMPLE.COM  ,(322) 529-2974,Calgary,AB,T2P1J9,2023-10-05,Thai,Y,N
+C00593,Sarah Johnson,Sarah.Johnson593@example.com,(372) 480-8533,Ottawa,ON,K1P1J1,2022-11-05,Italian,NO,YES
+C00594,Sarah Smith,Sarah.Smith594@example.com,(366) 863-7816,Vancouver,BC,V6B1A1,2022-12-01,American,TRUE,YES
+C00595,Olivia Thomas,Olivia.Thomas595@example.com,(745) 482-8875,Ottawa,ON,K1P1J1,2024-01-21,Japanese,Y,0
+C00596,Emma Allen,Emma.Allen596@example.com,(427) 430-6014,Vancouver,BC,V6B1A1,2025-04-02,Indian,N,Y
+C00597,Lucas Hall,Lucas.Hall597@example.com,(682) 479-1342,Vancouver,BC,V6B1A1,2023-02-24,Japanese,TRUE,YES
+C00598,Ava Wilson,Ava.Wilson598@example.com,(772) 958-4371,Ottawa,ON,K1P1J1,2026-06-01,Japanese,NO,N
+C00599,Liam Johnson,Liam.Johnson599@example.com,(518) 665-4404,Calgary,AB,T2P1J9,2025-01-26,Indian,YES,TRUE
+C00600,Olivia Brown,Olivia.Brown600@example.com,(444) 564-1442,Ottawa,ON,K1P1J1,2024-04-19,Indian,NO,Y
+C00601,Liam Clark,Liam.Clark601@example.com,(979) 573-9534,Halifax,NS,B3H1A1,2023-11-10,Mexican,NO,1
+C00602,Mia Anderson,Mia.Anderson602@example.com,(273) 913-6549,Halifax,NS,b3h 1a1,2023-07-09,Japanese,0,TRUE
+C00603,John Anderson,John.Anderson603@example.com,(568) 214-9620,Ottawa,ON,K1P1J1,2023-08-17,American,1,N
+C00604,Ava Brown,Ava.Brown604@example.com,(270) 651-5623,Ottawa,ON,K1P1J1,2024-05-22,Mediterranean,TRUE,NO
+C00605,Olivia Taylor,Olivia.Taylor605@example.com,(846) 979-7233,Ottawa,ON,K1P1J1,2026-02-20,Mediterranean,N,0
+C00606,Liam Hall,Liam.Hall606@example.com,(808) 230-4750,Vancouver,BC,V6B1A1,2025-10-17,Mediterranean,0,TRUE
+C00607,John Lee,John.Lee607@example.com,(337) 786-8929,Montreal,QC,H2X1Y4,2024-07-20,American,YES,TRUE
+C00608,Sophia Smith,Sophia.Smith608@example.com,(410) 923-7120,Toronto,ON,M5V2T6,2023-04-02,Mexican,N,N
+C00609,Emma Lee,Emma.Lee609@example.com,(972) 984-6410,Toronto,ON,M5V2T6,2026-05-03,Thai,YES,Y
+C00610,Emma Hall,Emma.Hall610@example.com,(804) 329-6063,Ottawa,ON,K1P1J1,2023-01-25,Chinese,YES,0
+C00611,Ava Brown,Ava.Brown611@example.com,(300) 582-9261,Toronto,on,M5V2T6,2025-11-23,Mediterranean,TRUE,YES
+C00612,Mia Allen,Mia.Allen612@example.com,(979) 342-5511,Ottawa,ON,K1P1J1,2026-06-12,Thai,FALSE,0
+C00613,Olivia Anderson,Olivia.Anderson613@example.com,(320) 368-8839,Montreal,QC,H2X1Y4,2023-03-12,Japanese,FALSE,YES
+C00614,Emma Clark,Emma.Clark614@example.com,(681) 687-5144,Halifax,NS,B3H1A1,2024-02-04,Indian,TRUE,0
+C00615,  ava SMITH  ,Ava.Smith615@example.com,(468) 288-1160,Vancouver,BC,V6B1A1,2023-12-07,Indian,FALSE,TRUE
+C00616,Ethan Brown,Ethan.Brown616@example.com,(782) 448-7080,Halifax,NS,B3H1A1,2023-02-02,Indian,1,FALSE
+C00617,Emma Taylor,Emma.Taylor617@example.com,(939) 351-6271,Toronto,ON,M5V2T6,2025-12-11,Chinese,N,1
+C00618,Liam Lee,Liam.Lee618@example.com,(726) 989-2522,Halifax,NS,B3H1A1,2023-10-04,Chinese,YES,FALSE
+C00619,Mia Johnson,Mia.Johnson619@example.com,(771) 894-9334,Halifax,NS,B3H1A1,2026-06-12,Japanese,NO,NO
+C00620,Lucas Thomas,Lucas.Thomas620@example.com,(937) 234-8246,Halifax,NS,B3H 1A1,2024-09-17,Mediterranean,NO,0
+C00621,Ethan Allen,Ethan.Allen621@example.com,(848) 662-8837,Vancouver,BC,V6B1A1,2024-11-15,Mexican,FALSE,NO
+C00622,Liam Johnson,Liam.Johnson622@example.com,(567) 914-3666,Montreal,QC,H2X1Y4,2024-05-12,Chinese,N,NO
+C00623,Lucas Thomas,Lucas.Thomas623@example.com,(619) 546-1448,Calgary,AB,T2P1J9,2025-08-13,Indian,0,0
+C00624,Emma Clark,Emma.Clark624@example.com,(564) 662-8143,Ottawa,ON,K1P1J1,2026-05-11,Thai,YES,NO
+C00625,Michael Taylor,Michael.Taylor625@example.com,(575) 498-9951,Calgary,AB,T2P1J9,2025-10-21,Japanese,Y,TRUE
+C00626,Lucas Wilson,Lucas.Wilson626@example.com,(213) 576-2712,Toronto,ON,M5V2T6,2023-02-24,Mexican,YES,FALSE
+C00627,Liam Lee,Liam.Lee627@example.com,(386) 906-5810,Montreal,QC,H2X1Y4,2024-06-21,Indian,FALSE,N
+C00628,Sophia Anderson,Sophia.Anderson628@example.com,(437) 391-2993,Toronto,ON,M5V2T6,2023-03-28,American,TRUE,N
+C00629,Ethan Lee,  ETHAN.LEE629@EXAMPLE.COM  ,(276) 935-5617,Halifax,NS,B3H1A1,2024-10-09,Indian,1,YES
+C00630,Sophia Clark,Sophia.Clark630@example.com,(240) 290-9008,Halifax,NS,B3H1A1,2025-06-21,Chinese,0,FALSE
+C00631,Lucas Brown,Lucas.Brown631@example.com,(690) 675-3814,Vancouver,BC,V6B1A1,2023-11-23,Italian,1,FALSE
+C00632,Mia Anderson,Mia.Anderson632@example.com,(954) 942-4669,Ottawa,ON,K1P1J1,2025-02-09,Chinese,0,NO
+C00633,Ethan Brown,Ethan.Brown633@example.com,(368) 881-5601,Ottawa,ON,K1P1J1,2024-11-10,Chinese,TRUE,YES
+C00634,Olivia Allen,Olivia.Allen634@example.com,(953) 972-8913,Vancouver,BC,V6B1A1,2026-02-09,Thai,YES,NO
+C00635,Mia Hall,Mia.Hall635@example.com,(638) 984-7670,Toronto,ON,M5V2T6,2024-11-06,Italian,1,NO
+C00636,Ethan Clark,Ethan.Clark636@example.com,(521) 538-5391,HALIFAX,NS,B3H1A1,2023-05-03,American,FALSE,YES
+C00637,Lucas Anderson,Lucas.Anderson637@example.com,(536) 547-1800,Vancouver,BC,V6B1A1,2024-07-20,Italian,FALSE,Y
+C00638,Noah Johnson,Noah.Johnson638@example.com,(782) 455-9761,Toronto,ON,M5V2T6,2024-10-10,Thai,0,N
+C00639,Emma Taylor,Emma.Taylor639@example.com,(273) 835-6322,Toronto,ON,M5V2T6,2024-03-05,Mexican,FALSE,YES
+C00640,John Martin,John.Martin640@example.com,(263) 473-7823,Vancouver,BC,V6B1A1,2023-04-04,Indian,YES,1
+C00641,Liam Wilson,Liam.Wilson641@example.com,(427) 298-4306,Halifax,NS,B3H1A1,2025-06-15,American,1,YES
+C00642,Sarah Martin,Sarah.Martin642@example.com,(765) 332-2426,Vancouver,BC,V6B1A1,2026-06-09,Thai,1,N
+C00643,Mia Clark,Mia.Clark643@example.com,(704) 251-6778,Toronto,ON,M5V2T6,2024-12-25,Chinese,YES,NO
+C00644,Noah Anderson,Noah.Anderson644@example.com,(950) 222-8179,Toronto,ON,M5V2T6,2024-08-11,American,NO,1
+C00645,Noah Martin,Noah.Martin645@example.com,(455) 257-3849,Toronto,ON,m5v 2t6,2023-02-20,Thai,1,Y
+C00646,Emma Taylor,Emma.Taylor646@example.com,(954) 682-7455,Toronto,ON,M5V2T6,2025-10-14,Mexican,0,TRUE
+C00647,Michael Allen,Michael.Allen647@example.com,(470) 655-4602,Calgary,AB,T2P1J9,2026-03-26,Italian,TRUE,YES
+C00648,Sophia Hall,Sophia.Hall648@example.com,(862) 839-6492,Vancouver,BC,V6B1A1,2023-01-16,American,TRUE,Y
+C00649,Emma Martin,Emma.Martin649@example.com,(449) 566-9934,Halifax,NS,B3H1A1,2024-08-17,ITALIAN,Y,FALSE
+C00650,Ethan Smith,Ethan.Smith650@example.com,(979) 992-7043,Montreal,QC,H2X1Y4,2025-06-05,American,YES,NO
+C00651,Liam Johnson,Liam.Johnson651@example.com,(296) 579-8974,Ottawa,ON,K1P 1J1,2026-07-19,Mexican,FALSE,0
+C00652,Liam Hall,Liam.Hall652@example.com,(919) 730-6916,Toronto,ON,M5V2T6,2026-03-02,Mexican,TRUE,Y
+C00653,Noah Allen,Noah.Allen653@example.com,(850) 803-7450,Toronto,ON,M5V2T6,2025-09-04,Indian,NO,1
+C00654,Mia Smith,Mia.Smith654@example.com,(728) 303-3943,Toronto,ON,M5V2T6,2025-06-11,Thai,YES,0
+C00655,Liam Johnson,Liam.Johnson655@example.com,(752) 696-3209,Ottawa,ON,K1P1J1,2025-07-17,Mediterranean,Y,FALSE
+C00656,  sarah MARTIN  ,Sarah.Martin656@example.com,(924) 267-1908,Montreal,QC,H2X1Y4,2026-07-10,Mexican,N,TRUE
+C00657,John Lee,John.Lee657@example.com,(996) 713-7593,Halifax,NS,B3H1A1,2023-09-08,Japanese,FALSE,0
+C00658,John Allen,John.Allen658@example.com,(292) 866-5650,Vancouver,bc,V6B1A1,2025-02-07,Japanese,YES,1
+C00659,Noah Wilson,Noah.Wilson659@example.com,(982) 782-2252,Halifax,NS,B3H1A1,2026-01-02,Chinese,NO,YES
+C00660,Noah Clark,Noah.Clark660@example.com,(281) 956-4249,Montreal,QC,H2X1Y4,2023-07-31,Japanese,N,0
+C00661,Emma Wilson,Emma.Wilson661@example.com,(924) 883-7225,Toronto,ON,M5V2T6,2025-05-29,Italian,FALSE,1
+C00662,Emma Hall,Emma.Hall662@example.com,(358) 768-2919,Halifax,NS,B3H1A1,2024-02-13,Japanese,NO,1
+C00663,Ethan Anderson,Ethan.Anderson663@example.com,(961) 235-3029,Halifax,NS,B3H1A1,2024-12-24,Mediterranean,TRUE,TRUE
+C00664,Sophia Lee,Sophia.Lee664@example.com,(692) 327-7748,Vancouver,BC,V6B1A1,2024-10-30,Mexican,NO,1
+C00665,Ava Hall,Ava.Hall665@example.com,(543) 517-4837,Halifax,NS,B3H1A1,2023-08-08,Mexican,NO,1
+C00666,Ava Johnson,  AVA.JOHNSON666@EXAMPLE.COM  ,(527) 895-2907,Halifax,NS,B3H1A1,2025-04-18,Japanese,FALSE,NO
+C00667,Liam Wilson,Liam.Wilson667@example.com,(561) 385-9847,Montreal,QC,H2X1Y4,2023-01-17,Thai,0,1
+C00668,Noah Anderson,Noah.Anderson668@example.com,(451) 744-3422,Calgary,AB,T2P1J9,2025-10-12,Italian,YES,YES
+C00669,Michael Thomas,Michael.Thomas669@example.com,(227) 706-9720,Montreal,QC,H2X1Y4,2026-05-20,Chinese,0,TRUE
+C00670,Lucas Lee,Lucas.Lee670@example.com,(293) 675-5684,Vancouver,BC,V6B1A1,2025-02-16,Italian,N,Y
+C00671,Sophia Smith,Sophia.Smith671@example.com,(405) 229-3541,Halifax,NS,B3H1A1,2025-10-15,Japanese,Y,N
+C00672,Lucas Allen,Lucas.Allen672@example.com,(825) 972-6631,Halifax,NS,B3H1A1,2025-08-27,American,NO,NO
+C00673,Ava Johnson,Ava.Johnson673@example.com,(720) 530-5892,Halifax,NS,B3H1A1,2025-07-18,Japanese,1,FALSE
+C00674,Ava Anderson,Ava.Anderson674@example.com,(569) 916-3129,Vancouver,BC,V6B1A1,2022-12-26,Mediterranean,TRUE,N
+C00675,John Brown,John.Brown675@example.com,(847) 434-3472,Calgary,AB,T2P1J9,2023-11-05,Mediterranean,1,TRUE
+C00676,Liam Brown,Liam.Brown676@example.com,(581) 488-7101,Vancouver,BC,V6B1A1,2024-06-17,Italian,1,N
+C00677,Olivia Smith,Olivia.Smith677@example.com,(615) 998-4646,Halifax,NS,B3H1A1,2025-02-20,Mexican,N,NO
+C00678,Sophia Anderson,Sophia.Anderson678@example.com,(447) 583-1764,Calgary,AB,T2P1J9,2025-11-02,Mediterranean,NO,NO
+ C00679 ,Mia Anderson,Mia.Anderson679@example.com,(669) 976-1706,Montreal,QC,H2X1Y4,2023-02-08,American,YES,Y
+C00680,Noah Martin,Noah.Martin680@example.com,(640) 254-9674,Halifax,NS,B3H1A1,2026-05-17,Indian,N,NO
+C00681,Sophia Allen,Sophia.Allen681@example.com,(909) 927-7141,Toronto,ON,M5V2T6,2023-05-21,Chinese,FALSE,TRUE
+C00682,Noah Brown,Noah.Brown682@example.com,(283) 395-6895,Vancouver,BC,V6B 1A1,2025-11-02,Thai,0,NO
+C00683,Liam Anderson,Liam.Anderson683@example.com,(587) 275-8552,Calgary,AB,T2P1J9,2024-11-07,Mediterranean,N,FALSE
+C00684,Emma Anderson,Emma.Anderson684@example.com,(480) 523-8768,Montreal,QC,H2X1Y4,2023-03-19,Indian,FALSE,0
+C00685,Ava Taylor,Ava.Taylor685@example.com,(400) 807-7120,Montreal,QC,H2X1Y4,2025-03-09,American,Y,1
+C00686,Ava Martin,Ava.Martin686@example.com,(833) 378-9165,Halifax,NS,B3H1A1,2024-06-01,Japanese,TRUE,0
+C00687,Michael Brown,Michael.Brown687@example.com,(879) 784-7753,Ottawa,ON,K1P1J1,2023-10-09,Mediterranean,1,NO
+C00688,Ethan Smith,Ethan.Smith688@example.com,(865) 980-3339,Ottawa,ON,k1p 1j1,2025-03-09,Thai,YES,YES
+C00689,Ava Taylor,Ava.Taylor689@example.com,(969) 884-9829,MONTREAL,QC,H2X1Y4,2026-05-09,Japanese,YES,Y
+C00690,Mia Brown,Mia.Brown690@example.com,(449) 814-1925,Ottawa,ON,K1P1J1,2022-11-14,Italian,TRUE,1
+C00691,Sarah Clark,Sarah.Clark691@example.com,(376) 322-8378,Montreal,QC,H2X1Y4,2023-06-17,Mexican,Y,TRUE
+C00692,Liam Clark,Liam.Clark692@example.com,(829) 320-4763,Halifax,NS,B3H1A1,2023-07-11,Japanese,FALSE,YES
+C00693,Sophia Martin,Sophia.Martin693@example.com,(952) 579-9633,Montreal,QC,H2X1Y4,2024-01-12,Mexican,TRUE,N
+C00694,Sarah Martin,Sarah.Martin694@example.com,(389) 215-1486,Ottawa,ON,K1P1J1,2024-01-31,Mediterranean,TRUE,0
+C00695,Olivia Taylor,Olivia.Taylor695@example.com,(473) 995-9282,Halifax,NS,B3H1A1,2024-12-04,Mexican,1,NO
+C00696,Ethan Anderson,Ethan.Anderson696@example.com,(838) 930-5178,Calgary,AB,T2P1J9,2026-04-07,Thai,NO,Y
+C00697,  emma LEE  ,Emma.Lee697@example.com,(276) 202-1474,Ottawa,ON,K1P1J1,2023-12-23,Japanese,Y,N
+C00698,Ava Brown,Ava.Brown698@example.com,(504) 308-4166,Vancouver,BC,V6B1A1,2024-10-16,Japanese,YES,YES
+C00699,John Johnson,John.Johnson699@example.com,(778) 484-7258,Montreal,QC,H2X1Y4,2023-08-10,Chinese,1,NO
+C00700,Mia Lee,Mia.Lee700@example.com,(580) 227-4063,Ottawa,ON,K1P1J1,2025-10-11,Indian,Y,YES
+C00701,Lucas Johnson,Lucas.Johnson701@example.com,(566) 489-9467,Ottawa,ON,K1P1J1,2025-08-05,Mexican,1,NO
+C00702,Emma Anderson,Emma.Anderson702@example.com,(287) 334-5352,Toronto,ON,M5V2T6,2022-11-13,American,0,0
+C00703,Sarah Smith,  SARAH.SMITH703@EXAMPLE.COM  ,(357) 545-1838,Calgary,AB,T2P1J9,2022-12-30,Mexican,FALSE,TRUE
+C00704,Lucas Allen,Lucas.Allen704@example.com,(911) 661-9075,Calgary,AB,T2P1J9,2023-01-02,Mexican,0,N
+C00705,Michael Hall,Michael.Hall705@example.com,(801) 947-9477,Toronto,on,M5V2T6,2023-02-16,Mediterranean,1,N
+C00706,Lucas Smith,Lucas.Smith706@example.com,(252) 788-4351,Montreal,QC,H2X1Y4,2025-07-10,Mediterranean,Y,Y
+C00707,Sophia Martin,Sophia.Martin707@example.com,(891) 620-7317,Ottawa,ON,K1P1J1,2026-07-11,Mexican,0,N
+C00708,John Johnson,John.Johnson708@example.com,(459) 642-8297,Ottawa,ON,K1P1J1,2024-07-05,CHINESE,FALSE,NO
+C00709,Sarah Johnson,Sarah.Johnson709@example.com,(375) 488-2015,Montreal,QC,H2X1Y4,2023-04-13,Italian,0,1
+C00710,Sarah Wilson,Sarah.Wilson710@example.com,(463) 376-1112,Halifax,NS,B3H1A1,2023-03-25,American,YES,NO
+C00711,Sarah Martin,Sarah.Martin711@example.com,(659) 892-1510,Toronto,ON,M5V2T6,2023-03-02,American,N,N
+C00712,Lucas Wilson,Lucas.Wilson712@example.com,(837) 307-6988,Montreal,QC,H2X1Y4,2023-07-21,Indian,N,NO
+C00713,Olivia Thomas,Olivia.Thomas713@example.com,(268) 434-6434,Montreal,QC,H2X 1Y4,2023-10-23,Mexican,FALSE,Y
+C00714,Sarah Clark,Sarah.Clark714@example.com,(647) 922-8742,Vancouver,BC,V6B1A1,2024-11-28,Chinese,YES,0
+C00715,Sarah Smith,Sarah.Smith715@example.com,(531) 621-3592,Ottawa,ON,K1P1J1,2024-05-10,Thai,N,TRUE
+C00716,Liam Allen,Liam.Allen716@example.com,(309) 958-6380,Ottawa,ON,K1P1J1,2025-12-01,Mexican,N,0
+C00717,Emma Anderson,Emma.Anderson717@example.com,(361) 811-6433,Toronto,ON,M5V2T6,2026-01-05,Mediterranean,Y,0
+C00718,John Anderson,John.Anderson718@example.com,(649) 633-3529,Ottawa,ON,K1P1J1,2023-06-26,Mediterranean,TRUE,FALSE
+C00719,Ava Hall,Ava.Hall719@example.com,(688) 686-4693,Halifax,NS,B3H1A1,2023-01-05,Chinese,YES,TRUE
+C00720,Liam Taylor,Liam.Taylor720@example.com,(666) 844-6517,Toronto,ON,M5V2T6,2025-10-26,American,N,N
+C00721,Sophia Taylor,Sophia.Taylor721@example.com,(394) 523-7670,Calgary,AB,T2P1J9,2025-01-29,Mexican,1,1
+C00722,Sophia Johnson,Sophia.Johnson722@example.com,(688) 320-2520,Vancouver,BC,V6B1A1,2025-02-20,Mediterranean,Y,N
+C00723,John Lee,John.Lee723@example.com,(724) 634-5613,Toronto,ON,M5V2T6,2024-12-27,Indian,1,Y
+C00724,Noah Hall,Noah.Hall724@example.com,(808) 423-5810,Toronto,ON,M5V2T6,2024-05-10,Mexican,NO,FALSE
+C00725,Ethan Wilson,Ethan.Wilson725@example.com,(424) 608-8915,Toronto,ON,M5V2T6,2023-08-08,Indian,1,1
+C00726,Michael Allen,Michael.Allen726@example.com,(758) 609-8834,Ottawa,ON,K1P1J1,2025-05-30,Mediterranean,NO,YES
+C00727,Ethan Brown,Ethan.Brown727@example.com,(364) 260-1066,Montreal,QC,H2X1Y4,2024-03-04,American,Y,1
+C00728,Ava Martin,Ava.Martin728@example.com,(552) 560-7665,Toronto,ON,M5V2T6,2024-08-21,Thai,YES,N
+C00729,Ava Johnson,Ava.Johnson729@example.com,(274) 501-2213,Vancouver,BC,V6B1A1,2025-11-24,American,YES,TRUE
+C00730,Sophia Taylor,Sophia.Taylor730@example.com,(835) 715-5347,Halifax,NS,B3H1A1,2023-03-15,Mexican,TRUE,0
+C00731,Ethan Martin,Ethan.Martin731@example.com,(340) 945-9168,Calgary,AB,t2p 1j9,2023-07-08,Mediterranean,FALSE,N
+C00732,Ava Hall,Ava.Hall732@example.com,(450) 321-7133,Ottawa,ON,K1P1J1,2026-05-12,American,1,1
+C00733,Emma Anderson,Emma.Anderson733@example.com,(596) 392-5263,Halifax,NS,B3H1A1,2023-09-05,Mexican,NO,YES
+C00734,Lucas Thomas,Lucas.Thomas734@example.com,(517) 890-3554,Halifax,NS,B3H1A1,2025-09-27,Thai,NO,0
+C00735,Sarah Smith,Sarah.Smith735@example.com,(989) 656-5484,Toronto,ON,M5V2T6,2026-04-25,Mexican,0,FALSE
+C00736,Emma Allen,Emma.Allen736@example.com,(217) 989-8606,Montreal,QC,H2X1Y4,2025-01-18,Italian,1,N
+C00737,Sophia Hall,Sophia.Hall737@example.com,(544) 666-5406,Montreal,QC,H2X1Y4,2025-04-01,Chinese,0,1
+C00738,  olivia ALLEN  ,Olivia.Allen738@example.com,(736) 453-7291,Calgary,AB,T2P1J9,2025-12-06,Mediterranean,1,Y
+C00739,Olivia Thomas,Olivia.Thomas739@example.com,(724) 712-7813,Toronto,ON,M5V2T6,2023-06-20,Italian,YES,0
+C00740,Sophia Anderson,  SOPHIA.ANDERSON740@EXAMPLE.COM  ,(602) 835-2213,Montreal,QC,H2X1Y4,2023-12-09,Japanese,Y,NO
+C00741,Ethan Allen,Ethan.Allen741@example.com,(353) 632-4145,Montreal,QC,H2X1Y4,2024-08-31,Thai,YES,Y
+C00742,Sarah Martin,Sarah.Martin742@example.com,(888) 940-2773,HALIFAX,NS,B3H1A1,2026-03-13,American,N,N
+C00743,Sarah Hall,Sarah.Hall743@example.com,(817) 640-9594,Halifax,NS,B3H1A1,2024-09-02,Chinese,0,TRUE
+C00744,Sarah Anderson,Sarah.Anderson744@example.com,(613) 448-7319,Montreal,QC,H2X 1Y4,2025-07-07,Chinese,NO,0
+C00745,Sophia Taylor,Sophia.Taylor745@example.com,(786) 976-4346,Toronto,ON,M5V2T6,2025-06-14,Chinese,TRUE,N
+C00746,Noah Wilson,Noah.Wilson746@example.com,(523) 364-9563,Vancouver,BC,V6B1A1,2024-05-30,Chinese,N,Y
+C00747,Michael Hall,Michael.Hall747@example.com,(203) 204-8185,Toronto,ON,M5V2T6,2023-08-29,Italian,FALSE,TRUE
+C00748,Sophia Hall,Sophia.Hall748@example.com,(790) 596-8387,Halifax,NS,B3H1A1,2023-02-24,Japanese,FALSE,NO
+C00749,Mia Anderson,Mia.Anderson749@example.com,(735) 929-3997,Montreal,QC,H2X1Y4,2025-02-14,Italian,YES,YES
+C00750,Ethan Allen,Ethan.Allen750@example.com,(254) 545-9377,Ottawa,ON,K1P1J1,2024-04-06,Indian,NO,N
+C00751,Ava Martin,Ava.Martin751@example.com,(663) 589-1648,Ottawa,ON,K1P1J1,2025-02-10,Chinese,NO,FALSE
+C00752,Lucas Anderson,Lucas.Anderson752@example.com,(856) 798-1389,Toronto,on,M5V2T6,2026-01-23,Mexican,TRUE,0
+C00753,Ava Clark,Ava.Clark753@example.com,(755) 391-5907,Halifax,NS,B3H1A1,2022-12-16,Chinese,N,YES
+C00754,Olivia Allen,Olivia.Allen754@example.com,(560) 666-8373,Halifax,NS,B3H1A1,2025-08-25,American,FALSE,NO
+C00755,Michael Smith,Michael.Smith755@example.com,(806) 651-9029,Toronto,ON,M5V2T6,2025-10-16,Japanese,Y,N
+C00756,Liam Anderson,Liam.Anderson756@example.com,(333) 447-1818,Ottawa,ON,K1P1J1,2025-07-01,Indian,0,FALSE
+C00757,Sarah Allen,Sarah.Allen757@example.com,(298) 548-3375,Calgary,AB,T2P1J9,2024-01-02,Thai,YES,TRUE
+C00758,Ethan Martin,Ethan.Martin758@example.com,(330) 809-7306,Toronto,ON,M5V2T6,2024-02-09,American,TRUE,NO
+C00759,Lucas Lee,Lucas.Lee759@example.com,(895) 936-9918,Toronto,ON,M5V2T6,2023-06-06,Thai,YES,0
+C00760,Noah Brown,Noah.Brown760@example.com,(793) 704-4764,Halifax,NS,B3H1A1,2023-06-14,Indian,1,TRUE
+C00761,Ethan Brown,Ethan.Brown761@example.com,(583) 489-2468,Vancouver,BC,V6B1A1,2025-10-25,American,1,NO
+C00762,John Anderson,John.Anderson762@example.com,(511) 673-1060,Vancouver,BC,V6B1A1,2025-12-06,Mediterranean,1,0
+C00763,Michael Allen,Michael.Allen763@example.com,(892) 894-4425,Toronto,ON,M5V2T6,2023-06-25,Japanese,TRUE,N
+C00764,Mia Wilson,Mia.Wilson764@example.com,(867) 600-3851,Ottawa,ON,K1P1J1,2025-08-13,Mediterranean,NO,NO
+C00765,Liam Allen,Liam.Allen765@example.com,(723) 318-1726,Calgary,AB,T2P1J9,2025-01-03,American,YES,1
+C00766,Michael Allen,Michael.Allen766@example.com,(742) 633-7105,Calgary,AB,T2P1J9,2026-02-02,Chinese,1,0
+C00767,Liam Hall,Liam.Hall767@example.com,(910) 308-1292,Vancouver,BC,V6B1A1,2025-05-12,ITALIAN,FALSE,NO
+C00768,Mia Anderson,Mia.Anderson768@example.com,(300) 641-3101,Ottawa,ON,K1P1J1,2025-03-02,Mexican,N,0
+C00769,Emma Taylor,Emma.Taylor769@example.com,(923) 438-7163,Toronto,ON,M5V2T6,2023-04-08,Thai,0,1
+C00770,John Johnson,John.Johnson770@example.com,(406) 428-9998,Calgary,AB,T2P1J9,2025-12-10,Mexican,Y,N
+C00771,Sarah Martin,Sarah.Martin771@example.com,(446) 486-5016,Halifax,NS,B3H1A1,2023-05-19,Chinese,NO,TRUE
+C00772,Michael Hall,Michael.Hall772@example.com,(617) 709-4893,Halifax,NS,B3H1A1,2024-01-25,American,NO,FALSE
+C00773,Noah Allen,Noah.Allen773@example.com,(711) 251-6878,Vancouver,BC,V6B1A1,2023-01-14,Indian,Y,1
+C00774,Michael Hall,Michael.Hall774@example.com,(271) 568-7260,Halifax,NS,b3h 1a1,2026-03-04,Indian,NO,N
+C00775,Liam Allen,Liam.Allen775@example.com,(517) 881-3640,Montreal,QC,H2X 1Y4,2025-07-04,Mediterranean,TRUE,YES
+ C00776 ,John Clark,John.Clark776@example.com,(993) 202-5790,Montreal,QC,H2X1Y4,2025-08-21,Chinese,TRUE,0
+C00777,Sophia Thomas,  SOPHIA.THOMAS777@EXAMPLE.COM  ,(563) 469-8708,Montreal,QC,H2X1Y4,2023-01-10,Indian,NO,YES
+C00778,Ava Brown,Ava.Brown778@example.com,(947) 786-1487,Montreal,QC,H2X1Y4,2025-10-27,Mediterranean,0,YES
+C00779,  sophia BROWN  ,Sophia.Brown779@example.com,(698) 538-4379,Vancouver,BC,V6B1A1,2025-10-02,Japanese,YES,0
+C00780,Sarah Clark,Sarah.Clark780@example.com,(586) 493-2921,Halifax,NS,B3H1A1,2023-10-14,Mediterranean,NO,N
+C00781,Mia Johnson,Mia.Johnson781@example.com,(287) 387-8512,Ottawa,ON,K1P1J1,2024-07-24,Chinese,FALSE,Y
+C00782,John Hall,John.Hall782@example.com,(858) 364-1850,Calgary,AB,T2P1J9,2024-11-19,Mediterranean,FALSE,Y
+C00783,Lucas Anderson,Lucas.Anderson783@example.com,(284) 768-2684,Calgary,AB,T2P1J9,2026-05-03,Mexican,1,YES
+C00784,Sophia Lee,Sophia.Lee784@example.com,(787) 966-1911,Calgary,AB,T2P1J9,2026-02-21,Mexican,Y,0
+C00785,Ethan Anderson,Ethan.Anderson785@example.com,(407) 946-8848,Vancouver,BC,V6B1A1,2024-03-10,Thai,TRUE,TRUE
+C00786,Mia Johnson,Mia.Johnson786@example.com,(837) 390-5561,Vancouver,BC,V6B1A1,2025-09-22,Chinese,N,NO
+C00787,Liam Martin,Liam.Martin787@example.com,(229) 974-8277,Montreal,QC,H2X1Y4,2025-07-22,Mediterranean,NO,YES
+C00788,Lucas Smith,Lucas.Smith788@example.com,(825) 825-9231,Ottawa,ON,K1P1J1,2024-07-07,Japanese,1,TRUE
+C00789,John Taylor,John.Taylor789@example.com,(839) 315-3806,Calgary,AB,T2P1J9,2025-04-05,Thai,N,YES
+C00790,Sophia Smith,Sophia.Smith790@example.com,(661) 407-8793,Halifax,NS,B3H1A1,2023-07-17,Italian,NO,NO
+C00791,Mia Anderson,Mia.Anderson791@example.com,(520) 683-1023,Calgary,AB,T2P1J9,2023-01-29,Japanese,0,TRUE
+C00792,John Wilson,John.Wilson792@example.com,(853) 390-1514,Ottawa,ON,K1P1J1,2024-05-28,American,N,TRUE
+C00793,Emma Martin,Emma.Martin793@example.com,(821) 367-7165,Toronto,ON,M5V2T6,2024-09-15,American,0,N
+C00794,John Allen,John.Allen794@example.com,(688) 752-8711,Montreal,QC,H2X1Y4,2026-03-19,Mediterranean,N,0
+C00795,Sarah Allen,Sarah.Allen795@example.com,(861) 684-6771,CALGARY,AB,T2P1J9,2023-08-28,Japanese,FALSE,0
+C00796,Liam Smith,Liam.Smith796@example.com,(426) 664-1164,Calgary,AB,T2P1J9,2024-07-29,Chinese,NO,TRUE
+C00797,Noah Allen,Noah.Allen797@example.com,(887) 369-8030,Halifax,NS,B3H1A1,2024-09-29,Mexican,NO,TRUE
+C00798,John Thomas,John.Thomas798@example.com,(723) 897-4647,Ottawa,ON,K1P1J1,2023-01-25,Mexican,TRUE,YES
+C00799,Lucas Hall,Lucas.Hall799@example.com,(889) 364-7597,Montreal,qc,H2X1Y4,2023-10-05,Chinese,FALSE,0
+C00800,Ethan Martin,Ethan.Martin800@example.com,(693) 612-2126,Halifax,NS,B3H1A1,2025-02-20,Italian,1,Y
+C00801,Sarah Hall,Sarah.Hall801@example.com,(632) 376-3693,Vancouver,BC,V6B1A1,2026-03-24,Indian,Y,YES
+C00802,Ava Thomas,Ava.Thomas802@example.com,(723) 646-5904,Calgary,AB,T2P1J9,2023-07-15,Indian,Y,NO
+C00803,Liam Martin,Liam.Martin803@example.com,(991) 700-7689,Toronto,ON,M5V2T6,2023-06-02,Indian,NO,NO
+C00804,Sarah Smith,Sarah.Smith804@example.com,(265) 850-3875,Toronto,ON,M5V2T6,2025-07-14,Mediterranean,FALSE,Y
+C00805,Olivia Hall,Olivia.Hall805@example.com,(514) 696-9034,Vancouver,BC,V6B1A1,2026-07-12,Mediterranean,YES,TRUE
+C00806,Sophia Smith,Sophia.Smith806@example.com,(957) 980-9934,Montreal,QC,H2X 1Y4,2024-09-27,Thai,NO,Y
+C00807,John Thomas,John.Thomas807@example.com,(829) 735-3649,Montreal,QC,H2X1Y4,2022-10-31,Thai,NO,FALSE
+C00808,Sophia Smith,Sophia.Smith808@example.com,(263) 434-9703,Calgary,AB,T2P1J9,2025-05-11,Mediterranean,Y,TRUE
+C00809,Sarah Brown,Sarah.Brown809@example.com,(373) 974-3145,Vancouver,BC,V6B1A1,2025-04-17,Mexican,1,YES
+C00810,Olivia Lee,Olivia.Lee810@example.com,(297) 558-1617,Ottawa,ON,K1P1J1,2025-02-19,Japanese,N,Y
+C00811,Michael Thomas,Michael.Thomas811@example.com,(777) 328-1805,Vancouver,BC,V6B1A1,2024-07-17,Japanese,NO,1
+C00812,Mia Hall,Mia.Hall812@example.com,(205) 258-2154,Vancouver,BC,V6B1A1,2024-02-25,Indian,TRUE,0
+C00813,Sophia Taylor,Sophia.Taylor813@example.com,(995) 571-2974,Halifax,NS,B3H1A1,2024-12-28,Mediterranean,TRUE,0
+C00814,Emma Johnson,  EMMA.JOHNSON814@EXAMPLE.COM  ,(391) 284-5797,Montreal,QC,H2X1Y4,2025-11-21,American,NO,YES
+C00815,Emma Hall,Emma.Hall815@example.com,(840) 252-2493,Ottawa,ON,K1P1J1,2023-04-01,Japanese,0,NO
+C00816,Mia Hall,Mia.Hall816@example.com,(516) 221-9248,Montreal,QC,H2X1Y4,2024-07-06,Chinese,YES,Y
+C00817,Liam Lee,Liam.Lee817@example.com,(939) 745-7850,Toronto,ON,m5v 2t6,2026-05-29,Thai,1,Y
+C00818,Liam Allen,Liam.Allen818@example.com,(634) 488-6505,Toronto,ON,M5V2T6,2024-12-10,Chinese,0,YES
+C00819,Michael Lee,Michael.Lee819@example.com,(830) 540-6532,Halifax,NS,B3H1A1,2025-12-08,Japanese,YES,YES
+C00820,  lucas BROWN  ,Lucas.Brown820@example.com,(836) 702-5823,Calgary,AB,T2P1J9,2024-12-02,Mexican,N,1
+C00821,Lucas Wilson,Lucas.Wilson821@example.com,(815) 842-2836,Ottawa,ON,K1P1J1,2026-02-21,Italian,TRUE,NO
+C00822,Sarah Allen,Sarah.Allen822@example.com,(353) 633-2592,Montreal,QC,H2X1Y4,2024-05-28,Japanese,N,FALSE
+C00823,Ethan Johnson,Ethan.Johnson823@example.com,(948) 378-9101,Halifax,NS,B3H1A1,2025-05-04,Thai,FALSE,YES
+C00824,Ethan Allen,Ethan.Allen824@example.com,(858) 610-1424,Ottawa,ON,K1P1J1,2026-02-10,Chinese,TRUE,1
+C00825,Olivia Lee,Olivia.Lee825@example.com,(468) 694-2257,Calgary,AB,T2P1J9,2023-01-22,American,YES,TRUE
+C00826,Emma Allen,Emma.Allen826@example.com,(894) 659-6741,Ottawa,ON,K1P1J1,2022-11-28,MEXICAN,FALSE,NO
+C00827,Lucas Clark,Lucas.Clark827@example.com,(476) 248-8143,Vancouver,BC,V6B1A1,2026-03-09,Thai,1,TRUE
+C00828,Emma Clark,Emma.Clark828@example.com,(976) 708-7045,Vancouver,BC,V6B1A1,2025-05-02,Indian,TRUE,1
+C00829,Sarah Johnson,Sarah.Johnson829@example.com,(200) 689-5516,Calgary,AB,T2P1J9,2024-03-04,Italian,N,YES
+C00830,Liam Martin,Liam.Martin830@example.com,(297) 511-2376,Vancouver,BC,V6B1A1,2023-09-11,Thai,Y,1
+C00831,Ethan Allen,Ethan.Allen831@example.com,(872) 579-3751,Vancouver,BC,V6B1A1,2025-07-10,Mediterranean,0,1
+C00832,Liam Wilson,Liam.Wilson832@example.com,(561) 739-2932,Ottawa,ON,K1P1J1,2024-02-10,Japanese,TRUE,NO
+C00833,Sarah Johnson,Sarah.Johnson833@example.com,(279) 649-4841,Montreal,QC,H2X1Y4,2023-03-01,Mediterranean,0,NO
+C00834,Noah Brown,Noah.Brown834@example.com,(427) 678-4714,Halifax,NS,B3H1A1,2025-02-20,Indian,TRUE,YES
+C00835,Mia Lee,Mia.Lee835@example.com,(443) 401-3135,Montreal,QC,H2X1Y4,2025-06-28,Mexican,1,0
+C00836,Lucas Thomas,Lucas.Thomas836@example.com,(949) 258-4350,Vancouver,BC,V6B1A1,2023-11-17,Mediterranean,N,TRUE
+C00837,Ethan Thomas,Ethan.Thomas837@example.com,(528) 558-4808,Vancouver,BC,V6B 1A1,2024-10-10,Mexican,TRUE,TRUE
+C00838,John Clark,John.Clark838@example.com,(651) 296-2909,Montreal,QC,H2X1Y4,2023-05-01,Mexican,TRUE,0
+C00839,Emma Smith,Emma.Smith839@example.com,(562) 861-8811,Toronto,ON,M5V2T6,2026-02-02,Mexican,YES,TRUE
+C00840,Olivia Anderson,Olivia.Anderson840@example.com,(595) 592-7323,Montreal,QC,H2X1Y4,2025-08-30,Mediterranean,YES,NO
+C00841,Emma Anderson,Emma.Anderson841@example.com,(226) 304-4505,Ottawa,ON,K1P1J1,2024-05-21,Italian,1,0
+C00842,Sarah Anderson,Sarah.Anderson842@example.com,(438) 603-3238,Halifax,NS,B3H1A1,2023-04-11,American,0,Y
+C00843,Mia Johnson,Mia.Johnson843@example.com,(635) 721-6614,Montreal,QC,H2X1Y4,2024-02-26,Mexican,TRUE,N
+C00844,Ava Thomas,Ava.Thomas844@example.com,(703) 986-5496,Vancouver,BC,V6B1A1,2024-10-13,Mexican,TRUE,1
+C00845,John Martin,John.Martin845@example.com,(315) 952-5919,Calgary,AB,T2P1J9,2025-10-24,Chinese,N,N
+C00846,Sophia Thomas,Sophia.Thomas846@example.com,(833) 767-5792,Vancouver,bc,V6B1A1,2025-01-09,Chinese,YES,0
+C00847,Sophia Hall,Sophia.Hall847@example.com,(676) 636-4679,Ottawa,ON,K1P1J1,2022-12-29,Japanese,YES,N
+C00848,Noah Smith,Noah.Smith848@example.com,(541) 759-4746,OTTAWA,ON,K1P1J1,2025-06-01,Mexican,1,YES
+C00849,Liam Taylor,Liam.Taylor849@example.com,(396) 587-3077,Montreal,QC,H2X1Y4,2025-01-17,Thai,0,NO
+C00850,Ava Hall,Ava.Hall850@example.com,(376) 610-3073,Ottawa,ON,K1P1J1,2026-01-27,Indian,FALSE,NO
+C00851,Lucas Brown,  LUCAS.BROWN851@EXAMPLE.COM  ,(461) 791-9350,Ottawa,ON,K1P1J1,2025-11-07,Chinese,TRUE,Y
+C00852,Liam Anderson,Liam.Anderson852@example.com,(472) 818-6713,Ottawa,ON,K1P1J1,2024-01-09,Mediterranean,FALSE,NO
+C00853,Liam Anderson,Liam.Anderson853@example.com,(373) 973-3413,Halifax,NS,B3H1A1,2024-10-14,Italian,NO,FALSE
+C00854,Sarah Martin,Sarah.Martin854@example.com,(707) 898-8507,Halifax,NS,B3H1A1,2025-10-06,Japanese,YES,0
+C00855,Ava Wilson,Ava.Wilson855@example.com,(758) 316-5027,Halifax,NS,B3H1A1,2024-03-13,Chinese,N,FALSE
+C00856,Ava Anderson,Ava.Anderson856@example.com,(408) 663-6092,Vancouver,BC,V6B1A1,2024-09-13,American,TRUE,TRUE
+C00857,Sophia Hall,Sophia.Hall857@example.com,(903) 685-8291,Toronto,ON,M5V2T6,2024-11-27,Mediterranean,NO,FALSE
+C00858,Sarah Wilson,Sarah.Wilson858@example.com,(507) 702-7931,Ottawa,ON,K1P1J1,2024-03-09,Italian,FALSE,0
+C00859,Sarah Anderson,Sarah.Anderson859@example.com,(830) 423-4229,Vancouver,BC,V6B1A1,2025-05-05,Japanese,FALSE,FALSE
+C00860,John Wilson,John.Wilson860@example.com,(634) 274-2148,Montreal,QC,h2x 1y4,2025-02-11,Thai,YES,0
+C00861,  john SMITH  ,John.Smith861@example.com,(675) 934-8752,Vancouver,BC,V6B1A1,2023-09-12,Mexican,NO,0
+C00862,Ethan Hall,Ethan.Hall862@example.com,(677) 332-4948,Ottawa,ON,K1P1J1,2025-04-05,Chinese,Y,Y
+C00863,Ethan Smith,Ethan.Smith863@example.com,(819) 529-7679,Halifax,NS,B3H1A1,2023-02-05,Mexican,NO,TRUE
+C00864,Michael Clark,Michael.Clark864@example.com,(973) 903-6631,Ottawa,ON,K1P1J1,2023-07-12,Japanese,N,N
+C00865,Lucas Clark,Lucas.Clark865@example.com,(328) 678-3586,Ottawa,ON,K1P1J1,2023-09-15,Italian,FALSE,N
+C00866,Ethan Allen,Ethan.Allen866@example.com,(411) 348-2004,Halifax,NS,B3H1A1,2024-01-02,Mediterranean,N,TRUE
+C00867,Liam Brown,Liam.Brown867@example.com,(386) 241-1840,Toronto,ON,M5V2T6,2024-03-09,Chinese,0,0
+C00868,Mia Martin,Mia.Martin868@example.com,(296) 548-4611,Toronto,ON,M5V 2T6,2025-05-22,Indian,TRUE,Y
+C00869,Michael Hall,Michael.Hall869@example.com,(935) 210-3446,Montreal,QC,H2X1Y4,2025-05-14,Japanese,YES,1
+C00870,Mia Clark,Mia.Clark870@example.com,(777) 506-4909,Halifax,NS,B3H1A1,2024-07-06,Mediterranean,N,N
+C00871,Michael Martin,Michael.Martin871@example.com,(836) 882-1398,Vancouver,BC,V6B1A1,2022-10-27,Mexican,YES,N
+C00872,Olivia Clark,Olivia.Clark872@example.com,(997) 633-3018,Vancouver,BC,V6B1A1,2025-12-20,American,N,YES
+ C00873 ,Olivia Anderson,Olivia.Anderson873@example.com,(921) 391-7238,Calgary,AB,T2P1J9,2026-03-13,Mediterranean,FALSE,YES
+C00874,Emma Thomas,Emma.Thomas874@example.com,(803) 999-3727,Montreal,QC,H2X1Y4,2024-05-24,Japanese,TRUE,NO
+C00875,John Allen,John.Allen875@example.com,(434) 910-9858,Montreal,QC,H2X1Y4,2026-03-16,Indian,1,N
+C00876,Liam Smith,Liam.Smith876@example.com,(714) 962-9583,Montreal,QC,H2X1Y4,2022-11-09,Italian,NO,YES
+C00877,Sarah Hall,Sarah.Hall877@example.com,(319) 668-7713,Halifax,NS,B3H1A1,2023-05-25,Japanese,FALSE,1
+C00878,Noah Hall,Noah.Hall878@example.com,(599) 619-2461,Vancouver,BC,V6B1A1,2024-10-22,Mediterranean,N,1
+C00879,Lucas Johnson,Lucas.Johnson879@example.com,(549) 882-5173,Halifax,NS,B3H1A1,2023-01-09,Indian,Y,1
+C00880,Emma Clark,Emma.Clark880@example.com,(851) 922-7226,Calgary,AB,T2P1J9,2025-09-19,Indian,TRUE,0
+C00881,Liam Taylor,Liam.Taylor881@example.com,(977) 437-4257,Vancouver,BC,V6B1A1,2026-02-13,Chinese,N,1
+C00882,Noah Johnson,Noah.Johnson882@example.com,(539) 979-2863,Montreal,QC,H2X1Y4,2024-12-18,Japanese,N,N
+C00883,Olivia Taylor,Olivia.Taylor883@example.com,(743) 203-9197,Halifax,NS,B3H1A1,2026-04-16,Mexican,NO,N
+C00884,John Smith,John.Smith884@example.com,(418) 531-2914,Vancouver,BC,V6B1A1,2023-02-01,Italian,0,Y
+C00885,Michael Anderson,Michael.Anderson885@example.com,(218) 632-2335,Ottawa,ON,K1P1J1,2025-05-23,THAI,1,NO
+C00886,Emma Taylor,Emma.Taylor886@example.com,(429) 814-7563,Ottawa,ON,K1P1J1,2023-08-16,Mediterranean,0,NO
+C00887,Mia Thomas,Mia.Thomas887@example.com,(943) 769-8809,Toronto,ON,M5V2T6,2026-01-28,Mexican,FALSE,Y
+C00888,Lucas Thomas,  LUCAS.THOMAS888@EXAMPLE.COM  ,(914) 577-8540,Vancouver,BC,V6B1A1,2022-11-04,Chinese,N,N
+C00889,Michael Lee,Michael.Lee889@example.com,(322) 233-6352,Calgary,AB,T2P1J9,2023-08-02,Chinese,0,1
+C00890,Emma Allen,Emma.Allen890@example.com,(201) 533-5584,Calgary,AB,T2P1J9,2022-12-08,Thai,N,YES
+C00891,Sarah Clark,Sarah.Clark891@example.com,(484) 808-1643,Halifax,NS,B3H1A1,2024-06-25,Thai,TRUE,TRUE
+C00892,Olivia Anderson,Olivia.Anderson892@example.com,(843) 543-9985,Toronto,ON,M5V2T6,2023-06-16,Japanese,1,Y
+C00893,Mia Anderson,Mia.Anderson893@example.com,(450) 853-9725,Calgary,ab,T2P1J9,2026-02-21,American,TRUE,N
+C00894,Mia Taylor,Mia.Taylor894@example.com,(723) 641-4627,Toronto,ON,M5V2T6,2026-07-14,Mediterranean,N,NO
+C00895,Noah Wilson,Noah.Wilson895@example.com,(626) 566-7755,Ottawa,ON,K1P1J1,2025-05-20,Mexican,N,0
+C00896,Ava Lee,Ava.Lee896@example.com,(532) 350-1860,Toronto,ON,M5V2T6,2024-08-05,Italian,FALSE,1
+C00897,Sarah Lee,Sarah.Lee897@example.com,(882) 937-1236,Toronto,ON,M5V2T6,2025-02-13,Japanese,TRUE,N
+C00898,Ethan Brown,Ethan.Brown898@example.com,(927) 344-4862,Vancouver,BC,V6B1A1,2026-01-09,American,1,NO
+C00899,Olivia Wilson,Olivia.Wilson899@example.com,(941) 353-2985,Montreal,QC,H2X 1Y4,2024-10-01,Chinese,TRUE,Y
+C00900,Mia Martin,Mia.Martin900@example.com,(206) 487-6710,Halifax,NS,B3H1A1,2026-02-14,Thai,N,NO
+C00901,Olivia Thomas,Olivia.Thomas901@example.com,(374) 841-5373,HALIFAX,NS,B3H1A1,2025-10-10,Chinese,1,1
+C00902,  mia WILSON  ,Mia.Wilson902@example.com,(392) 238-2593,Vancouver,BC,V6B1A1,2025-08-13,Mediterranean,Y,N
+C00903,Ava Johnson,Ava.Johnson903@example.com,(238) 387-5702,Ottawa,ON,k1p 1j1,2025-08-21,Japanese,Y,FALSE
+C00904,John Wilson,John.Wilson904@example.com,(479) 231-4640,Halifax,NS,B3H1A1,2025-12-19,American,0,FALSE
+C00905,Sarah Wilson,Sarah.Wilson905@example.com,(594) 693-4133,Toronto,ON,M5V2T6,2025-06-29,American,NO,TRUE
+C00906,Liam Brown,Liam.Brown906@example.com,(490) 216-6506,Calgary,AB,T2P1J9,2025-04-19,American,0,N
+C00907,Michael Johnson,Michael.Johnson907@example.com,(370) 624-9636,Halifax,NS,B3H1A1,2024-08-24,Japanese,0,FALSE
+C00908,Ava Johnson,Ava.Johnson908@example.com,(506) 458-2353,Vancouver,BC,V6B1A1,2026-04-07,Chinese,0,YES
+C00909,Sarah Allen,Sarah.Allen909@example.com,(932) 483-7083,Calgary,AB,T2P1J9,2024-10-22,Mexican,YES,NO
+C00910,John Lee,John.Lee910@example.com,(768) 319-5755,Calgary,AB,T2P1J9,2023-04-22,Mediterranean,NO,TRUE
+C00911,Olivia Allen,Olivia.Allen911@example.com,(642) 946-7136,Ottawa,ON,K1P1J1,2024-06-12,Chinese,TRUE,N
+C00912,Emma Thomas,Emma.Thomas912@example.com,(320) 511-2790,Montreal,QC,H2X1Y4,2026-05-11,Italian,N,FALSE
+C00913,Ava Clark,Ava.Clark913@example.com,(248) 891-2813,Toronto,ON,M5V2T6,2024-01-05,Mediterranean,FALSE,Y
+C00914,Lucas Hall,Lucas.Hall914@example.com,(750) 942-1800,Calgary,AB,T2P1J9,2024-10-11,Mediterranean,0,YES
+C00915,John Hall,John.Hall915@example.com,(396) 396-7654,Ottawa,ON,K1P1J1,2026-04-06,Indian,NO,TRUE
+C00916,Lucas Wilson,Lucas.Wilson916@example.com,(221) 587-9221,Vancouver,BC,V6B1A1,2023-07-24,Mediterranean,TRUE,YES
+C00917,Ethan Johnson,Ethan.Johnson917@example.com,(685) 997-4465,Montreal,QC,H2X1Y4,2022-10-27,Japanese,N,NO
+C00918,Olivia Hall,Olivia.Hall918@example.com,(590) 650-5492,Montreal,QC,H2X1Y4,2022-11-22,Italian,FALSE,YES
+C00919,Lucas Hall,Lucas.Hall919@example.com,(877) 239-6626,Montreal,QC,H2X1Y4,2026-05-24,Mexican,1,Y
+C00920,Noah Martin,Noah.Martin920@example.com,(561) 778-2045,Montreal,QC,H2X1Y4,2026-02-09,Italian,NO,1
+C00921,Ava Clark,Ava.Clark921@example.com,(551) 740-3623,Ottawa,ON,K1P1J1,2025-04-02,Japanese,1,YES
+C00922,Sophia Hall,Sophia.Hall922@example.com,(225) 608-8160,Toronto,ON,M5V2T6,2025-10-19,Mediterranean,Y,N
+C00923,Liam Wilson,Liam.Wilson923@example.com,(681) 848-7651,Calgary,AB,T2P1J9,2022-12-22,Indian,N,N
+C00924,Michael Lee,Michael.Lee924@example.com,(907) 391-4527,Halifax,NS,B3H1A1,2026-07-09,Indian,N,Y
+C00925,Emma Brown,  EMMA.BROWN925@EXAMPLE.COM  ,(203) 572-5685,Halifax,NS,B3H1A1,2025-10-02,Mediterranean,Y,Y
+C00926,Liam Smith,Liam.Smith926@example.com,(371) 954-4192,Ottawa,ON,K1P1J1,2024-06-11,Japanese,FALSE,FALSE
+C00927,Olivia Hall,Olivia.Hall927@example.com,(781) 912-6570,Ottawa,ON,K1P1J1,2026-01-06,Indian,1,TRUE
+C00928,Michael Johnson,Michael.Johnson928@example.com,(732) 598-9829,Calgary,AB,T2P1J9,2024-09-25,Italian,TRUE,YES
+C00929,Michael Lee,Michael.Lee929@example.com,(404) 939-9935,Toronto,ON,M5V2T6,2025-06-14,Chinese,Y,YES
+C00930,John Johnson,John.Johnson930@example.com,(424) 721-1817,Halifax,NS,B3H 1A1,2026-07-24,Mediterranean,TRUE,YES
+C00931,John Johnson,John.Johnson931@example.com,(448) 797-9967,Montreal,QC,H2X1Y4,2025-07-02,Italian,0,TRUE
+C00932,Ethan Taylor,Ethan.Taylor932@example.com,(893) 438-2055,Montreal,QC,H2X1Y4,2025-10-30,Indian,NO,0
+C00933,Liam Wilson,Liam.Wilson933@example.com,(459) 246-6438,Calgary,AB,T2P1J9,2025-10-08,Mexican,TRUE,1
+C00934,Michael Allen,Michael.Allen934@example.com,(846) 817-8852,Halifax,NS,B3H1A1,2024-11-19,Italian,N,TRUE
+C00935,Sophia Taylor,Sophia.Taylor935@example.com,(512) 872-7130,Calgary,AB,T2P1J9,2023-11-21,Chinese,YES,0
+C00936,Olivia Clark,Olivia.Clark936@example.com,(903) 569-4236,Vancouver,BC,V6B1A1,2025-07-30,Italian,0,YES
+C00937,Sarah Hall,Sarah.Hall937@example.com,(466) 206-8936,Halifax,NS,B3H1A1,2023-07-09,American,TRUE,TRUE
+C00938,Mia Anderson,Mia.Anderson938@example.com,(856) 751-6492,Calgary,AB,T2P1J9,2023-07-30,Japanese,Y,0
+C00939,Lucas Johnson,Lucas.Johnson939@example.com,(260) 261-3554,Halifax,NS,B3H1A1,2022-12-24,Mexican,0,N
+C00940,Mia Anderson,Mia.Anderson940@example.com,(394) 517-3529,Calgary,ab,T2P1J9,2026-04-20,Chinese,1,N
+C00941,Noah Martin,Noah.Martin941@example.com,(558) 247-7280,Calgary,AB,T2P1J9,2025-05-30,Mexican,YES,YES
+C00942,Olivia Anderson,Olivia.Anderson942@example.com,(561) 721-9349,Ottawa,ON,K1P1J1,2023-01-21,Italian,0,NO
+C00943,  ethan CLARK  ,Ethan.Clark943@example.com,(582) 922-2858,Toronto,ON,M5V2T6,2024-09-11,Chinese,0,1
+C00944,Lucas Thomas,Lucas.Thomas944@example.com,(477) 984-2303,Ottawa,ON,K1P1J1,2026-01-28,ITALIAN,0,1
+C00945,John Taylor,John.Taylor945@example.com,(908) 336-1339,Toronto,ON,M5V2T6,2024-04-19,Indian,1,NO
+C00946,Olivia Martin,Olivia.Martin946@example.com,(475) 472-8565,Toronto,ON,m5v 2t6,2023-08-08,Thai,TRUE,N
+C00947,Michael Clark,Michael.Clark947@example.com,(334) 419-4359,Ottawa,ON,K1P1J1,2025-12-09,Mexican,Y,Y
+C00948,Liam Johnson,Liam.Johnson948@example.com,(744) 284-6334,Ottawa,ON,K1P1J1,2024-12-20,Mediterranean,FALSE,0
+C00949,John Anderson,John.Anderson949@example.com,(316) 749-5833,Halifax,NS,B3H1A1,2023-01-19,Mediterranean,NO,TRUE
+C00950,Sarah Brown,Sarah.Brown950@example.com,(491) 873-8590,Ottawa,ON,K1P1J1,2024-01-11,Mediterranean,FALSE,0
+C00951,Liam Martin,Liam.Martin951@example.com,(603) 310-5156,Ottawa,ON,K1P1J1,2026-06-05,Japanese,YES,TRUE
+C00952,Lucas Thomas,Lucas.Thomas952@example.com,(776) 274-7456,Toronto,ON,M5V2T6,2023-01-05,Thai,TRUE,Y
+C00953,Noah Taylor,Noah.Taylor953@example.com,(581) 347-9292,Toronto,ON,M5V2T6,2025-09-13,Japanese,YES,YES
+C00954,Emma Lee,Emma.Lee954@example.com,(844) 299-8694,TORONTO,ON,M5V2T6,2023-03-19,Indian,YES,YES
+C00955,Sarah Wilson,Sarah.Wilson955@example.com,(530) 213-1234,Calgary,AB,T2P1J9,2026-03-28,Mexican,FALSE,NO
+C00956,Noah Johnson,Noah.Johnson956@example.com,(320) 890-9223,Ottawa,ON,K1P1J1,2024-12-10,Japanese,FALSE,YES
+C00957,Lucas Thomas,Lucas.Thomas957@example.com,(809) 222-7665,Vancouver,BC,V6B1A1,2023-01-04,Thai,FALSE,NO
+C00958,John Hall,John.Hall958@example.com,(286) 721-6230,Halifax,NS,B3H1A1,2025-03-16,Italian,N,YES
+C00959,Olivia Martin,Olivia.Martin959@example.com,(504) 332-9898,Halifax,NS,B3H1A1,2023-08-29,Thai,YES,YES
+C00960,Ethan Allen,Ethan.Allen960@example.com,(553) 784-5429,Vancouver,BC,V6B1A1,2025-08-23,American,TRUE,TRUE
+C00961,Sophia Brown,Sophia.Brown961@example.com,(647) 658-5302,Montreal,QC,H2X 1Y4,2025-09-07,Indian,FALSE,Y
+C00962,Noah Taylor,  NOAH.TAYLOR962@EXAMPLE.COM  ,(287) 924-3404,Toronto,ON,M5V2T6,2023-06-09,Italian,Y,NO
+C00963,Emma Allen,Emma.Allen963@example.com,(348) 838-7424,Calgary,AB,T2P1J9,2022-12-19,Indian,Y,N
+C00964,Ethan Thomas,Ethan.Thomas964@example.com,(204) 302-2809,Calgary,AB,T2P1J9,2022-12-04,American,Y,NO
+C00965,Noah Anderson,Noah.Anderson965@example.com,(915) 994-3567,Montreal,QC,H2X1Y4,2024-04-26,Italian,0,YES
+C00966,Ethan Wilson,Ethan.Wilson966@example.com,(633) 238-5140,Halifax,NS,B3H1A1,2026-06-15,Thai,1,NO
+C00967,Liam Taylor,Liam.Taylor967@example.com,(372) 214-3513,Calgary,AB,T2P1J9,2024-01-16,American,Y,FALSE
+C00968,Mia Wilson,Mia.Wilson968@example.com,(630) 732-5038,Toronto,ON,M5V2T6,2023-10-02,Italian,NO,FALSE
+C00969,Ethan Clark,Ethan.Clark969@example.com,(715) 590-2979,Vancouver,BC,V6B1A1,2024-03-07,American,0,0
+ C00970 ,Ethan Johnson,Ethan.Johnson970@example.com,(728) 750-5012,Ottawa,ON,K1P1J1,2023-12-13,Italian,NO,1
+C00971,Sophia Clark,Sophia.Clark971@example.com,(428) 509-7451,Calgary,AB,T2P1J9,2026-02-08,Mediterranean,YES,Y
+C00972,Ethan Taylor,Ethan.Taylor972@example.com,(741) 716-7443,Vancouver,BC,V6B1A1,2023-05-29,Mexican,N,Y
+C00973,Ethan Lee,Ethan.Lee973@example.com,(310) 625-9320,Vancouver,BC,V6B1A1,2025-08-22,Thai,TRUE,TRUE
+C00974,Liam Martin,Liam.Martin974@example.com,(554) 275-4094,Vancouver,BC,V6B1A1,2024-12-11,Chinese,NO,YES
+C00975,Sarah Taylor,Sarah.Taylor975@example.com,(592) 458-9519,Toronto,ON,M5V2T6,2023-03-01,Mexican,0,0
+C00976,Emma Martin,Emma.Martin976@example.com,(920) 658-4466,Montreal,QC,H2X1Y4,2025-01-13,American,N,Y
+C00977,Liam Clark,Liam.Clark977@example.com,(365) 365-5690,Halifax,NS,B3H1A1,2023-12-09,Indian,FALSE,YES
+C00978,Michael Martin,Michael.Martin978@example.com,(422) 268-1012,Calgary,AB,T2P1J9,2024-07-03,Thai,NO,1
+C00979,Liam Taylor,Liam.Taylor979@example.com,(937) 918-6840,Calgary,AB,T2P1J9,2023-10-18,Mediterranean,1,0
+C00980,Emma Thomas,Emma.Thomas980@example.com,(681) 799-6957,Toronto,ON,M5V2T6,2024-09-17,Japanese,N,YES
+C00981,John Hall,John.Hall981@example.com,(754) 639-3557,Montreal,QC,H2X1Y4,2025-07-03,Italian,Y,YES
+C00982,Ethan Smith,Ethan.Smith982@example.com,(428) 835-3882,Calgary,AB,T2P1J9,2022-12-26,Italian,0,N
+C00983,Liam Wilson,Liam.Wilson983@example.com,(628) 255-4112,Ottawa,ON,K1P1J1,2024-12-12,Indian,FALSE,FALSE
+C00984,  michael WILSON  ,Michael.Wilson984@example.com,(961) 528-8982,Halifax,NS,B3H1A1,2023-07-04,Italian,0,1
+C00985,Emma Johnson,Emma.Johnson985@example.com,(400) 521-4039,Vancouver,BC,V6B1A1,2025-06-23,Mediterranean,NO,TRUE
+C00986,Michael Clark,Michael.Clark986@example.com,(613) 368-3211,Toronto,ON,M5V2T6,2022-11-03,Mexican,NO,N
+C00987,Liam Lee,Liam.Lee987@example.com,(852) 632-7925,Vancouver,bc,V6B1A1,2025-11-18,Italian,TRUE,NO
+C00988,Emma Hall,Emma.Hall988@example.com,(728) 543-9390,Halifax,NS,B3H1A1,2024-05-22,Indian,N,YES
+C00989,John Brown,John.Brown989@example.com,(360) 851-1729,Ottawa,ON,k1p 1j1,2024-03-22,Thai,1,TRUE
+C00990,Mia Clark,Mia.Clark990@example.com,(853) 568-4411,Toronto,ON,M5V2T6,2025-07-13,American,NO,0
+C00991,Noah Allen,Noah.Allen991@example.com,(202) 694-9704,Vancouver,BC,V6B1A1,2024-02-08,Indian,NO,1
+C00992,Sophia Smith,Sophia.Smith992@example.com,(837) 289-2494,Toronto,ON,M5V 2T6,2025-01-21,Japanese,N,FALSE
+C00993,Lucas Thomas,Lucas.Thomas993@example.com,(837) 342-8435,Montreal,QC,H2X1Y4,2022-11-17,Thai,NO,0
+C00994,Ava Thomas,Ava.Thomas994@example.com,(817) 613-8075,Montreal,QC,H2X1Y4,2026-02-06,American,NO,TRUE
+C00995,John Martin,John.Martin995@example.com,(815) 820-1098,Vancouver,BC,V6B1A1,2023-04-26,American,N,YES
+C00996,Sophia Clark,Sophia.Clark996@example.com,(332) 626-1913,Calgary,AB,T2P1J9,2025-10-24,American,TRUE,YES
+C00997,John Taylor,John.Taylor997@example.com,(299) 597-5097,Calgary,AB,T2P1J9,2025-05-17,Chinese,TRUE,1
+C00998,Lucas Hall,Lucas.Hall998@example.com,(215) 880-9478,Ottawa,ON,K1P1J1,2025-02-05,Italian,0,NO
+C00999,Lucas Thomas,  LUCAS.THOMAS999@EXAMPLE.COM  ,(201) 287-4377,Halifax,NS,B3H1A1,2024-01-21,Italian,1,N
+C01000,Noah Lee,Noah.Lee1000@example.com,(483) 299-9156,Ottawa,ON,K1P1J1,2024-07-29,Indian,0,Y
+C01001,John Wilson,John.Wilson1001@example.com,(567) 703-9549,Ottawa,ON,K1P1J1,2026-06-04,Mediterranean,N,TRUE
+C01002,Ava Lee,Ava.Lee1002@example.com,(202) 209-7321,Vancouver,BC,V6B1A1,2024-08-31,Mexican,1,0
+C01003,Sophia Anderson,Sophia.Anderson1003@example.com,(650) 819-2627,Halifax,NS,B3H1A1,2026-04-23,JAPANESE,NO,FALSE
+C01004,Emma Johnson,Emma.Johnson1004@example.com,(482) 682-4082,Ottawa,ON,K1P1J1,2023-11-21,Thai,FALSE,1
+C01005,Lucas Wilson,Lucas.Wilson1005@example.com,(683) 976-3071,Calgary,AB,T2P1J9,2024-06-07,Indian,TRUE,1
+C01006,Lucas Hall,Lucas.Hall1006@example.com,(612) 677-5892,Ottawa,ON,K1P1J1,2025-06-07,Italian,TRUE,1
+C01007,Sophia Clark,Sophia.Clark1007@example.com,(720) 877-7189,OTTAWA,ON,K1P1J1,2023-09-24,Indian,N,FALSE
+C01008,Ava Smith,Ava.Smith1008@example.com,(621) 582-2178,Toronto,ON,M5V2T6,2025-01-01,American,TRUE,FALSE
+C01009,Olivia Smith,Olivia.Smith1009@example.com,(353) 302-7249,Montreal,QC,H2X1Y4,2023-08-07,Mexican,TRUE,0
+C01010,John Anderson,John.Anderson1010@example.com,(934) 220-7489,Ottawa,ON,K1P1J1,2025-08-29,Indian,FALSE,YES
+C01011,Olivia Wilson,Olivia.Wilson1011@example.com,(988) 713-3988,Vancouver,BC,V6B1A1,2023-12-21,Italian,0,FALSE
+C01012,Sarah Taylor,Sarah.Taylor1012@example.com,(398) 601-5746,Montreal,QC,H2X1Y4,2024-10-11,Italian,0,0
+C01013,Noah Lee,Noah.Lee1013@example.com,(870) 407-5997,Ottawa,ON,K1P1J1,2022-12-15,Japanese,FALSE,YES
+C01014,Emma Smith,Emma.Smith1014@example.com,(541) 650-2648,Montreal,QC,H2X1Y4,2024-01-25,Japanese,1,Y
+C01015,Ava Clark,Ava.Clark1015@example.com,(818) 905-9001,Halifax,NS,B3H1A1,2022-12-06,Chinese,FALSE,YES
+C01016,Emma Wilson,Emma.Wilson1016@example.com,(551) 230-4836,Vancouver,BC,V6B1A1,2023-04-26,Indian,YES,1
+C01017,Mia Brown,Mia.Brown1017@example.com,(545) 334-4871,Calgary,AB,T2P1J9,2023-01-21,Chinese,FALSE,0
+C01018,Michael Smith,Michael.Smith1018@example.com,(863) 903-8547,Toronto,ON,M5V2T6,2023-02-14,American,NO,1
+C01019,Lucas Wilson,Lucas.Wilson1019@example.com,(411) 466-5068,Calgary,AB,T2P1J9,2023-04-08,Italian,FALSE,YES
+C01020,Emma Allen,Emma.Allen1020@example.com,(379) 716-8951,Vancouver,BC,V6B1A1,2025-11-13,Thai,FALSE,N
+C01021,Sophia Smith,Sophia.Smith1021@example.com,(888) 453-6362,Calgary,AB,T2P1J9,2023-10-04,American,FALSE,YES
+C01022,Mia Allen,Mia.Allen1022@example.com,(250) 221-1290,Halifax,NS,B3H1A1,2024-11-02,Mediterranean,YES,0
+C01023,Lucas Taylor,Lucas.Taylor1023@example.com,(513) 852-2297,Ottawa,ON,K1P 1J1,2025-04-22,Italian,TRUE,0
+C01024,John Brown,John.Brown1024@example.com,(429) 356-2697,Halifax,NS,B3H1A1,2023-12-03,Mexican,FALSE,N
+C01025,  sophia THOMAS  ,Sophia.Thomas1025@example.com,(740) 403-8300,Ottawa,ON,K1P1J1,2025-09-17,Indian,1,NO
+C01026,Olivia Allen,Olivia.Allen1026@example.com,(773) 594-3628,Halifax,NS,B3H1A1,2026-04-06,Mediterranean,TRUE,Y
+C01027,Liam Wilson,Liam.Wilson1027@example.com,(510) 234-7316,Halifax,NS,B3H1A1,2026-03-05,Indian,N,1
+C01028,Olivia Wilson,Olivia.Wilson1028@example.com,(403) 619-3880,Montreal,QC,H2X1Y4,2023-03-21,Chinese,YES,Y
+C01029,Liam Thomas,Liam.Thomas1029@example.com,(534) 700-9556,Halifax,NS,B3H1A1,2025-04-14,Italian,TRUE,1
+C01030,Emma Hall,Emma.Hall1030@example.com,(500) 518-7018,Montreal,QC,H2X1Y4,2024-12-07,Thai,Y,NO
+C01031,Sophia Smith,Sophia.Smith1031@example.com,(323) 342-4685,Vancouver,BC,V6B1A1,2023-08-10,Italian,YES,N
+C01032,Mia Johnson,Mia.Johnson1032@example.com,(867) 345-1398,Toronto,ON,m5v 2t6,2023-01-30,Mexican,0,Y
+C01033,Lucas Smith,Lucas.Smith1033@example.com,(826) 834-5090,Toronto,ON,M5V2T6,2024-06-26,Chinese,NO,1
+C01034,Ethan Lee,Ethan.Lee1034@example.com,(373) 243-4536,Calgary,ab,T2P1J9,2023-01-24,Mediterranean,N,1
+C01035,Liam Smith,Liam.Smith1035@example.com,(972) 620-1660,Vancouver,BC,V6B1A1,2025-03-27,American,1,Y
+C01036,Mia Smith,  MIA.SMITH1036@EXAMPLE.COM  ,(837) 910-5382,Montreal,QC,H2X1Y4,2024-10-20,Thai,YES,TRUE
+C01037,Ava Clark,Ava.Clark1037@example.com,(760) 276-8899,Vancouver,BC,V6B1A1,2026-06-17,American,FALSE,Y
+C01038,Sophia Smith,Sophia.Smith1038@example.com,(222) 941-5618,Toronto,ON,M5V2T6,2023-01-26,Mexican,1,NO
+C01039,John Brown,John.Brown1039@example.com,(326) 654-8721,Vancouver,BC,V6B1A1,2025-02-09,Mexican,N,0
+C01040,Lucas Smith,Lucas.Smith1040@example.com,(989) 291-7631,Montreal,QC,H2X1Y4,2025-05-28,Italian,NO,N
+C01041,Sarah Brown,Sarah.Brown1041@example.com,(976) 305-1891,Vancouver,BC,V6B1A1,2023-04-04,Indian,N,1
+C01042,Ava Clark,Ava.Clark1042@example.com,(308) 349-3663,Calgary,AB,T2P1J9,2024-11-18,Italian,1,TRUE
+C01043,Liam Allen,Liam.Allen1043@example.com,(317) 860-1158,Vancouver,BC,V6B1A1,2024-09-04,Italian,NO,0
+C01044,Emma Anderson,Emma.Anderson1044@example.com,(258) 636-7948,Toronto,ON,M5V2T6,2024-05-21,Indian,FALSE,NO
+C01045,Ava Martin,Ava.Martin1045@example.com,(573) 679-4163,Halifax,NS,B3H1A1,2025-08-07,American,Y,NO
+C01046,Michael Taylor,Michael.Taylor1046@example.com,(696) 301-4726,Calgary,AB,T2P1J9,2024-11-18,Japanese,YES,YES
+C01047,Sarah Martin,Sarah.Martin1047@example.com,(689) 982-4582,Toronto,ON,M5V2T6,2022-12-12,American,1,0
+C01048,Lucas Allen,Lucas.Allen1048@example.com,(698) 922-2370,Ottawa,ON,K1P1J1,2025-03-03,Chinese,N,1
+C01049,Emma Hall,Emma.Hall1049@example.com,(444) 896-8071,Toronto,ON,M5V2T6,2026-04-23,Mediterranean,0,N
+C01050,Sophia Johnson,Sophia.Johnson1050@example.com,(714) 300-8289,Vancouver,BC,V6B1A1,2024-08-26,Mexican,YES,NO
+C01051,Sarah Hall,Sarah.Hall1051@example.com,(896) 559-2447,Halifax,NS,B3H1A1,2023-01-10,Chinese,Y,N
+C01052,John Hall,John.Hall1052@example.com,(389) 477-2154,Halifax,NS,B3H1A1,2025-07-24,Indian,YES,FALSE
+C01053,Ava Anderson,Ava.Anderson1053@example.com,(782) 815-5698,Vancouver,BC,V6B1A1,2025-11-22,Thai,NO,Y
+C01054,Noah Brown,Noah.Brown1054@example.com,(464) 944-8653,Calgary,AB,T2P 1J9,2023-09-07,Mediterranean,FALSE,0
+C01055,John Wilson,John.Wilson1055@example.com,(275) 454-8072,Ottawa,ON,K1P1J1,2026-01-31,American,TRUE,1
+C01056,Ava Smith,Ava.Smith1056@example.com,(925) 674-4123,Calgary,AB,T2P1J9,2024-05-15,American,NO,YES
+C01057,Sophia Brown,Sophia.Brown1057@example.com,(321) 580-2693,Ottawa,ON,K1P1J1,2023-10-17,Thai,FALSE,0
+C01058,Emma Allen,Emma.Allen1058@example.com,(615) 790-2813,Montreal,QC,H2X1Y4,2025-01-14,Chinese,TRUE,FALSE
+C01059,Olivia Hall,Olivia.Hall1059@example.com,(761) 801-6887,Vancouver,BC,V6B1A1,2023-03-28,Japanese,0,1
+C01060,Ava Brown,Ava.Brown1060@example.com,(844) 846-5434,TORONTO,ON,M5V2T6,2025-05-02,Japanese,YES,N
+C01061,Ethan Smith,Ethan.Smith1061@example.com,(867) 923-6468,Montreal,QC,H2X1Y4,2025-08-16,Indian,TRUE,TRUE
+C01062,Lucas Taylor,Lucas.Taylor1062@example.com,(572) 662-2272,Calgary,AB,T2P1J9,2025-07-18,THAI,TRUE,FALSE
+C01063,Lucas Hall,Lucas.Hall1063@example.com,(787) 824-5303,Calgary,AB,T2P1J9,2024-08-15,Chinese,N,NO
+C01064,Emma Taylor,Emma.Taylor1064@example.com,(968) 381-2730,Montreal,QC,H2X1Y4,2026-01-13,Mediterranean,N,Y
+C01065,Liam Johnson,Liam.Johnson1065@example.com,(969) 537-5710,Halifax,NS,B3H1A1,2023-05-12,Mexican,YES,NO
+C01066,  ethan THOMAS  ,Ethan.Thomas1066@example.com,(406) 470-4045,Vancouver,BC,V6B1A1,2025-03-02,Japanese,FALSE,NO
+ C01067 ,Sophia Hall,Sophia.Hall1067@example.com,(507) 714-2764,Calgary,AB,T2P1J9,2024-01-22,Italian,1,N
+C01068,Sarah Martin,Sarah.Martin1068@example.com,(618) 431-1892,Montreal,QC,H2X1Y4,2023-11-06,Mexican,N,N
+C01069,Lucas Thomas,Lucas.Thomas1069@example.com,(954) 783-8125,Toronto,ON,M5V2T6,2026-01-01,Thai,NO,Y
+C01070,Olivia Wilson,Olivia.Wilson1070@example.com,(481) 659-2015,Ottawa,ON,K1P1J1,2026-02-02,Thai,0,0
+C01071,Sarah Wilson,Sarah.Wilson1071@example.com,(217) 782-7301,Ottawa,ON,K1P1J1,2024-05-10,Mediterranean,FALSE,YES
+C01072,Emma Anderson,Emma.Anderson1072@example.com,(352) 484-7563,Montreal,QC,H2X1Y4,2026-04-08,Thai,1,Y
+C01073,Sarah Smith,  SARAH.SMITH1073@EXAMPLE.COM  ,(316) 723-4073,Toronto,ON,M5V2T6,2026-06-09,Chinese,FALSE,Y
+C01074,Emma Clark,Emma.Clark1074@example.com,(518) 689-8356,Montreal,QC,H2X1Y4,2025-11-12,Italian,NO,FALSE
+C01075,Mia Clark,Mia.Clark1075@example.com,(621) 661-1201,Halifax,NS,b3h 1a1,2024-01-27,Italian,1,Y
+C01076,John Lee,John.Lee1076@example.com,(533) 991-3909,Calgary,AB,T2P1J9,2024-02-25,Mexican,TRUE,YES
+C01077,Olivia Lee,Olivia.Lee1077@example.com,(842) 922-4641,Montreal,QC,H2X1Y4,2025-11-16,Chinese,Y,YES
+C01078,John Allen,John.Allen1078@example.com,(738) 540-2841,Toronto,ON,M5V2T6,2023-06-13,Chinese,0,N
+C01079,Emma Thomas,Emma.Thomas1079@example.com,(996) 868-6598,Vancouver,BC,V6B1A1,2026-01-28,Mediterranean,TRUE,TRUE
+C01080,Ethan Smith,Ethan.Smith1080@example.com,(489) 561-6841,Calgary,AB,T2P1J9,2026-04-15,Italian,Y,0
+C01081,Liam Allen,Liam.Allen1081@example.com,(598) 567-6998,Montreal,qc,H2X1Y4,2023-11-16,Japanese,Y,0
+C01082,Ava Thomas,Ava.Thomas1082@example.com,(661) 275-7223,Ottawa,ON,K1P1J1,2026-07-21,Thai,N,NO
+C01083,Emma Johnson,Emma.Johnson1083@example.com,(676) 947-2237,Calgary,AB,T2P1J9,2024-09-01,American,TRUE,TRUE
+C01084,Mia Clark,Mia.Clark1084@example.com,(223) 912-8123,Halifax,NS,B3H1A1,2023-03-23,Mediterranean,NO,0
+C01085,John Taylor,John.Taylor1085@example.com,(920) 837-2078,Halifax,NS,B3H 1A1,2023-05-23,Mediterranean,TRUE,YES
+C01086,Noah Wilson,Noah.Wilson1086@example.com,(939) 276-2504,Montreal,QC,H2X1Y4,2023-07-23,American,N,1
+C01087,Noah Martin,Noah.Martin1087@example.com,(793) 351-7024,Toronto,ON,M5V2T6,2025-03-26,Chinese,Y,FALSE
+C01088,Mia Smith,Mia.Smith1088@example.com,(455) 282-6763,Toronto,ON,M5V2T6,2023-03-21,Mexican,YES,FALSE
+C01089,Sarah Thomas,Sarah.Thomas1089@example.com,(872) 985-7766,Ottawa,ON,K1P1J1,2025-03-24,Mexican,1,FALSE
+C01090,Noah Taylor,Noah.Taylor1090@example.com,(895) 842-7707,Toronto,ON,M5V2T6,2023-06-08,Japanese,TRUE,0
+C01091,Emma Brown,Emma.Brown1091@example.com,(679) 755-1745,Ottawa,ON,K1P1J1,2024-06-26,Japanese,YES,NO
+C01092,Ethan Lee,Ethan.Lee1092@example.com,(547) 658-4352,Montreal,QC,H2X1Y4,2023-09-29,Indian,YES,1
+C01093,Ethan Anderson,Ethan.Anderson1093@example.com,(793) 402-8760,Ottawa,ON,K1P1J1,2023-08-10,American,0,N
+C01094,Sophia Allen,Sophia.Allen1094@example.com,(995) 224-4235,Halifax,NS,B3H1A1,2024-05-23,Chinese,FALSE,Y
+C01095,Ethan Anderson,Ethan.Anderson1095@example.com,(319) 744-2296,Halifax,NS,B3H1A1,2024-05-22,Japanese,NO,FALSE
+C01096,Ava Lee,Ava.Lee1096@example.com,(323) 769-4308,Montreal,QC,H2X1Y4,2025-04-26,Japanese,1,Y
+C01097,Olivia Clark,Olivia.Clark1097@example.com,(710) 835-2657,Ottawa,ON,K1P1J1,2024-04-21,Mediterranean,YES,Y
+C01098,Sophia Brown,Sophia.Brown1098@example.com,(650) 543-1277,Toronto,ON,M5V2T6,2026-01-15,Mediterranean,TRUE,FALSE
+C01099,Ava Brown,Ava.Brown1099@example.com,(416) 454-7510,Toronto,ON,M5V2T6,2024-01-19,Mexican,FALSE,YES
+C01100,Emma Thomas,Emma.Thomas1100@example.com,(365) 242-3547,Halifax,NS,B3H1A1,2023-03-26,Mediterranean,NO,0
+C01101,Emma Hall,Emma.Hall1101@example.com,(933) 716-9299,Ottawa,ON,K1P1J1,2024-10-26,American,TRUE,YES
+C01102,Olivia Martin,Olivia.Martin1102@example.com,(887) 821-8995,Vancouver,BC,V6B1A1,2024-11-03,Mediterranean,1,0
+C01103,Olivia Thomas,Olivia.Thomas1103@example.com,(518) 873-2910,Montreal,QC,H2X1Y4,2024-06-12,Mediterranean,N,N
+C01104,Lucas Taylor,Lucas.Taylor1104@example.com,(545) 911-7531,Toronto,ON,M5V2T6,2023-08-08,Indian,TRUE,Y
+C01105,Lucas Wilson,Lucas.Wilson1105@example.com,(501) 562-1287,Ottawa,ON,K1P1J1,2022-12-19,Japanese,Y,NO
+C01106,Ethan Johnson,Ethan.Johnson1106@example.com,(235) 577-2972,Ottawa,ON,K1P1J1,2024-01-12,American,0,FALSE
+C01107,  lucas LEE  ,Lucas.Lee1107@example.com,(892) 432-6586,Toronto,ON,M5V2T6,2025-02-09,Mediterranean,N,0
+C01108,Ava Thomas,Ava.Thomas1108@example.com,(910) 976-1430,Ottawa,ON,K1P1J1,2025-10-30,Italian,YES,0
+C01109,Sophia Smith,Sophia.Smith1109@example.com,(938) 942-1095,Toronto,ON,M5V2T6,2023-07-08,Indian,NO,YES
+C01110,Noah Brown,  NOAH.BROWN1110@EXAMPLE.COM  ,(651) 951-5908,Toronto,ON,M5V2T6,2025-09-09,Chinese,1,Y
+C01111,Olivia Anderson,Olivia.Anderson1111@example.com,(393) 880-3837,Halifax,NS,B3H1A1,2024-02-22,Chinese,1,TRUE
+C01112,Mia Wilson,Mia.Wilson1112@example.com,(618) 840-7389,Calgary,AB,T2P1J9,2026-02-10,Indian,YES,0
+C01113,Sarah Hall,Sarah.Hall1113@example.com,(947) 975-8581,TORONTO,ON,M5V2T6,2025-06-10,American,Y,FALSE
+C01114,Noah Thomas,Noah.Thomas1114@example.com,(604) 717-7012,Ottawa,ON,K1P1J1,2025-03-31,Mexican,NO,YES
+C01115,Sarah Clark,Sarah.Clark1115@example.com,(422) 648-4611,Calgary,AB,T2P1J9,2026-03-07,Chinese,FALSE,1
+C01116,Noah Wilson,Noah.Wilson1116@example.com,(639) 200-6127,Halifax,NS,B3H 1A1,2023-09-25,Mediterranean,YES,1
+C01117,Lucas Martin,Lucas.Martin1117@example.com,(280) 477-5674,Vancouver,BC,V6B1A1,2026-02-25,Italian,1,YES
+C01118,Sophia Smith,Sophia.Smith1118@example.com,(680) 952-2056,Ottawa,ON,k1p 1j1,2025-09-29,Italian,0,1
+C01119,Ava Wilson,Ava.Wilson1119@example.com,(414) 764-9543,Montreal,QC,H2X1Y4,2025-06-19,Indian,0,TRUE
+C01120,Sarah Anderson,Sarah.Anderson1120@example.com,(612) 650-2595,Halifax,NS,B3H1A1,2025-10-14,Indian,0,1
+C01121,Liam Thomas,Liam.Thomas1121@example.com,(298) 894-2984,Ottawa,ON,K1P1J1,2022-11-21,JAPANESE,YES,FALSE
+C01122,Liam Smith,Liam.Smith1122@example.com,(720) 765-3726,Ottawa,ON,K1P1J1,2026-06-14,Mexican,FALSE,0
+C01123,Sarah Thomas,Sarah.Thomas1123@example.com,(519) 838-3312,Calgary,AB,T2P1J9,2026-01-14,Chinese,0,TRUE
+C01124,Sarah Allen,Sarah.Allen1124@example.com,(304) 612-8814,Calgary,AB,T2P1J9,2023-05-09,Japanese,FALSE,N
+C01125,Mia Johnson,Mia.Johnson1125@example.com,(322) 816-9961,Vancouver,BC,V6B1A1,2022-11-05,Chinese,TRUE,FALSE
+C01126,Noah Taylor,Noah.Taylor1126@example.com,(520) 500-9394,Halifax,NS,B3H1A1,2025-10-04,Indian,N,N
+C01127,Emma Lee,Emma.Lee1127@example.com,(209) 456-1392,Calgary,AB,T2P1J9,2025-03-09,Japanese,Y,1
+C01128,Lucas Anderson,Lucas.Anderson1128@example.com,(502) 463-9963,Calgary,ab,T2P1J9,2023-02-15,American,1,FALSE
+C01129,Ava Allen,Ava.Allen1129@example.com,(873) 662-3356,Halifax,NS,B3H1A1,2024-02-05,Thai,0,0
+C01130,Olivia Smith,Olivia.Smith1130@example.com,(377) 607-9076,Ottawa,ON,K1P1J1,2025-12-29,Indian,0,NO
+C01131,Mia Allen,Mia.Allen1131@example.com,(957) 984-4244,Calgary,AB,T2P1J9,2026-05-25,Japanese,FALSE,N
+C01132,Liam Anderson,Liam.Anderson1132@example.com,(543) 733-9533,Toronto,ON,M5V2T6,2025-10-10,Chinese,NO,NO
+C01133,Ethan Thomas,Ethan.Thomas1133@example.com,(983) 666-5082,Montreal,QC,H2X1Y4,2026-02-03,Mediterranean,Y,NO
+C01134,Noah Smith,Noah.Smith1134@example.com,(373) 957-4656,Ottawa,ON,K1P1J1,2026-04-02,Italian,N,NO
+C01135,Mia Clark,Mia.Clark1135@example.com,(381) 894-4864,Montreal,QC,H2X1Y4,2026-01-06,American,NO,0
+C01136,Olivia Johnson,Olivia.Johnson1136@example.com,(918) 407-9449,Calgary,AB,T2P1J9,2023-10-16,American,N,Y
+C01137,Mia Taylor,Mia.Taylor1137@example.com,(279) 487-5765,Montreal,QC,H2X1Y4,2024-01-06,Mediterranean,Y,1
+C01138,Noah Clark,Noah.Clark1138@example.com,(251) 795-6892,Toronto,ON,M5V2T6,2025-07-15,Italian,0,N
+C01139,Sarah Anderson,Sarah.Anderson1139@example.com,(207) 667-2104,Calgary,AB,T2P1J9,2024-07-01,Mediterranean,YES,N
+C01140,Noah Taylor,Noah.Taylor1140@example.com,(451) 492-2418,Toronto,ON,M5V2T6,2026-07-10,Italian,TRUE,N
+C01141,John Thomas,John.Thomas1141@example.com,(311) 239-7006,Toronto,ON,M5V2T6,2023-06-11,Indian,NO,N
+C01142,Sophia Thomas,Sophia.Thomas1142@example.com,(661) 818-4987,Ottawa,ON,K1P1J1,2024-10-29,Chinese,NO,0
+C01143,Sarah Johnson,Sarah.Johnson1143@example.com,(328) 528-6338,Vancouver,BC,V6B1A1,2023-08-23,American,YES,N
+C01144,Michael Johnson,Michael.Johnson1144@example.com,(542) 596-2619,Calgary,AB,T2P1J9,2025-02-15,Thai,FALSE,0
+C01145,Mia Allen,Mia.Allen1145@example.com,(371) 589-9020,Ottawa,ON,K1P1J1,2024-11-14,Japanese,FALSE,1
+C01146,Ava Smith,Ava.Smith1146@example.com,(922) 655-8553,Ottawa,ON,K1P1J1,2023-03-17,Mexican,FALSE,TRUE
+C01147,Liam Lee,  LIAM.LEE1147@EXAMPLE.COM  ,(458) 982-7140,Vancouver,BC,V6B 1A1,2025-09-09,Japanese,YES,FALSE
+C01148,  john TAYLOR  ,John.Taylor1148@example.com,(589) 684-4099,Halifax,NS,B3H1A1,2025-11-17,Thai,YES,YES
+C01149,Lucas Wilson,Lucas.Wilson1149@example.com,(492) 292-7164,Vancouver,BC,V6B1A1,2025-10-18,Mexican,Y,0
+C01150,John Allen,John.Allen1150@example.com,(446) 248-6895,Toronto,ON,M5V2T6,2025-07-13,Italian,TRUE,FALSE
+C01151,Emma Johnson,Emma.Johnson1151@example.com,(352) 917-4655,Montreal,QC,H2X1Y4,2024-08-13,Mediterranean,YES,NO
+C01152,John Lee,John.Lee1152@example.com,(945) 555-7569,Ottawa,ON,K1P1J1,2023-04-02,Thai,YES,0
+C01153,Ava Anderson,Ava.Anderson1153@example.com,(210) 273-6147,Ottawa,ON,K1P1J1,2024-04-17,Chinese,FALSE,Y
+C01154,Olivia Taylor,Olivia.Taylor1154@example.com,(915) 799-3528,Toronto,ON,M5V2T6,2022-12-11,Indian,NO,TRUE
+C01155,Lucas Wilson,Lucas.Wilson1155@example.com,(637) 809-5328,Toronto,ON,M5V2T6,2025-10-17,Indian,N,TRUE
+C01156,Sarah Thomas,Sarah.Thomas1156@example.com,(747) 714-5984,Calgary,AB,T2P1J9,2023-05-16,Mexican,YES,N
+C01157,Emma Brown,Emma.Brown1157@example.com,(935) 969-4160,Calgary,AB,T2P1J9,2025-11-05,Italian,Y,Y
+C01158,Mia Hall,Mia.Hall1158@example.com,(888) 509-5829,Calgary,AB,T2P1J9,2025-02-14,Mediterranean,NO,FALSE
+C01159,Emma Lee,Emma.Lee1159@example.com,(776) 237-9915,Montreal,QC,H2X1Y4,2024-07-27,Thai,NO,TRUE
+C01160,Liam Martin,Liam.Martin1160@example.com,(874) 760-5416,Montreal,QC,H2X1Y4,2026-05-17,Thai,Y,0
+C01161,Olivia Clark,Olivia.Clark1161@example.com,(353) 250-9002,Calgary,AB,t2p 1j9,2023-09-13,Italian,NO,N
+C01162,Sarah Martin,Sarah.Martin1162@example.com,(475) 793-7755,Vancouver,BC,V6B1A1,2025-09-09,Thai,NO,FALSE
+C01163,Ethan Taylor,Ethan.Taylor1163@example.com,(777) 856-7347,Halifax,NS,B3H1A1,2024-08-29,Italian,0,Y
+ C01164 ,Ethan Martin,Ethan.Martin1164@example.com,(677) 709-4775,Calgary,AB,T2P1J9,2024-09-09,Thai,Y,NO
+C01165,John Smith,John.Smith1165@example.com,(349) 849-9161,Toronto,ON,M5V2T6,2025-05-10,Indian,FALSE,YES
+C01166,Liam Wilson,Liam.Wilson1166@example.com,(598) 514-5642,OTTAWA,ON,K1P1J1,2025-05-23,Mediterranean,N,TRUE
+C01167,Lucas Anderson,Lucas.Anderson1167@example.com,(492) 377-1239,Montreal,QC,H2X1Y4,2026-04-05,Japanese,0,NO
+C01168,Noah Anderson,Noah.Anderson1168@example.com,(472) 822-2381,Halifax,NS,B3H1A1,2023-10-22,Indian,0,Y
+C01169,Liam Clark,Liam.Clark1169@example.com,(252) 980-6671,Vancouver,BC,V6B1A1,2023-11-05,Italian,NO,YES
+C01170,Mia Brown,Mia.Brown1170@example.com,(328) 532-7363,Toronto,ON,M5V2T6,2022-12-13,American,FALSE,FALSE
+C01171,Michael Wilson,Michael.Wilson1171@example.com,(697) 410-9763,Montreal,QC,H2X1Y4,2024-05-28,Chinese,0,TRUE
+C01172,Noah Anderson,Noah.Anderson1172@example.com,(939) 682-7226,Calgary,AB,T2P1J9,2022-11-30,Mediterranean,FALSE,FALSE
+C01173,Olivia Lee,Olivia.Lee1173@example.com,(423) 521-5848,Calgary,AB,T2P1J9,2024-08-23,Mexican,N,TRUE
+C01174,Sarah Hall,Sarah.Hall1174@example.com,(878) 403-3818,Montreal,QC,H2X1Y4,2024-08-11,American,N,Y
+C01175,Mia Martin,Mia.Martin1175@example.com,(522) 644-2614,Toronto,on,M5V2T6,2023-02-20,Thai,TRUE,NO
+C01176,Sophia Taylor,Sophia.Taylor1176@example.com,(750) 597-9812,Ottawa,ON,K1P1J1,2026-06-26,Mexican,Y,0
+C01177,Michael Martin,Michael.Martin1177@example.com,(576) 698-1870,Vancouver,BC,V6B1A1,2023-04-03,Mediterranean,1,NO
+C01178,Liam Clark,Liam.Clark1178@example.com,(643) 557-9846,Vancouver,BC,V6B 1A1,2024-06-08,Indian,Y,NO
+C01179,Olivia Allen,Olivia.Allen1179@example.com,(439) 702-3924,Calgary,AB,T2P1J9,2024-09-15,Italian,1,TRUE
+C01180,Ava Anderson,Ava.Anderson1180@example.com,(446) 924-6551,Ottawa,ON,K1P1J1,2024-09-21,AMERICAN,Y,YES
+C01181,Sophia Hall,Sophia.Hall1181@example.com,(817) 255-7876,Toronto,ON,M5V2T6,2026-05-12,Mediterranean,N,N
+C01182,Michael Brown,Michael.Brown1182@example.com,(750) 929-8393,Calgary,AB,T2P1J9,2026-07-13,Italian,0,TRUE
+C01183,Ethan Thomas,Ethan.Thomas1183@example.com,(271) 891-9523,Halifax,NS,B3H1A1,2025-01-02,Thai,NO,NO
+C01184,Sarah Lee,  SARAH.LEE1184@EXAMPLE.COM  ,(998) 344-4946,Halifax,NS,B3H1A1,2023-09-21,American,Y,0
+C01185,Mia Thomas,Mia.Thomas1185@example.com,(451) 219-1969,Toronto,ON,M5V2T6,2024-05-14,Italian,Y,NO
+C01186,Ethan Brown,Ethan.Brown1186@example.com,(850) 578-1586,Vancouver,BC,V6B1A1,2022-11-25,Chinese,NO,NO
+C01187,Ethan Lee,Ethan.Lee1187@example.com,(307) 342-4233,Toronto,ON,M5V2T6,2024-08-13,Italian,NO,1
+C01188,Liam Allen,Liam.Allen1188@example.com,(580) 884-8913,Calgary,AB,T2P1J9,2026-02-08,Mexican,NO,0
+C01189,  noah MARTIN  ,Noah.Martin1189@example.com,(364) 995-2744,Halifax,NS,B3H1A1,2025-03-30,Mediterranean,TRUE,YES
+C01190,Michael Wilson,Michael.Wilson1190@example.com,(742) 904-9912,Halifax,NS,B3H1A1,2026-05-17,Indian,FALSE,NO
+C01191,Noah Taylor,Noah.Taylor1191@example.com,(683) 432-8883,Halifax,NS,B3H1A1,2026-01-30,Mexican,N,TRUE
+C01192,Noah Hall,Noah.Hall1192@example.com,(653) 840-9177,Halifax,NS,B3H1A1,2023-09-04,Mexican,YES,0
+C01193,Emma Brown,Emma.Brown1193@example.com,(418) 565-3131,Montreal,QC,H2X1Y4,2023-12-12,Japanese,Y,Y
+C01194,Liam Taylor,Liam.Taylor1194@example.com,(600) 718-7357,Montreal,QC,H2X1Y4,2025-11-05,Thai,Y,YES
+C01195,Lucas Thomas,Lucas.Thomas1195@example.com,(211) 974-7794,Ottawa,ON,K1P1J1,2025-03-30,Chinese,YES,0
+C01196,Mia Anderson,Mia.Anderson1196@example.com,(269) 770-9785,Montreal,QC,H2X1Y4,2022-12-30,Japanese,YES,0
+C01197,Liam Hall,Liam.Hall1197@example.com,(358) 810-9767,Ottawa,ON,K1P1J1,2024-01-27,American,TRUE,NO
+C01198,Lucas Brown,Lucas.Brown1198@example.com,(567) 294-2524,Vancouver,BC,V6B1A1,2025-07-10,Thai,0,FALSE
+C01199,Noah Anderson,Noah.Anderson1199@example.com,(846) 626-2305,Montreal,QC,H2X1Y4,2023-10-22,Mediterranean,N,TRUE
+C01200,Ethan Smith,Ethan.Smith1200@example.com,(850) 561-2758,Ottawa,ON,K1P1J1,2024-12-02,Thai,NO,FALSE

@@ -1,0 +1,1402 @@
+[
+  {
+    "restaurant_id": "R0001",
+    "restaurant_name": "Thai Kitchen 1",
+    "cuisine_type": "Thai",
+    "city": "Vancouver",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0002",
+    "restaurant_name": "Italian Kitchen 2",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0003",
+    "restaurant_name": "Thai Kitchen 3",
+    "cuisine_type": "Thai",
+    "city": "Ottawa",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0004",
+    "restaurant_name": "Chinese Kitchen 4",
+    "cuisine_type": "Chinese",
+    "city": "Toronto",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0005",
+    "restaurant_name": "Indian Kitchen 5",
+    "cuisine_type": "Indian",
+    "city": "Calgary",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0006",
+    "restaurant_name": "Mediterranean Kitchen 6",
+    "cuisine_type": "Mediterranean",
+    "city": "Toronto",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0007",
+    "restaurant_name": "Chinese Kitchen 7",
+    "cuisine_type": "Chinese",
+    "city": "Calgary",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0008",
+    "restaurant_name": "American Kitchen 8",
+    "cuisine_type": "American",
+    "city": "Vancouver",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0009",
+    "restaurant_name": "Italian Kitchen 9",
+    "cuisine_type": "Italian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0010",
+    "restaurant_name": "Italian Kitchen 10",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0011",
+    "restaurant_name": "Mexican Kitchen 11",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0012",
+    "restaurant_name": "American Kitchen 12",
+    "cuisine_type": "American",
+    "city": "Ottawa",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0013",
+    "restaurant_name": "Chinese Kitchen 13",
+    "cuisine_type": "Chinese",
+    "city": "Toronto",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0014",
+    "restaurant_name": "Chinese Kitchen 14",
+    "cuisine_type": "Chinese",
+    "city": "Montreal",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0015",
+    "restaurant_name": "Mediterranean Kitchen 15",
+    "cuisine_type": "Mediterranean",
+    "city": "Calgary",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0016",
+    "restaurant_name": "Indian Kitchen 16",
+    "cuisine_type": "Indian",
+    "city": "Montreal",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0017",
+    "restaurant_name": "American Kitchen 17",
+    "cuisine_type": "American",
+    "city": "Vancouver",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0018",
+    "restaurant_name": "Thai Kitchen 18",
+    "cuisine_type": "Thai",
+    "city": "Calgary",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0019",
+    "restaurant_name": "Mexican Kitchen 19",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0020",
+    "restaurant_name": "Thai Kitchen 20",
+    "cuisine_type": "Thai",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0021",
+    "restaurant_name": "Italian Kitchen 21",
+    "cuisine_type": "Italian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0022",
+    "restaurant_name": "Mexican Kitchen 22",
+    "cuisine_type": "Mexican",
+    "city": "Halifax",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0023",
+    "restaurant_name": "Thai Kitchen 23",
+    "cuisine_type": "Thai",
+    "city": "Vancouver",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0024",
+    "restaurant_name": "American Kitchen 24",
+    "cuisine_type": "American",
+    "city": "Toronto",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0025",
+    "restaurant_name": "Mediterranean Kitchen 25",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0026",
+    "restaurant_name": "Chinese Kitchen 26",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0027",
+    "restaurant_name": "Indian Kitchen 27",
+    "cuisine_type": "Indian",
+    "city": "Vancouver",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0028",
+    "restaurant_name": "American Kitchen 28",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0029",
+    "restaurant_name": "  mexican kitchen 29  ",
+    "cuisine_type": "Mexican",
+    "city": "Halifax",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0030",
+    "restaurant_name": "Mexican Kitchen 30",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0031",
+    "restaurant_name": "Chinese Kitchen 31",
+    "cuisine_type": "CHINESE",
+    "city": "Halifax",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0032",
+    "restaurant_name": "Chinese Kitchen 32",
+    "cuisine_type": "Chinese",
+    "city": "Montreal",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0033",
+    "restaurant_name": "Mediterranean Kitchen 33",
+    "cuisine_type": "Mediterranean",
+    "city": "Ottawa",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0034",
+    "restaurant_name": "Mexican Kitchen 34",
+    "cuisine_type": "Mexican",
+    "city": "Halifax",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0035",
+    "restaurant_name": "Japanese Kitchen 35",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0036",
+    "restaurant_name": "Japanese Kitchen 36",
+    "cuisine_type": "Japanese",
+    "city": "Halifax",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0037",
+    "restaurant_name": "Japanese Kitchen 37",
+    "cuisine_type": "Japanese",
+    "city": "Halifax",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0038",
+    "restaurant_name": "Indian Kitchen 38",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0039",
+    "restaurant_name": "American Kitchen 39",
+    "cuisine_type": "American",
+    "city": "Toronto",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0040",
+    "restaurant_name": "Chinese Kitchen 40",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0041",
+    "restaurant_name": "Mexican Kitchen 41",
+    "cuisine_type": "Mexican",
+    "city": "Montreal",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0042",
+    "restaurant_name": "Mediterranean Kitchen 42",
+    "cuisine_type": "Mediterranean",
+    "city": "Toronto",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0043",
+    "restaurant_name": "Japanese Kitchen 43",
+    "cuisine_type": "Japanese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0044",
+    "restaurant_name": "Indian Kitchen 44",
+    "cuisine_type": "Indian",
+    "city": "Vancouver",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0045",
+    "restaurant_name": "Mediterranean Kitchen 45",
+    "cuisine_type": "Mediterranean",
+    "city": "Toronto",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0046",
+    "restaurant_name": "Indian Kitchen 46",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0047",
+    "restaurant_name": "Thai Kitchen 47",
+    "cuisine_type": "Thai",
+    "city": "Halifax",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0048",
+    "restaurant_name": "Chinese Kitchen 48",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0049",
+    "restaurant_name": "Italian Kitchen 49",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0050",
+    "restaurant_name": "Japanese Kitchen 50",
+    "cuisine_type": "Japanese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0051",
+    "restaurant_name": "Indian Kitchen 51",
+    "cuisine_type": "Indian",
+    "city": "Calgary",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0052",
+    "restaurant_name": "Mediterranean Kitchen 52",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0053",
+    "restaurant_name": "Mexican Kitchen 53",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0054",
+    "restaurant_name": "Japanese Kitchen 54",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0055",
+    "restaurant_name": "Italian Kitchen 55",
+    "cuisine_type": "Italian",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0056",
+    "restaurant_name": "American Kitchen 56",
+    "cuisine_type": "American",
+    "city": "Vancouver",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0057",
+    "restaurant_name": "Chinese Kitchen 57",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0058",
+    "restaurant_name": "  italian kitchen 58  ",
+    "cuisine_type": "Italian",
+    "city": "Montreal",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0059",
+    "restaurant_name": "American Kitchen 59",
+    "cuisine_type": "American",
+    "city": "Ottawa",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0060",
+    "restaurant_name": "Mexican Kitchen 60",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0061",
+    "restaurant_name": "Mediterranean Kitchen 61",
+    "cuisine_type": "Mediterranean",
+    "city": "Calgary",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0062",
+    "restaurant_name": "American Kitchen 62",
+    "cuisine_type": "AMERICAN",
+    "city": "Halifax",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0063",
+    "restaurant_name": "Mediterranean Kitchen 63",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0064",
+    "restaurant_name": "Italian Kitchen 64",
+    "cuisine_type": "Italian",
+    "city": "Vancouver",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0065",
+    "restaurant_name": "Mexican Kitchen 65",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0066",
+    "restaurant_name": "Indian Kitchen 66",
+    "cuisine_type": "Indian",
+    "city": "Montreal",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0067",
+    "restaurant_name": "Chinese Kitchen 67",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0068",
+    "restaurant_name": "Thai Kitchen 68",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0069",
+    "restaurant_name": "Italian Kitchen 69",
+    "cuisine_type": "Italian",
+    "city": "Vancouver",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0070",
+    "restaurant_name": "Mexican Kitchen 70",
+    "cuisine_type": "Mexican",
+    "city": "Halifax",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0071",
+    "restaurant_name": "Japanese Kitchen 71",
+    "cuisine_type": "Japanese",
+    "city": "Halifax",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0072",
+    "restaurant_name": "Indian Kitchen 72",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0073",
+    "restaurant_name": "Mediterranean Kitchen 73",
+    "cuisine_type": "Mediterranean",
+    "city": "Calgary",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0074",
+    "restaurant_name": "Mediterranean Kitchen 74",
+    "cuisine_type": "Mediterranean",
+    "city": "Ottawa",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0075",
+    "restaurant_name": "Mexican Kitchen 75",
+    "cuisine_type": "Mexican",
+    "city": "Montreal",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0076",
+    "restaurant_name": "Mediterranean Kitchen 76",
+    "cuisine_type": "Mediterranean",
+    "city": "Toronto",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0077",
+    "restaurant_name": "Mexican Kitchen 77",
+    "cuisine_type": "Mexican",
+    "city": "Ottawa",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0078",
+    "restaurant_name": "Mediterranean Kitchen 78",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0079",
+    "restaurant_name": "Thai Kitchen 79",
+    "cuisine_type": "Thai",
+    "city": "Halifax",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0080",
+    "restaurant_name": "Chinese Kitchen 80",
+    "cuisine_type": "Chinese",
+    "city": "Calgary",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0081",
+    "restaurant_name": "Indian Kitchen 81",
+    "cuisine_type": "Indian",
+    "city": "Halifax",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0082",
+    "restaurant_name": "American Kitchen 82",
+    "cuisine_type": "American",
+    "city": "Montreal",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0083",
+    "restaurant_name": "Japanese Kitchen 83",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0084",
+    "restaurant_name": "Indian Kitchen 84",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0085",
+    "restaurant_name": "American Kitchen 85",
+    "cuisine_type": "American",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0086",
+    "restaurant_name": "Mediterranean Kitchen 86",
+    "cuisine_type": "Mediterranean",
+    "city": "Halifax",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0087",
+    "restaurant_name": "  mediterranean kitchen 87  ",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0088",
+    "restaurant_name": "Mexican Kitchen 88",
+    "cuisine_type": "Mexican",
+    "city": "Ottawa",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0089",
+    "restaurant_name": "Thai Kitchen 89",
+    "cuisine_type": "Thai",
+    "city": "Calgary",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0090",
+    "restaurant_name": "Thai Kitchen 90",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0091",
+    "restaurant_name": "Indian Kitchen 91",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0092",
+    "restaurant_name": "Indian Kitchen 92",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0093",
+    "restaurant_name": "Mexican Kitchen 93",
+    "cuisine_type": "MEXICAN",
+    "city": "Ottawa",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0094",
+    "restaurant_name": "Chinese Kitchen 94",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0095",
+    "restaurant_name": "American Kitchen 95",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0096",
+    "restaurant_name": "Thai Kitchen 96",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0097",
+    "restaurant_name": "Italian Kitchen 97",
+    "cuisine_type": "Italian",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0098",
+    "restaurant_name": "Chinese Kitchen 98",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0099",
+    "restaurant_name": "Mexican Kitchen 99",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0100",
+    "restaurant_name": "Japanese Kitchen 100",
+    "cuisine_type": "Japanese",
+    "city": "Halifax",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0101",
+    "restaurant_name": "American Kitchen 101",
+    "cuisine_type": "American",
+    "city": "Halifax",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0102",
+    "restaurant_name": "American Kitchen 102",
+    "cuisine_type": "American",
+    "city": "Halifax",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0103",
+    "restaurant_name": "Indian Kitchen 103",
+    "cuisine_type": "Indian",
+    "city": "Calgary",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0104",
+    "restaurant_name": "Japanese Kitchen 104",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0105",
+    "restaurant_name": "Mexican Kitchen 105",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0106",
+    "restaurant_name": "Mediterranean Kitchen 106",
+    "cuisine_type": "Mediterranean",
+    "city": "Calgary",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0107",
+    "restaurant_name": "Italian Kitchen 107",
+    "cuisine_type": "Italian",
+    "city": "Vancouver",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0108",
+    "restaurant_name": "Italian Kitchen 108",
+    "cuisine_type": "Italian",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0109",
+    "restaurant_name": "Mexican Kitchen 109",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0110",
+    "restaurant_name": "Mediterranean Kitchen 110",
+    "cuisine_type": "Mediterranean",
+    "city": "Calgary",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0111",
+    "restaurant_name": "Italian Kitchen 111",
+    "cuisine_type": "Italian",
+    "city": "Montreal",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0112",
+    "restaurant_name": "Mediterranean Kitchen 112",
+    "cuisine_type": "Mediterranean",
+    "city": "Halifax",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0113",
+    "restaurant_name": "Thai Kitchen 113",
+    "cuisine_type": "Thai",
+    "city": "Montreal",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0114",
+    "restaurant_name": "Chinese Kitchen 114",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0115",
+    "restaurant_name": "Thai Kitchen 115",
+    "cuisine_type": "Thai",
+    "city": "Calgary",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0116",
+    "restaurant_name": "  italian kitchen 116  ",
+    "cuisine_type": "Italian",
+    "city": "Calgary",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0117",
+    "restaurant_name": "Japanese Kitchen 117",
+    "cuisine_type": "Japanese",
+    "city": "Ottawa",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0118",
+    "restaurant_name": "American Kitchen 118",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0119",
+    "restaurant_name": "Indian Kitchen 119",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0120",
+    "restaurant_name": "Japanese Kitchen 120",
+    "cuisine_type": "Japanese",
+    "city": "Toronto",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0121",
+    "restaurant_name": "Japanese Kitchen 121",
+    "cuisine_type": "Japanese",
+    "city": "Halifax",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0122",
+    "restaurant_name": "Italian Kitchen 122",
+    "cuisine_type": "Italian",
+    "city": "Halifax",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0123",
+    "restaurant_name": "American Kitchen 123",
+    "cuisine_type": "American",
+    "city": "Toronto",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0124",
+    "restaurant_name": "Japanese Kitchen 124",
+    "cuisine_type": "JAPANESE",
+    "city": "Montreal",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0125",
+    "restaurant_name": "Chinese Kitchen 125",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0126",
+    "restaurant_name": "Japanese Kitchen 126",
+    "cuisine_type": "Japanese",
+    "city": "Ottawa",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0127",
+    "restaurant_name": "Mexican Kitchen 127",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0128",
+    "restaurant_name": "Italian Kitchen 128",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0129",
+    "restaurant_name": "Chinese Kitchen 129",
+    "cuisine_type": "Chinese",
+    "city": "Vancouver",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0130",
+    "restaurant_name": "Japanese Kitchen 130",
+    "cuisine_type": "Japanese",
+    "city": "Calgary",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0131",
+    "restaurant_name": "Mediterranean Kitchen 131",
+    "cuisine_type": "Mediterranean",
+    "city": "Ottawa",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0132",
+    "restaurant_name": "Mediterranean Kitchen 132",
+    "cuisine_type": "Mediterranean",
+    "city": "Montreal",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0133",
+    "restaurant_name": "American Kitchen 133",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0134",
+    "restaurant_name": "Mediterranean Kitchen 134",
+    "cuisine_type": "Mediterranean",
+    "city": "Toronto",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0135",
+    "restaurant_name": "American Kitchen 135",
+    "cuisine_type": "American",
+    "city": "Ottawa",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0136",
+    "restaurant_name": "Thai Kitchen 136",
+    "cuisine_type": "Thai",
+    "city": "Montreal",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0137",
+    "restaurant_name": "Thai Kitchen 137",
+    "cuisine_type": "Thai",
+    "city": "Montreal",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0138",
+    "restaurant_name": "Mexican Kitchen 138",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0139",
+    "restaurant_name": "Chinese Kitchen 139",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0140",
+    "restaurant_name": "American Kitchen 140",
+    "cuisine_type": "American",
+    "city": "Vancouver",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0141",
+    "restaurant_name": "Indian Kitchen 141",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0142",
+    "restaurant_name": "Thai Kitchen 142",
+    "cuisine_type": "Thai",
+    "city": "Vancouver",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0143",
+    "restaurant_name": "Indian Kitchen 143",
+    "cuisine_type": "Indian",
+    "city": "Calgary",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0144",
+    "restaurant_name": "Mediterranean Kitchen 144",
+    "cuisine_type": "Mediterranean",
+    "city": "Vancouver",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0145",
+    "restaurant_name": "  chinese kitchen 145  ",
+    "cuisine_type": "Chinese",
+    "city": "Calgary",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0146",
+    "restaurant_name": "Indian Kitchen 146",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0147",
+    "restaurant_name": "Thai Kitchen 147",
+    "cuisine_type": "Thai",
+    "city": "Montreal",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0148",
+    "restaurant_name": "Thai Kitchen 148",
+    "cuisine_type": "Thai",
+    "city": "Vancouver",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0149",
+    "restaurant_name": "Mexican Kitchen 149",
+    "cuisine_type": "Mexican",
+    "city": "Toronto",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0150",
+    "restaurant_name": "Mediterranean Kitchen 150",
+    "cuisine_type": "Mediterranean",
+    "city": "Halifax",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0151",
+    "restaurant_name": "Japanese Kitchen 151",
+    "cuisine_type": "Japanese",
+    "city": "Ottawa",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0152",
+    "restaurant_name": "Thai Kitchen 152",
+    "cuisine_type": "Thai",
+    "city": "Ottawa",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0153",
+    "restaurant_name": "Indian Kitchen 153",
+    "cuisine_type": "Indian",
+    "city": "Halifax",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0154",
+    "restaurant_name": "Thai Kitchen 154",
+    "cuisine_type": "Thai",
+    "city": "Halifax",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0155",
+    "restaurant_name": "Italian Kitchen 155",
+    "cuisine_type": "ITALIAN",
+    "city": "Toronto",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0156",
+    "restaurant_name": "Italian Kitchen 156",
+    "cuisine_type": "Italian",
+    "city": "Montreal",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0157",
+    "restaurant_name": "Italian Kitchen 157",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0158",
+    "restaurant_name": "American Kitchen 158",
+    "cuisine_type": "American",
+    "city": "Vancouver",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0159",
+    "restaurant_name": "Italian Kitchen 159",
+    "cuisine_type": "Italian",
+    "city": "Halifax",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0160",
+    "restaurant_name": "Japanese Kitchen 160",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0161",
+    "restaurant_name": "Japanese Kitchen 161",
+    "cuisine_type": "Japanese",
+    "city": "Ottawa",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0162",
+    "restaurant_name": "Mexican Kitchen 162",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0163",
+    "restaurant_name": "Japanese Kitchen 163",
+    "cuisine_type": "Japanese",
+    "city": "Montreal",
+    "restaurant_rating": "5.0"
+  },
+  {
+    "restaurant_id": "R0164",
+    "restaurant_name": "Italian Kitchen 164",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0165",
+    "restaurant_name": "Thai Kitchen 165",
+    "cuisine_type": "Thai",
+    "city": "Calgary",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0166",
+    "restaurant_name": "Italian Kitchen 166",
+    "cuisine_type": "Italian",
+    "city": "Montreal",
+    "restaurant_rating": "4.0"
+  },
+  {
+    "restaurant_id": "R0167",
+    "restaurant_name": "American Kitchen 167",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0168",
+    "restaurant_name": "American Kitchen 168",
+    "cuisine_type": "American",
+    "city": "Calgary",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0169",
+    "restaurant_name": "Italian Kitchen 169",
+    "cuisine_type": "Italian",
+    "city": "Halifax",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0170",
+    "restaurant_name": "Mediterranean Kitchen 170",
+    "cuisine_type": "Mediterranean",
+    "city": "Halifax",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0171",
+    "restaurant_name": "Japanese Kitchen 171",
+    "cuisine_type": "Japanese",
+    "city": "Ottawa",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0172",
+    "restaurant_name": "Thai Kitchen 172",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0173",
+    "restaurant_name": "Indian Kitchen 173",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0174",
+    "restaurant_name": "  thai kitchen 174  ",
+    "cuisine_type": "Thai",
+    "city": "Vancouver",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0175",
+    "restaurant_name": "Mediterranean Kitchen 175",
+    "cuisine_type": "Mediterranean",
+    "city": "Halifax",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0176",
+    "restaurant_name": "Thai Kitchen 176",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "4.1"
+  },
+  {
+    "restaurant_id": "R0177",
+    "restaurant_name": "Chinese Kitchen 177",
+    "cuisine_type": "Chinese",
+    "city": "Ottawa",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0178",
+    "restaurant_name": "Mediterranean Kitchen 178",
+    "cuisine_type": "Mediterranean",
+    "city": "Montreal",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0179",
+    "restaurant_name": "Indian Kitchen 179",
+    "cuisine_type": "Indian",
+    "city": "Calgary",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0180",
+    "restaurant_name": "Indian Kitchen 180",
+    "cuisine_type": "Indian",
+    "city": "Montreal",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0181",
+    "restaurant_name": "Mexican Kitchen 181",
+    "cuisine_type": "Mexican",
+    "city": "Ottawa",
+    "restaurant_rating": "3.9"
+  },
+  {
+    "restaurant_id": "R0182",
+    "restaurant_name": "Mediterranean Kitchen 182",
+    "cuisine_type": "Mediterranean",
+    "city": "Ottawa",
+    "restaurant_rating": "3.5"
+  },
+  {
+    "restaurant_id": "R0183",
+    "restaurant_name": "Italian Kitchen 183",
+    "cuisine_type": "Italian",
+    "city": "Toronto",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0184",
+    "restaurant_name": "Chinese Kitchen 184",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0185",
+    "restaurant_name": "American Kitchen 185",
+    "cuisine_type": "American",
+    "city": "Halifax",
+    "restaurant_rating": "4.4"
+  },
+  {
+    "restaurant_id": "R0186",
+    "restaurant_name": "Indian Kitchen 186",
+    "cuisine_type": "INDIAN",
+    "city": "Montreal",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0187",
+    "restaurant_name": "Chinese Kitchen 187",
+    "cuisine_type": "Chinese",
+    "city": "Halifax",
+    "restaurant_rating": "4.6"
+  },
+  {
+    "restaurant_id": "R0188",
+    "restaurant_name": "Thai Kitchen 188",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0189",
+    "restaurant_name": "Mediterranean Kitchen 189",
+    "cuisine_type": "Mediterranean",
+    "city": "Montreal",
+    "restaurant_rating": "3.7"
+  },
+  {
+    "restaurant_id": "R0190",
+    "restaurant_name": "Indian Kitchen 190",
+    "cuisine_type": "Indian",
+    "city": "Toronto",
+    "restaurant_rating": "4.5"
+  },
+  {
+    "restaurant_id": "R0191",
+    "restaurant_name": "Thai Kitchen 191",
+    "cuisine_type": "Thai",
+    "city": "Toronto",
+    "restaurant_rating": "3.8"
+  },
+  {
+    "restaurant_id": "R0192",
+    "restaurant_name": "Indian Kitchen 192",
+    "cuisine_type": "Indian",
+    "city": "Ottawa",
+    "restaurant_rating": "3.4"
+  },
+  {
+    "restaurant_id": "R0193",
+    "restaurant_name": "Chinese Kitchen 193",
+    "cuisine_type": "Chinese",
+    "city": "Ottawa",
+    "restaurant_rating": "4.8"
+  },
+  {
+    "restaurant_id": "R0194",
+    "restaurant_name": "American Kitchen 194",
+    "cuisine_type": "American",
+    "city": "Ottawa",
+    "restaurant_rating": "3.6"
+  },
+  {
+    "restaurant_id": "R0195",
+    "restaurant_name": "Mexican Kitchen 195",
+    "cuisine_type": "Mexican",
+    "city": "Calgary",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0196",
+    "restaurant_name": "Mediterranean Kitchen 196",
+    "cuisine_type": "Mediterranean",
+    "city": "Ottawa",
+    "restaurant_rating": "4.9"
+  },
+  {
+    "restaurant_id": "R0197",
+    "restaurant_name": "Italian Kitchen 197",
+    "cuisine_type": "Italian",
+    "city": "Calgary",
+    "restaurant_rating": "4.7"
+  },
+  {
+    "restaurant_id": "R0198",
+    "restaurant_name": "Mexican Kitchen 198",
+    "cuisine_type": "Mexican",
+    "city": "Halifax",
+    "restaurant_rating": "4.3"
+  },
+  {
+    "restaurant_id": "R0199",
+    "restaurant_name": "Mexican Kitchen 199",
+    "cuisine_type": "Mexican",
+    "city": "Vancouver",
+    "restaurant_rating": "4.2"
+  },
+  {
+    "restaurant_id": "R0200",
+    "restaurant_name": "American Kitchen 200",
+    "cuisine_type": "American",
+    "city": "Montreal",
+    "restaurant_rating": "3.8"
+  }
+]
